@@ -1,0 +1,35 @@
+/* Self-hosted fonts: no CDN, so the precached app shell works offline */
+@import '@fontsource/inter/latin-400.css';
+@import '@fontsource/inter/latin-500.css';
+@import '@fontsource/inter/latin-700.css';
+@import '@fontsource/lexend/latin-400.css';
+@import '@fontsource/lexend/latin-500.css';
+@import '@fontsource/lexend/latin-700.css';
+@import '@fontsource/roboto/latin-400.css';
+@import '@fontsource/roboto/latin-500.css';
+@import '@fontsource/roboto/latin-700.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', sans-serif;
+    /* Cards advance on tap: kills Safari's double-tap zoom and its 300ms delay */
+    touch-action: manipulation;
+  }
+}
+
+@layer utilities {
+  .font-lexend { font-family: 'Lexend', sans-serif; }
+  .font-roboto { font-family: 'Roboto', sans-serif; }
+
+  .custom-scrollbar::-webkit-scrollbar { width: 6px; }
+  .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+  .custom-scrollbar::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 10px; }
+
+  /* Home indicator clearance for the mobile nav bar */
+  .pb-safe { padding-bottom: env(safe-area-inset-bottom); }
+  .bottom-safe { bottom: calc(2rem + env(safe-area-inset-bottom)); }
+}

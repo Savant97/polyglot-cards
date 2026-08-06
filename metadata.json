@@ -1,0 +1,6 @@
+{
+  "name": "Custom Polyglot Flashcards",
+  "description": "A customizable flashcard application designed for language learning, featuring column mapping, auto-advance, and progress tracking using the provided linguistic dataset.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
