@@ -22,6 +22,16 @@ interface SettingsProps {
   onSetVoicePreference: (lang: string, voiceName: string) => void;
   shuffle: boolean;
   setShuffle: (val: boolean) => void;
+  srsMode: boolean;
+  setSrsMode: (val: boolean) => void;
+  newPerDay: number;
+  setNewPerDay: (val: number) => void;
+  frontColumn: string;
+  setFrontColumn: (val: string) => void;
+  srsDue: number;
+  srsFresh: number;
+  srsLearned: number;
+  onResetSrs: () => void;
   onCsvImport: (csvText: string) => void;
   onReset: () => void;
   totalCards: number;
@@ -46,6 +56,8 @@ const Settings: React.FC<SettingsProps> = ({
   ttsRate, setTtsRate, ttsPitch, setTtsPitch,
   availableVoices, voicePreferences, onSetVoicePreference,
   shuffle, setShuffle, onCsvImport, onReset,
+  srsMode, setSrsMode, newPerDay, setNewPerDay, frontColumn, setFrontColumn,
+  srsDue, srsFresh, srsLearned, onResetSrs,
   totalCards, currentIndex, onJumpToIndex, onClose
 }) => {
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -91,6 +103,56 @@ const Settings: React.FC<SettingsProps> = ({
         <div className="p-5 bg-[#eee8d5] rounded-3xl border border-[#decba4]/20 flex items-center justify-between">
           <label className="text-[10px] font-black text-[#586e75] uppercase tracking-widest">Jump to Card</label>
           <input type="number" value={currentIndex + 1} onChange={e => onJumpToIndex(parseInt(e.target.value) - 1)} className="w-20 bg-[#fdf6e3] border border-[#decba4]/30 rounded-xl px-3 py-2 text-center text-xs font-black text-[#268bd2] focus:outline-none focus:ring-1 focus:ring-[#268bd2]" />
+        </div>
+
+        {/* Spaced repetition */}
+        <div className="p-6 bg-[#eee8d5]/40 rounded-[32px] border border-[#decba4]/20 space-y-6">
+          <div className="flex items-center justify-between">
+            <div>
+              <span className="font-bold text-xs text-[#586e75]">Spaced Repetition</span>
+              <p className="text-[9px] text-[#93a1a1] font-bold uppercase tracking-widest mt-1">Recall-first, scheduled reviews</p>
+            </div>
+            <button onClick={() => setSrsMode(!srsMode)} className={`relative inline-flex h-6 w-11 shrink-0 items-center rounded-full transition-colors ${srsMode ? 'bg-[#859900]' : 'bg-[#93a1a1]'}`}>
+              <span className={`inline-block h-4 w-4 transform rounded-full bg-white transition-transform ${srsMode ? 'translate-x-6' : 'translate-x-1'}`} />
+            </button>
+          </div>
+
+          {srsMode && (
+            <div className="space-y-6 animate-in fade-in slide-in-from-top-2 duration-300">
+              <div className="grid grid-cols-3 gap-2 text-center">
+                {[
+                  { label: 'Due', value: srsDue, color: 'text-[#cb4b16]' },
+                  { label: 'Learned', value: srsLearned, color: 'text-[#859900]' },
+                  { label: 'Unseen', value: srsFresh, color: 'text-[#93a1a1]' },
+                ].map(stat => (
+                  <div key={stat.label} className="p-3 bg-[#fdf6e3] rounded-2xl border border-[#decba4]/30">
+                    <div className={`text-sm font-black ${stat.color}`}>{stat.value}</div>
+                    <div className="text-[8px] font-black text-[#93a1a1] uppercase tracking-widest mt-0.5">{stat.label}</div>
+                  </div>
+                ))}
+              </div>
+
+              <div className="space-y-1.5">
+                <label className="text-[9px] font-black text-[#93a1a1] uppercase tracking-widest ml-1">Prompt Column</label>
+                <select value={frontColumn} onChange={e => setFrontColumn(e.target.value)} className="w-full bg-[#fdf6e3] border border-[#decba4]/30 rounded-xl px-4 py-2.5 text-[10px] font-bold text-[#586e75] outline-none">
+                  {headers.map(h => <option key={h} value={h}>{h}</option>)}
+                </select>
+                <p className="text-[9px] text-[#93a1a1] ml-1">Shown first; everything else waits for the reveal.</p>
+              </div>
+
+              <div className="space-y-3">
+                <div className="flex justify-between items-end">
+                  <label className="text-[9px] font-black text-[#93a1a1] uppercase">New Cards / Day</label>
+                  <span className="text-[#268bd2] font-bold text-xs">{newPerDay}</span>
+                </div>
+                <input type="range" min="0" max="100" step="5" value={newPerDay} onChange={e => setNewPerDay(parseInt(e.target.value, 10))} className="w-full h-1.5 bg-[#eee8d5] rounded-full accent-[#268bd2]" />
+              </div>
+
+              <button onClick={onResetSrs} className="w-full py-3 border border-[#decba4]/40 rounded-2xl text-[10px] font-bold text-[#cb4b16]/60 uppercase hover:bg-orange-50 transition-colors">
+                Reset Review History
+              </button>
+            </div>
+          )}
         </div>
 
         {/* Visibility */}

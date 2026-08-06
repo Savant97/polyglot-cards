@@ -1,7 +1,8 @@
 ﻿
 import React, { useState, useEffect, useCallback, useMemo, useRef } from 'react';
-import { FlashcardData, ViewMode } from './types';
+import { FlashcardData, SrsGrade, SrsStore, ViewMode } from './types';
 import { parseCSV } from './utils/csvParser';
+import { buildQueue, cardKey, countQueue, intervalLabel, schedule, todayIndex } from './utils/srs';
 import { DEFAULT_CSV_DATA } from './constants';
 import Flashcard from './components/Flashcard';
 import Settings from './components/Settings';
@@ -23,6 +24,20 @@ const STORAGE_KEYS = {
   CURRENT_INDEX: 'poly_current_index',
   TTS_RATE: 'poly_tts_rate',
   TTS_PITCH: 'poly_tts_pitch',
+  SRS_MODE: 'poly_srs_mode',
+  SRS_STORE: 'poly_srs_store',
+  SRS_NEW_PER_DAY: 'poly_srs_new_per_day',
+  SRS_FRONT: 'poly_srs_front',
+  SRS_DAILY: 'poly_srs_daily',
+};
+
+const readJson = <T,>(key: string, fallback: T): T => {
+  try {
+    const raw = localStorage.getItem(key);
+    return raw ? (JSON.parse(raw) as T) : fallback;
+  } catch {
+    return fallback;
+  }
 };
 
 const App: React.FC = () => {
@@ -60,6 +75,19 @@ const App: React.FC = () => {
   });
 
   const [availableVoices, setAvailableVoices] = useState<SpeechSynthesisVoice[]>([]);
+
+  // --- Spaced repetition ---
+  const [srsMode, setSrsMode] = useState(() => localStorage.getItem(STORAGE_KEYS.SRS_MODE) === 'true');
+  const [srsStore, setSrsStore] = useState<SrsStore>(() => readJson<SrsStore>(STORAGE_KEYS.SRS_STORE, {}));
+  const [newPerDay, setNewPerDay] = useState(() => parseInt(localStorage.getItem(STORAGE_KEYS.SRS_NEW_PER_DAY) || '20', 10));
+  const [frontColumn, setFrontColumn] = useState(() => localStorage.getItem(STORAGE_KEYS.SRS_FRONT) || 'ES Translation');
+  const [dailyNew, setDailyNew] = useState(() => {
+    const saved = readJson<{ day: number; count: number } | null>(STORAGE_KEYS.SRS_DAILY, null);
+    return saved && saved.day === todayIndex() ? saved.count : 0;
+  });
+  const [queue, setQueue] = useState<FlashcardData[]>([]);
+  const [queuePos, setQueuePos] = useState(0);
+  const [isRevealed, setIsRevealed] = useState(false);
 
   const isInZen = isFullscreen || isZenMode;
 
@@ -108,6 +136,14 @@ const App: React.FC = () => {
   }, [csvSource, activeColumns, autoAdvanceInterval, fontSizeScale, shuffle, isTtsEnabled, ttsLanguage, voicePreferences, currentIndex, ttsRate, ttsPitch]);
 
   useEffect(() => {
+    localStorage.setItem(STORAGE_KEYS.SRS_MODE, srsMode.toString());
+    localStorage.setItem(STORAGE_KEYS.SRS_STORE, JSON.stringify(srsStore));
+    localStorage.setItem(STORAGE_KEYS.SRS_NEW_PER_DAY, newPerDay.toString());
+    localStorage.setItem(STORAGE_KEYS.SRS_FRONT, frontColumn);
+    localStorage.setItem(STORAGE_KEYS.SRS_DAILY, JSON.stringify({ day: todayIndex(), count: dailyNew }));
+  }, [srsMode, srsStore, newPerDay, frontColumn, dailyNew]);
+
+  useEffect(() => {
     if (!synth) return;
     const updateVoices = () => setAvailableVoices(synth.getVoices());
     synth.onvoiceschanged = updateVoices;
@@ -115,7 +151,46 @@ const App: React.FC = () => {
   }, []);
 
   const currentCard = cards[currentIndex] || null;
-  const progress = cards.length > 0 ? ((currentIndex + 1) / cards.length) * 100 : 0;
+
+  const srsCard = queue[queuePos] || null;
+  const displayCard = srsMode ? srsCard : currentCard;
+  // Before the reveal only the prompt column is on screen; that is the whole
+  // point of the mode, so it must not fall back to the full column set.
+  const displayColumns = srsMode && !isRevealed ? [frontColumn] : activeColumns;
+  const srsCounts = useMemo(() => countQueue(parsed.data, srsStore, todayIndex()), [parsed.data, srsStore]);
+  const isSessionDone = srsMode && queuePos >= queue.length;
+
+  const progress = srsMode
+    ? (queue.length > 0 ? (queuePos / queue.length) * 100 : 0)
+    : (cards.length > 0 ? ((currentIndex + 1) / cards.length) * 100 : 0);
+
+  const startSrsSession = useCallback(() => {
+    setQueue(buildQueue(parsed.data, srsStore, todayIndex(), newPerDay, dailyNew));
+    setQueuePos(0);
+    setIsRevealed(false);
+  }, [parsed.data, srsStore, newPerDay, dailyNew]);
+
+  // Deliberately not rebuilt on every grade: the queue is a session snapshot,
+  // otherwise answering a card would reshuffle the cards still ahead of it.
+  useEffect(() => {
+    if (srsMode) startSrsSession();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [srsMode, parsed.data, newPerDay]);
+
+  const handleGrade = useCallback((grade: SrsGrade) => {
+    const card = queue[queuePos];
+    if (!card) return;
+    const day = todayIndex();
+    const key = cardKey(card);
+    const wasNew = !srsStore[key];
+
+    setSrsStore(prev => ({ ...prev, [key]: schedule(prev[key], grade, day) }));
+    if (wasNew) setDailyNew(n => n + 1);
+    // A forgotten card returns at the end of the same session, not tomorrow.
+    if (grade === 'again') setQueue(prev => [...prev, card]);
+    setQueuePos(p => p + 1);
+    setIsRevealed(false);
+  }, [queue, queuePos, srsStore]);
 
   const handleNext = useCallback(() => {
     if (cards.length === 0) return;
@@ -134,9 +209,11 @@ const App: React.FC = () => {
   };
 
   useEffect(() => {
-    if (synth && isTtsEnabled && currentCard && viewMode === ViewMode.STUDY) {
+    // In SRS the phrase IS the answer, so speaking it on arrival would give it away.
+    if (srsMode && !isRevealed) return;
+    if (synth && isTtsEnabled && displayCard && viewMode === ViewMode.STUDY) {
       synth.cancel();
-      const textToSpeak = currentCard['Phrase'] || currentCard[activeColumns[0]];
+      const textToSpeak = displayCard['Phrase'] || displayCard[activeColumns[0]];
       if (textToSpeak) {
         const utterance = new SpeechSynthesisUtterance(textToSpeak);
         let targetLang = ttsLanguage;
@@ -156,7 +233,7 @@ const App: React.FC = () => {
         synth.speak(utterance);
       }
     }
-  }, [currentIndex, isTtsEnabled, currentCard, viewMode, activeColumns, ttsLanguage, voicePreferences, ttsRate, ttsPitch]);
+  }, [currentIndex, isTtsEnabled, displayCard, viewMode, activeColumns, ttsLanguage, voicePreferences, ttsRate, ttsPitch, srsMode, isRevealed, queuePos]);
 
   useEffect(() => {
     if (shuffle) {
@@ -166,10 +243,10 @@ const App: React.FC = () => {
   }, [shuffle, parsed.data]);
 
   useEffect(() => {
-    if (!isAutoAdvancing) return;
+    if (!isAutoAdvancing || srsMode) return;
     const timer = setInterval(handleNext, autoAdvanceInterval * 1000);
     return () => clearInterval(timer);
-  }, [isAutoAdvancing, handleNext, autoAdvanceInterval]);
+  }, [isAutoAdvancing, handleNext, autoAdvanceInterval, srsMode]);
 
   return (
     <div className={`min-h-[100dvh] flex flex-col bg-[#fdf6e3] text-[#433422] font-lexend transition-all duration-700 ${isInZen ? 'overflow-hidden fixed inset-0 z-[100]' : 'overflow-x-hidden'}`} onMouseMove={resetZenTimer} onClick={resetZenTimer}>
@@ -209,7 +286,8 @@ const App: React.FC = () => {
             {!isInZen && (
               <div className="w-full max-w-md space-y-2 flex flex-col items-center">
                 <div className="flex justify-between w-full px-1 text-[10px] font-bold text-[#93a1a1] uppercase tracking-widest">
-                  <span>{currentIndex + 1} / {cards.length}</span>
+                  <span>{srsMode ? `${Math.min(queuePos + 1, queue.length)} / ${queue.length}` : `${currentIndex + 1} / ${cards.length}`}</span>
+                  {srsMode && <span>{srsCounts.due} due · {srsCounts.fresh} new</span>}
                 </div>
                 <div className="w-full h-1.5 bg-[#eee8d5] rounded-full overflow-hidden">
                   <div className="h-full bg-[#859900] transition-all duration-1000 ease-in-out" style={{ width: `${progress}%` }} />
@@ -219,9 +297,13 @@ const App: React.FC = () => {
 
             <div 
               className={`w-full flex items-center justify-center transition-all ${isInZen ? 'flex-1 h-full' : 'gap-4 sm:gap-12'}`}
-              onClick={() => { synth?.resume(); handleNext(); }}
+              onClick={() => {
+                synth?.resume();
+                if (srsMode) { if (!isRevealed) setIsRevealed(true); return; }
+                handleNext();
+              }}
             >
-              {!isInZen && (
+              {!isInZen && !srsMode && (
                 <button 
                   onClick={(e) => { e.stopPropagation(); synth?.resume(); handlePrev(); }} 
                   className="hidden md:flex p-6 rounded-[28px] bg-[#eee8d5] border border-[#decba4]/20 text-[#93a1a1] hover:text-[#586e75] shadow-sm transition-all active:scale-90"
@@ -231,10 +313,25 @@ const App: React.FC = () => {
               )}
               
               <div className={`transition-all duration-500 ${isInZen ? 'w-full h-full' : 'w-full max-w-2xl'}`}>
-                <Flashcard card={currentCard} activeColumns={activeColumns} fontSizeScale={fontSizeScale} isZen={isInZen} />
+                {isSessionDone ? (
+                  <div className="bg-[#fffcf0] rounded-[40px] shadow-[0_20px_60px_rgba(101,115,126,0.12)] border border-[#decba4]/30 p-10 text-center space-y-4">
+                    <p className="text-lg font-black text-[#073642]">Session complete</p>
+                    <p className="text-xs text-[#93a1a1] font-bold uppercase tracking-widest">
+                      {srsCounts.due} due · {srsCounts.fresh} unseen left
+                    </p>
+                    <button
+                      onClick={(e) => { e.stopPropagation(); startSrsSession(); }}
+                      className="px-8 py-3 bg-[#268bd2] text-white rounded-2xl font-bold text-xs uppercase tracking-widest shadow-lg active:scale-95"
+                    >
+                      Study more
+                    </button>
+                  </div>
+                ) : (
+                  <Flashcard card={displayCard} activeColumns={displayColumns} fontSizeScale={fontSizeScale} isZen={isInZen} />
+                )}
               </div>
 
-              {!isInZen && (
+              {!isInZen && !srsMode && (
                 <button 
                   onClick={(e) => { e.stopPropagation(); synth?.resume(); handleNext(); }} 
                   className="hidden md:flex p-6 rounded-[28px] bg-[#eee8d5] border border-[#decba4]/20 text-[#93a1a1] hover:text-[#586e75] shadow-sm transition-all active:scale-90"
@@ -244,7 +341,39 @@ const App: React.FC = () => {
               )}
             </div>
 
-            {!isInZen && (
+            {srsMode && !isSessionDone && (
+              <div className="w-full max-w-md flex flex-col items-center gap-3">
+                {!isRevealed ? (
+                  <button
+                    onClick={(e) => { e.stopPropagation(); synth?.resume(); setIsRevealed(true); }}
+                    className="w-full py-4 short:py-2.5 rounded-[28px] bg-[#268bd2] text-white font-bold text-sm uppercase tracking-[0.2em] shadow-xl shadow-[#268bd2]/20 active:scale-95 transition-all"
+                  >
+                    Show answer
+                  </button>
+                ) : (
+                  <div className="w-full grid grid-cols-3 gap-2">
+                    {([
+                      { grade: 'again' as SrsGrade, label: 'Again', tone: 'bg-[#cb4b16] text-white' },
+                      { grade: 'good' as SrsGrade, label: 'Good', tone: 'bg-[#859900] text-white' },
+                      { grade: 'easy' as SrsGrade, label: 'Easy', tone: 'bg-[#2aa198] text-white' },
+                    ]).map(({ grade, label, tone }) => (
+                      <button
+                        key={grade}
+                        onClick={(e) => { e.stopPropagation(); handleGrade(grade); }}
+                        className={`py-4 short:py-2.5 rounded-2xl font-bold text-[11px] uppercase tracking-widest shadow-lg active:scale-95 transition-all ${tone}`}
+                      >
+                        {label}
+                        <span className="block text-[9px] font-medium opacity-80 normal-case tracking-normal">
+                          {srsCard ? intervalLabel(srsStore[cardKey(srsCard)], grade, todayIndex()) : ''}
+                        </span>
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+            )}
+
+            {!isInZen && !srsMode && (
               <div className="w-full flex flex-col items-center gap-4 sm:gap-6 short:gap-2">
                 <button
                   onClick={(e) => { e.stopPropagation(); synth?.resume(); setIsAutoAdvancing(!isAutoAdvancing); }}
@@ -277,6 +406,11 @@ const App: React.FC = () => {
             ttsLanguage={ttsLanguage} setTtsLanguage={setTtsLanguage}
             ttsRate={ttsRate} setTtsRate={setTtsRate} ttsPitch={ttsPitch} setTtsPitch={setTtsPitch}
             availableVoices={availableVoices} voicePreferences={voicePreferences} onSetVoicePreference={(lang, v) => setVoicePreferences(prev => ({ ...prev, [lang]: v }))}
+            srsMode={srsMode} setSrsMode={setSrsMode}
+            newPerDay={newPerDay} setNewPerDay={setNewPerDay}
+            frontColumn={frontColumn} setFrontColumn={setFrontColumn}
+            srsDue={srsCounts.due} srsFresh={srsCounts.fresh} srsLearned={Object.keys(srsStore).length}
+            onResetSrs={() => { setSrsStore({}); setDailyNew(0); setQueue([]); setQueuePos(0); setIsRevealed(false); }}
             shuffle={shuffle} setShuffle={setShuffle} onCsvImport={(csv) => { setCsvSource(csv); setCards(parseCSV(csv).data); setCurrentIndex(0); setViewMode(ViewMode.STUDY); }}
             onReset={() => { localStorage.clear(); location.reload(); }}
             totalCards={cards.length} currentIndex={currentIndex} onJumpToIndex={handleJumpToIndex}

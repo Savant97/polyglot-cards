@@ -15,6 +15,17 @@ export interface AppState {
   ttsLanguage: string;
 }
 
+export type SrsGrade = 'again' | 'good' | 'easy';
+
+export interface SrsCardState {
+  reps: number;
+  ef: number;
+  iv: number;
+  due: number;
+}
+
+export type SrsStore = Record<string, SrsCardState>;
+
 export enum ViewMode {
   STUDY = 'STUDY',
   SETTINGS = 'SETTINGS',
