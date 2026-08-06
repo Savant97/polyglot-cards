@@ -172,9 +172,9 @@ const App: React.FC = () => {
   }, [isAutoAdvancing, handleNext, autoAdvanceInterval]);
 
   return (
-    <div className={`min-h-screen bg-[#fdf6e3] text-[#433422] font-lexend transition-all duration-700 ${isInZen ? 'overflow-hidden fixed inset-0 z-[100]' : 'overflow-x-hidden'}`} onMouseMove={resetZenTimer} onClick={resetZenTimer}>
+    <div className={`min-h-[100dvh] flex flex-col bg-[#fdf6e3] text-[#433422] font-lexend transition-all duration-700 ${isInZen ? 'overflow-hidden fixed inset-0 z-[100]' : 'overflow-x-hidden'}`} onMouseMove={resetZenTimer} onClick={resetZenTimer}>
       {!isInZen && (
-        <header className="fixed top-0 left-0 right-0 z-40 px-6 py-6 flex justify-between items-center pointer-events-none">
+        <header className="shrink-0 px-6 pt-safe pb-4 short:pb-1 flex justify-between items-center pointer-events-none">
           <div className="flex items-center gap-3 pointer-events-auto">
             <div className="w-8 h-8 bg-[#859900] rounded-xl flex items-center justify-center shadow-lg shadow-[#859900]/10">
                <div className="w-3 h-3 bg-white rounded-full opacity-80" />
@@ -197,15 +197,15 @@ const App: React.FC = () => {
       {isInZen && (
         <button 
           onClick={(e) => { e.stopPropagation(); toggleFullscreen(); }} 
-          className={`fixed top-6 right-6 z-50 p-3 bg-[#eee8d5]/60 backdrop-blur-md rounded-full shadow-lg border border-[#decba4]/20 text-[#93a1a1] hover:text-[#cb4b16] transition-all duration-500 ${showZenControls ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
+          className={`fixed top-safe right-6 z-50 p-3 bg-[#eee8d5]/60 backdrop-blur-md rounded-full shadow-lg border border-[#decba4]/20 text-[#93a1a1] hover:text-[#cb4b16] transition-all duration-500 ${showZenControls ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
         >
           <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" /></svg>
         </button>
       )}
 
-      <main className={`relative flex flex-col items-center justify-center min-h-screen ${isInZen ? 'p-0 h-screen w-screen bg-[#fdf6e3]' : 'p-6'}`}>
+      <main className={`relative flex flex-1 flex-col items-center justify-center ${isInZen ? 'p-0 h-full w-full bg-[#fdf6e3]' : 'px-6 pb-safe'}`}>
         {viewMode === ViewMode.STUDY && (
-          <div className={`w-full flex flex-col items-center ${isInZen ? 'h-full w-full' : 'max-w-5xl gap-10'}`}>
+          <div className={`w-full flex flex-col items-center ${isInZen ? 'h-full w-full' : 'max-w-5xl gap-6 sm:gap-10 short:gap-3'}`}>
             {!isInZen && (
               <div className="w-full max-w-md space-y-2 flex flex-col items-center">
                 <div className="flex justify-between w-full px-1 text-[10px] font-bold text-[#93a1a1] uppercase tracking-widest">
@@ -245,14 +245,24 @@ const App: React.FC = () => {
             </div>
 
             {!isInZen && (
-              <div className="flex flex-col items-center gap-6">
-                <button 
-                  onClick={(e) => { e.stopPropagation(); synth?.resume(); setIsAutoAdvancing(!isAutoAdvancing); }} 
-                  className={`flex items-center gap-4 px-12 py-5 rounded-[28px] font-bold text-sm uppercase tracking-[0.2em] transition-all shadow-xl active:scale-95 ${isAutoAdvancing ? 'bg-[#073642] text-[#fdf6e3]' : 'bg-[#268bd2] text-white shadow-[#268bd2]/20 hover:bg-[#2aa198]'}`}
+              <div className="w-full flex flex-col items-center gap-4 sm:gap-6 short:gap-2">
+                <button
+                  onClick={(e) => { e.stopPropagation(); synth?.resume(); setIsAutoAdvancing(!isAutoAdvancing); }}
+                  className={`flex items-center gap-4 px-10 py-4 sm:px-12 sm:py-5 short:py-2.5 rounded-[28px] font-bold text-sm uppercase tracking-[0.2em] transition-all shadow-xl active:scale-95 ${isAutoAdvancing ? 'bg-[#073642] text-[#fdf6e3]' : 'bg-[#268bd2] text-white shadow-[#268bd2]/20 hover:bg-[#2aa198]'}`}
                 >
                   {isAutoAdvancing ? 'PAUSE' : 'START AUTO'}
                 </button>
                 <div className="text-[10px] font-bold text-[#93a1a1] uppercase tracking-widest">{isAutoAdvancing ? `Cycling at ${autoAdvanceInterval}s` : 'Manual Mode'}</div>
+
+                {/* In-flow on phones: a fixed bar overlapped the label and the button on short screens */}
+                <div className="md:hidden w-full flex justify-between gap-4">
+                  <button onClick={(e) => { e.stopPropagation(); synth?.resume(); handlePrev(); }} className="flex-1 py-4 bg-[#eee8d5] border border-[#decba4]/20 rounded-2xl shadow-lg flex justify-center text-[#93a1a1] active:bg-[#decba4]/40">
+                    <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M15 19l-7-7 7-7" /></svg>
+                  </button>
+                  <button onClick={(e) => { e.stopPropagation(); synth?.resume(); handleNext(); }} className="flex-1 py-4 bg-[#eee8d5] border border-[#decba4]/20 rounded-2xl shadow-lg flex justify-center text-[#93a1a1] active:bg-[#decba4]/40">
+                    <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M9 5l7 7-7 7" /></svg>
+                  </button>
+                </div>
               </div>
             )}
           </div>
@@ -274,17 +284,6 @@ const App: React.FC = () => {
           />
         )}
       </main>
-
-      {!isInZen && (
-        <footer className="md:hidden fixed bottom-safe left-0 right-0 px-6 flex justify-between gap-4 pointer-events-none">
-            <button onClick={() => { synth?.resume(); handlePrev(); }} className="flex-1 py-5 bg-[#eee8d5] border border-[#decba4]/20 rounded-2xl shadow-lg flex justify-center text-[#93a1a1] pointer-events-auto active:bg-[#decba4]/40">
-              <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M15 19l-7-7 7-7" /></svg>
-            </button>
-            <button onClick={() => { synth?.resume(); handleNext(); }} className="flex-1 py-5 bg-[#eee8d5] border border-[#decba4]/20 rounded-2xl shadow-lg flex justify-center text-[#93a1a1] pointer-events-auto active:bg-[#decba4]/40">
-              <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M9 5l7 7-7 7" /></svg>
-            </button>
-        </footer>
-      )}
     </div>
   );
 };

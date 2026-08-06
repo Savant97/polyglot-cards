@@ -76,7 +76,7 @@ const Settings: React.FC<SettingsProps> = ({
   };
 
   return (
-    <div className="bg-[#fdf6e3] text-[#586e75] rounded-[40px] shadow-[0_30px_70px_rgba(101,115,126,0.15)] p-8 max-w-lg w-full mx-auto animate-in fade-in zoom-in-95 duration-500 border border-[#decba4]/30 max-h-[90vh] overflow-y-auto custom-scrollbar">
+    <div className="bg-[#fdf6e3] text-[#586e75] rounded-[40px] shadow-[0_30px_70px_rgba(101,115,126,0.15)] p-8 short:p-5 max-w-lg w-full mx-auto animate-in fade-in zoom-in-95 duration-500 border border-[#decba4]/30 max-h-[calc(100dvh-12rem)] overflow-y-auto custom-scrollbar">
       <div className="flex justify-between items-center mb-10">
         <div>
           <h2 className="text-2xl font-black text-[#073642] tracking-tight">Settings</h2>

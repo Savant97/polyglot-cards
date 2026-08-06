@@ -29,7 +29,8 @@
   .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
   .custom-scrollbar::-webkit-scrollbar-thumb { background: #d1d5db; border-radius: 10px; }
 
-  /* Home indicator clearance for the mobile nav bar */
-  .pb-safe { padding-bottom: env(safe-area-inset-bottom); }
-  .bottom-safe { bottom: calc(2rem + env(safe-area-inset-bottom)); }
+  /* Notch and home-indicator clearance (iPhone X and later, standalone mode) */
+  .pt-safe { padding-top: calc(1.5rem + env(safe-area-inset-top)); }
+  .pb-safe { padding-bottom: calc(1.5rem + env(safe-area-inset-bottom)); }
+  .top-safe { top: calc(1.5rem + env(safe-area-inset-top)); }
 }

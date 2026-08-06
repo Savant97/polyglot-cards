@@ -45,8 +45,8 @@ const Flashcard: React.FC<FlashcardProps> = ({ card, activeColumns, fontSizeScal
   });
 
   return (
-    <div className={`flex items-center justify-center transition-all duration-700 ${isZen ? 'w-full h-full bg-[#fdf6e3]' : 'bg-[#fffcf0] rounded-[40px] shadow-[0_20px_60px_rgba(101,115,126,0.12)] border border-[#decba4]/30 p-12 min-h-[320px]'}`}>
-      <div className={`flex flex-col items-center text-center w-full px-6 ${isZen ? 'space-y-12' : 'space-y-6'}`}>
+    <div className={`flex items-center justify-center transition-all duration-700 ${isZen ? 'w-full h-full bg-[#fdf6e3]' : 'bg-[#fffcf0] rounded-[40px] shadow-[0_20px_60px_rgba(101,115,126,0.12)] border border-[#decba4]/30 p-8 sm:p-12 short:p-5 min-h-[220px] sm:min-h-[320px] short:min-h-0'}`}>
+      <div className={`flex flex-col items-center text-center w-full px-6 ${isZen ? 'space-y-12' : 'space-y-6 short:space-y-2'}`}>
         {orderedColumns.length > 0 ? (
           orderedColumns.map(col => (
             <div key={col} className="animate-in fade-in slide-in-from-bottom-2 duration-1000 w-full">
