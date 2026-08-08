@@ -32,26 +32,44 @@ const Recognition: (new () => Recognizer) | undefined =
     : undefined;
 
 const Mission: React.FC<MissionProps> = ({ missions, onClose }) => {
-  const mission = missions[0] ?? null;
+  const [missionIdx, setMissionIdx] = useState(() => {
+    const saved = parseInt(localStorage.getItem('poly_mission_idx') || '0', 10);
+    return saved >= 0 && saved < missions.length ? saved : 0;
+  });
+  const mission = missions[missionIdx] ?? null;
   const flat = useMemo(
     () => (mission ? mission.scenes.flatMap(s => s.questions.map(q => ({ scene: s.title, question: q }))) : []),
     [mission]
   );
 
-  const [answers, setAnswers] = useState<string[]>(() => {
-    if (!mission) return [];
+  const loadAnswers = (m: MissionScript | null, n: number): string[] => {
+    if (!m) return [];
     try {
-      const raw = localStorage.getItem(answersKey(mission.id));
+      const raw = localStorage.getItem(answersKey(m.id));
       const saved = raw ? (JSON.parse(raw) as string[]) : [];
-      return flat.map((_, i) => saved[i] ?? '');
+      return Array.from({ length: n }, (_, i) => saved[i] ?? '');
     } catch {
-      return flat.map(() => '');
+      return Array.from({ length: n }, () => '');
     }
-  });
+  };
+
+  const [answers, setAnswers] = useState<string[]>(() => loadAnswers(mission, flat.length));
   const [pos, setPos] = useState(() => {
     const first = answers.findIndex(a => !a.trim());
     return first === -1 ? 0 : first;
   });
+
+  const pickMission = (idx: number) => {
+    const m = missions[idx];
+    const n = m.scenes.reduce((acc, s) => acc + s.questions.length, 0);
+    const loaded = loadAnswers(m, n);
+    setMissionIdx(idx);
+    setAnswers(loaded);
+    const first = loaded.findIndex(a => !a.trim());
+    setPos(first === -1 ? 0 : first);
+    setReview(false);
+    localStorage.setItem('poly_mission_idx', idx.toString());
+  };
   const [review, setReview] = useState(false);
   const [listening, setListening] = useState(false);
   const [copied, setCopied] = useState(false);
@@ -162,14 +180,20 @@ const Mission: React.FC<MissionProps> = ({ missions, onClose }) => {
 
   return (
     <div className="w-full max-w-2xl mx-auto flex flex-col gap-4 short:gap-2.5 animate-in fade-in duration-300">
-      <div className="flex items-center justify-between">
-        <div>
-          <h2 className="text-lg font-black text-[#073642]">{mission.title}</h2>
-          <p className="text-[9px] font-bold text-[#93a1a1] uppercase tracking-widest mt-0.5">
+      <div className="flex items-center gap-2">
+        <div className="flex-1 min-w-0">
+          <select
+            value={missionIdx}
+            onChange={e => pickMission(parseInt(e.target.value, 10))}
+            className="w-full bg-[#fffcf0] border border-[#decba4]/30 rounded-2xl px-3 py-2.5 text-[12px] font-black text-[#073642] outline-none shadow-sm"
+          >
+            {missions.map((m, i) => <option key={m.id} value={i}>{m.id} · {m.title}</option>)}
+          </select>
+          <p className="text-[9px] font-bold text-[#93a1a1] uppercase tracking-widest mt-1 ml-1">
             {current.scene} · {pos + 1} / {flat.length} · responde en castellano
           </p>
         </div>
-        <button onClick={onClose} className="p-3 bg-[#eee8d5] rounded-2xl border border-[#decba4]/20 text-[#93a1a1]">
+        <button onClick={onClose} className="p-3 bg-[#eee8d5] rounded-2xl border border-[#decba4]/20 text-[#93a1a1] shrink-0">
           <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" /></svg>
         </button>
       </div>
