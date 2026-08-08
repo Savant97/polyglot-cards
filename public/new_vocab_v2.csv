@@ -59,7 +59,7 @@ I have zero apples.,/aɪ hæv ˈzɪərəʊ ˈæplz/,ai jav ziro aples.,Tengo cer
 I see one dog.,/aɪ siː wʌn dɒg/,ai si uan dog.,Veo un perro.
 I do not see one dog.,/aɪ dʌ nɒt siː wʌn dɒg/,ai da not si uan dog.,No veo un perro.
 Do you see one dog?,/duː juː siː wʌn dɒg/,du yu si uan dog?,¿Ves un perro?
-Where do you see one dog?,/wɛər duː juː siː wʌn dɒg/,uer du yu si uan dog?,¿Dónde ves un perro?
+Why do you see one dog?,/waɪ du juː siː wʌn dɒɡ/,uai du yu si uan dog?,¿Por qué ves un perro?
 I saw one dog.,/aɪ sɔː wʌn dɒg/,ai so uan dog.,Vi un perro.
 I have two cats.,/aɪ hæv tuː kæts/,ai jav tu kats.,Tengo dos gatos.
 I eat three eggs.,/aɪ iːt θriː ɛgz/,ai iit sri eggs.,Como tres huevos.
@@ -163,7 +163,7 @@ I eat little bread.,/aɪ iːt ˈlɪtəl brɛd/,ai iit litol bred,Como poco pan.
 The rest is here.,/ðə rɛst ɪz hɪə/,de rest is jier,El resto está aquí.
 The rest is not here.,/ðə rɛst ɪz nɒt hɪə/,de rest is not jia.,El resto no está aquí.
 Is the rest here?,/ɪz ðə rɛst hɪə/,is de rest jia?,¿Está el resto aquí?
-What is here?,/wɒt ɪz hɪə/,uot is jia?,¿Qué está aquí?
+Where is the rest?,/weə ɪz ðə rest/,uer is der rest?,¿Dónde está el resto?
 The rest was here.,/ðə rɛst wɒz hɪə/,de rest woz jia.,El resto estaba aquí.
 It is one and a half.,/ɪt ɪz wʌn ænd ə hɑːf/,it is wan and a jaf,Es uno y medio.
 I want a dozen eggs.,/aɪ wɒnt ə ˈdʌzn ɛgz/,ai uant a dazn eggs,Quiero una docena de huevos.
@@ -191,7 +191,7 @@ She is surprised by the gift.,/ʃi ɪz sərˈpraɪzd baɪ ðə ɡɪft/,shi is se
 I am very thirsty today.,/aɪ ɛm ˈvɛri ˈθɜːrsti ˈtədeɪ/,ai em veri zirsti tudei.,Tengo mucha sed hoy.
 I am not very thirsty today.,/aɪ æm nɒt ˈvɛri ˈθɜːrsti təˈdeɪ/,ai am not veri zirsti tudei.,No tengo mucha sed hoy.
 Are you very thirsty today?,/ɑː juː ˈvɛri ˈθɜːrsti təˈdeɪ/,ar yu veri zirsti tudei?,¿Tienes mucha sed hoy?
-When are you very thirsty?,/wɛn ɑː juː ˈvɛri ˈθɜːrsti/,uen ar yu veri zirsti?,¿Cuándo tienes mucha sed?
+Why are you very thirsty today?,/waɪ ə juː ˈveri ˈθɜːsti təˈdeɪ/,uai ar yu veri zirsti tudei?,¿Por qué tienes mucha sed hoy?
 I was very thirsty today.,/aɪ wɒz ˈvɛri ˈθɜːrsti təˈdeɪ/,ai woz veri zirsti tudei.,Hoy tuve mucha sed.
 We begin the class now.,/wi bɪˈɡɪn ðə klæs naʊ/,ui bigin de klas nau.,Empezamos la clase ahora.
 This book belongs to my friend.,/ðɪs bʊk bɪˈlɒŋ tuː maɪ frɛnd/,dis buk bilongs tu mai frend.,Este libro pertenece a mi amigo.
@@ -331,7 +331,7 @@ She scolds the bad boy.,/ʃiː skəʊldz ðə bæd bɔɪ/,shi skolds de bad boi.
 I see the big sun.,/aɪ siː ðə bɪg sʌn/,ai si de big san.,Veo el gran sol.
 I don't see the big sun.,/aɪ dəʊnt siː ðə bɪg sʌn/,ai dont si de big san.,No veo el gran sol.
 Do you see the big sun?,/duː juː siː ðə bɪg sʌn/,du iu si de big san?,¿Ves el gran sol?
-Where do you see the big sun?,/wɛə duː juː siː ðə bɪg sʌn/,wer du iu si de big san?,¿Dónde ves el gran sol?
+Why do you see the big sun?,/waɪ du juː siː ðə bɪg sʌn/,uai du yu si der big san?,¿Por qué ves el gran sol?
 I saw the big sun.,/aɪ sɔː ðə bɪg sʌn/,ai so de big san.,Vi el gran sol.
 They sell fresh fruit.,/ðeɪ sɛl frɛʃ fruːt/,dei sel fresh frut.,Ellos venden fruta fresca.
 I send a letter today.,/aɪ sɛnd ə ˈlɛtə təˈdeɪ/,ai send a leter tudei.,Envío una carta hoy.
@@ -523,7 +523,7 @@ Do you have anything?,/duː juː hæv ˈɛniθɪŋ/,du yu jav anizing,¿Tienes a
 I see nothing here.,/aɪ siː ˈnʌθɪŋ hɪə/,ai si nazing jier.,No veo nada aquí.
 I don't see nothing here.,/aɪ dəʊnt siː ˈnʌθɪŋ hɪə/,ai dont si nazing jir.,No veo nada aquí.
 Do you see nothing here?,/duː juː siː ˈnʌθɪŋ hɪə/,du yu si nazing jir?,¿No ves nada aquí?
-Where do you see nothing?,/wɛə duː juː siː ˈnʌθɪŋ/,guer du yu si nazing?,¿Dónde no ves nada?
+Why do you see nothing here?,/waɪ du juː siː ˈnʌθɪŋ hɪə/,uai du yu si nazing jir?,¿Por qué no ves nada aquí?
 I saw nothing here.,/aɪ sɔː ˈnʌθɪŋ hɪə/,ai so nazing jir.,No vi nada aquí.
 Who is there?,/huː ɪz ðeə/,ju is der.,¿Quién está ahí?
 Someone is at the door.,/ˈsʌmwʌn ɪz æt ðə dɔː/,samuan is at de dor.,Alguien está en la puerta.
@@ -603,7 +603,7 @@ It was the day before yesterday.,/ɪt wɒz ðə deɪ bɪˈfɔː ˈjɛstədeɪ/,i
 It is a good day.,/ɪt ɪz ə gʊd deɪ/,it is a gud dei.,Es un buen día.
 It isn't a good day.,/ɪt ˈɪzənt ə gʊd deɪ/,it isent a gud dei.,No es un buen día.
 Is it a good day?,/ɪz ɪt ə gʊd deɪ/,is it a gud dei?,¿Es un buen día?
-Where is a good day?,/wɛər ɪz ə gʊd deɪ/,uer is a gud dei?,¿Dónde hay un buen día?
+Why is it a good day?,/waɪ ɪz ɪt ə gʊd deɪ/,uai is it e gud dei?,¿Por qué es un buen día?
 It was a good day.,/ɪt wɒz ə gʊd deɪ/,it woz a gud dei.,Fue un buen día.
 Monday is a working day.,/ˈmʌndeɪ ɪz ə ˈwɜːkɪŋ deɪ/,móndei is a uerking dei.,El lunes es un día laboral.
 It is a public holiday.,/ɪt ɪz ə ˈpʌblɪk ˈhɒlədeɪ/,it is a pablik joleidei.,Es un día festivo.
@@ -611,7 +611,7 @@ I have a day off.,/aɪ hæv ə deɪ ɒf/,ai jav a dei of.,Tengo un día libre.
 The weekend is here.,/ðə ˈwiːkɛnd ɪz hɪə/,de uikend is jia.,El fin de semana ha llegado.
 The weekend isn't here.,/ðə ˈwiːkɛnd ˈɪzənt hɪər/,de uikend isent jir.,El fin de semana no ha llegado.
 Is the weekend here?,/ɪz ðə ˈwiːkɛnd hɪər/,is de uikend jir?,¿Ha llegado el fin de semana?
-When is the weekend here?,/wɛn ɪz ðə ˈwiːkɛnd hɪər/,uen is de uikend jir?,¿Cuándo llega el fin de semana?
+Why is the weekend here?,/waɪ ɪz ðə ˌwiːkˈend hɪə/,uai is der uikend jir?,¿Por qué llegó el fin de semana?
 The weekend was here.,/ðə ˈwiːkɛnd wɒz hɪər/,de uikend woz jir.,El fin de semana había llegado.
 He runs all day long.,/hiː rʌnz ɔːl deɪ lɒŋ/,ji rans ol dei long.,Él corre todo el día.
 We go the next day.,/wiː gəʊ ðə nɛkst deɪ/,ui gou de neist dei.,Nosotros vamos al día siguiente.
@@ -765,7 +765,7 @@ It does not take long.,/ɪt dʌz nɑːt teɪk lɔːŋ/,it das not teik long.,No 
 It is very early.,/ɪt ɪz ˈvɛːri ˈɜːrli/,it is veri erli.,Es muy temprano.
 It isn't very early.,/ɪt ˈɪznt ˈvɛːri ˈɜːrli/,it isnt veri erli.,No es muy temprano.
 Is it very early?,/ɪz ɪt ˈvɛːri ˈɜːrli/,is it veri erli?,¿Es muy temprano?
-Why is it very early?,/waɪ ɪz ɪt ˈvɛːri ˈɜːrli/,wai is it veri erli?,¿Por qué es muy temprano?
+How early is it?,/haʊ ˈɜː.li ɪz ɪt/,jau árli is it?,¿Qué tan temprano es?
 It was very early.,/ɪt wɒz ˈvɛːri ˈɜːrli/,it woz veri erli.,Era muy temprano.
 I am late.,/aɪ æm leɪt/,ai am leit.,Llego tarde.
 I stay here forever.,/aɪ steɪ hɪər fərˈɛvər/,ai stei jier forevér.,Me quedo aquí para siempre.
@@ -781,7 +781,7 @@ I often play games.,/aɪ ˈɔːfən pleɪ ɡeɪmz/,ai ofen plei géims.,A menudo
 He is very rich.,/hiː ɪz ˈvɛːri rɪtʃ/,ji is veri rich.,Él es muy rico.
 He isn't very rich.,/hiː ˈɪznt ˈvɛːri rɪtʃ/,ji isnt veri rich.,Él no es muy rico.
 Is he very rich?,/ɪz hiː ˈvɛːri rɪtʃ/,is ji veri rich?,¿Él es muy rico?
-How is he very rich?,/haʊ ɪz hiː ˈvɛːri rɪtʃ/,jau is ji veri rich?,¿Cómo es que él es muy rico?
+Why is he so rich?,/waɪ ɪz hiː səʊ rɪtʃ/,wai is hi sou rich?,¿Por qué él es tan rico?
 He was very rich.,/hiː wɒz ˈvɛːri rɪtʃ/,ji woz veri rich.,Él era muy rico.
 The man is poor.,/ðə mæn ɪz pʊər/,de man is pur.,El hombre es pobre.
 I am ill.,/aɪ æm ɪl/,ai am il.,Estoy enfermo.
@@ -805,14 +805,14 @@ The turtle walks slowly.,/ðə ˈtɜːtl wɔːks ˈsləʊli/,de tortol uosks slo
 The car is very fast.,/ðə kɑːr ɪz ˈvɛri fæst/,de car is very fast.,El coche es muy rápido.
 The car isn't very fast.,/ðə kɑːr ˈɪzənt ˈvɛri fæst/,de car isent very fast.,El coche no es muy rápido.
 Is the car very fast?,/ɪz ðə kɑːr ˈvɛri fæst/,is de car very fast?,¿Es el coche muy rápido?
-Who is in the very fast car?,/huː ɪz ɪn ðə ˈvɛri fæst kɑːr/,ju is in de very fast car?,¿Quién está en el coche muy rápido?
+Why is the car very fast?,/waɪ ɪz ðə kɑː ˈveri fɑːst/,uai is der kar veri fast?,¿Por qué el coche es muy rápido?
 The car was very fast.,/ðə kɑːr wɒz ˈvɛri fæst/,de car woz very fast.,El coche era muy rápido.
 The bus is slow today.,/ðə bʌs ɪz sloʊ təˈdeɪ/,de bas is slou tudei.,El autobús es lento hoy.
 She is a cheerful girl.,/ʃiː ɪz ə ˈʧɪrfəl gɜːrl/,shi is a chirful gurl.,Ella es una chica alegre.
 He looks very sad.,/hiː lʊks ˈvɛri sæd/,ji loks very sad.,Él se ve muy triste.
 He doesn't look very sad.,/hiː ˈdʌznt lʊk ˈvɛːri sæd/,ji dasnt luk veri sad.,Él no se ve muy triste.
 Does he look very sad?,/dʌz hiː lʊk ˈvɛːri sæd/,das ji luk veri sad?,¿Él se ve muy triste?
-Where does he look very sad?,/wɛə dʌz hiː lʊk ˈvɛːri sæd/,wer das ji luk veri sad?,¿Dónde se lo ve muy triste?
+Why does he look very sad?,/waɪ dʌz hi lʊk ˈver.i sæd/,wai das hi luk veri sad?,¿Por qué él se ve muy triste?
 He looked very sad.,/hiː lʊkt ˈvɛːri sæd/,ji lukt veri sad.,Él se veía muy triste.
 We play together.,/wiː pleɪ təˈɡɛðər/,ui plei togeder.,Jugamos juntos.
 They sit separately.,/ðeɪ sɪt ˈsɛprətli/,dei sit separitli.,Ellos se sientan separados.
@@ -863,7 +863,7 @@ The boy is young.,/ðə bɔɪ ɪz jʌŋ/,de boy is yang,El niño es joven.
 This car is very old.,/ðɪs kɑːr ɪz ˈvɛri oʊld/,dis car is veri old,Este coche es muy viejo.
 This car isn't very old.,/ðɪs kɑːr ˈɪznt ˈvɛri oʊld/,dis car isent veri old.,Este coche no es muy viejo.
 Is this car very old?,/ɪz ðɪs kɑːr ˈvɛri oʊld/,is dis car veri old?,¿Es este coche muy viejo?
-Why is this car very old?,/waɪ ɪz ðɪs kɑːr ˈvɛri oʊld/,uai is dis car veri old?,¿Por qué este coche es muy viejo?
+How old is this car?,/haʊ əʊld ɪz ðɪs kɑː/,jau ould is dis car?,¿Qué tan viejo es este coche?
 This car was very old.,/ðɪs kɑːr wɒz ˈvɛri oʊld/,dis car wos veri old.,Este coche era muy viejo.
 She has a new bag.,/ʃiː hæz ə nuː bæɡ/,shi jas a nu bag,Ella tiene un bolso nuevo.
 She doesn't have a new bag.,/ʃiː ˈdʌznt hæv ə nuː bæɡ/,shi dasent jav a nu bag.,Ella no tiene un bolso nuevo.
@@ -911,7 +911,7 @@ He had a ball.,/hiː hæd ə bɔːl/,ji jad a bol.,Él tenía una pelota.
 The diameter is big.,/ðə daɪˈæmɪtər ɪz bɪg/,de diameter is big.,El diámetro es grande.
 The diameter isn't big.,/ðə daɪˈæmɪtər ˈɪznt bɪɡ/,de diameter isent big.,El diámetro no es grande.
 Is the diameter big?,/ɪz ðə daɪˈæmɪtər bɪɡ/,is de diameter big?,¿Es grande el diámetro?
-When is the diameter big?,/wen ɪz ðə daɪˈæmɪtər bɪɡ/,guen is de diameter big?,¿Cuándo es grande el diámetro?
+How big is the diameter?,/haʊ bɪg ɪz ðə daɪˈæm.ɪ.tə/,jau big is de dáiameter?,¿Qué tan grande es el diámetro?
 The diameter was big.,/ðə daɪˈæmɪtər wɒz bɪɡ/,de diameter wos big.,El diámetro era grande.
 The radius is short.,/ðə ˈreɪdiəs ɪz ʃɔːt/,de radius is short.,El radio es corto.
 We measure the perimeter.,/wiː ˈmɛʒər ðə pəˈrɪmɪtər/,ui mezhur de perimeter.,Medimos el perímetro.
@@ -936,7 +936,7 @@ The weight is high.,/ðə weɪt ɪz haɪ/,de ueit is jai.,El peso es alto.
 The length is big.,/ðə lɛŋθ ɪz bɪɡ/,de lengz iz big.,La longitud es grande.
 The length is not big.,/ðə lɛŋθ ɪz nɒt bɪɡ/,de lengz iz not big.,La longitud no es grande.
 Is the length big?,/ɪz ðə lɛŋθ bɪɡ/,iz de lengz big?,¿Es grande la longitud?
-Why is the length big?,/waɪ ɪz ðə lɛŋθ bɪɡ/,wai iz de lengz big?,¿Por qué es grande la longitud?
+How big is the length?,/haʊ bɪg ɪz ðə leŋθ/,jau big is de lengz?,¿Qué tan grande es la longitud?
 The length was big.,/ðə lɛŋθ wɒz bɪɡ/,de lengz woz big.,La longitud era grande.
 The width is small.,/ðə wɪdθ ɪz smɔːl/,de widz iz esmol.,El ancho es pequeño.
 The height is good.,/ðə haɪt ɪz ɡʊd/,de jait iz gud.,La altura es buena.
@@ -967,7 +967,7 @@ The car has high horsepower.,/ðə kɑː hæz haɪ ˈhɔːspaʊə/,de car jas ja
 The quantity is big.,/ðə ˈkwɒntɪti ɪz bɪɡ/,de cuantiti is big.,La cantidad es grande.
 The quantity is not big.,/ðə ˈkwɒntɪti ɪz nɒt bɪɡ/,de cuantiti is not big.,La cantidad no es grande.
 Is the quantity big?,/ɪz ðə ˈkwɒntɪti bɪɡ/,iz de cuantiti big?,¿Es grande la cantidad?
-Where is the quantity big?,/wɛər ɪz ðə ˈkwɒntɪti bɪɡ/,uer is de cuantiti big?,¿Dónde es grande la cantidad?
+How big is the quantity?,/haʊ bɪg ɪz ðə ˈkwɒn.tɪ.ti/,jau big is de cuántiti?,¿Qué tan grande es la cantidad?
 The quantity was big.,/ðə ˈkwɒntɪti wɒz bɪɡ/,de cuantiti woz big.,La cantidad era grande.
 I want a little bit of milk.,/aɪ wɒnt ə ˈlɪtl bɪt ɒv mɪlk/,ai guant a litol bit ov milk.,Quiero un poco de leche.
 Please give me half.,/pliːz ɡiːv miː hɑːf/,pliz guiv mi jaf.,"Dame la mitad, por favor."
@@ -1156,7 +1156,7 @@ She has brown hair.,/ʃiː hæz braʊn hɛr/,shi jas braun jer.,Ella tiene el pe
 I like his hairstyle.,/aɪ laɪk hɪz hɛrstaɪl/,ai laik jis jerstail.,Me gusta su peinado.
 I don't like his hairstyle.,/aɪ dəʊnt laɪk hɪz hɛrstaɪl/,ai dont laik jis jerstail.,No me gusta su peinado.
 Do you like his hairstyle?,/duː juː laɪk hɪz hɛrstaɪl/,du iu laik jis jerstail?,¿Te gusta su peinado?
-How is his hairstyle?,/haʊ ɪz hɪz hɛrstaɪl/,jau is jis jerstail?,¿Cómo es su peinado?
+What is his hairstyle like?,/wɒt ɪz hɪz ˈheəstaɪl laɪk/,uot is jiz jésteil laik?,¿Cómo es su peinado?
 I liked his hairstyle.,/aɪ laɪkt hɪz hɛrstaɪl/,ai laikt jis jerstail.,Me gustó su peinado.
 He needs a haircut.,/hiː niːdz ə hɛrkʌt/,ji nids a jercat.,Él necesita un corte de pelo.
 She wears a wig.,/ʃiː wɛrz ə wɪɡ/,si uers a uig.,Ella usa una peluca.
@@ -1170,12 +1170,12 @@ I have a beard.,/aɪ hæv ə bɪrd/,ai jav a bird.,Tengo barba.
 She has a braid.,/ʃiː hæz ə breɪd/,shi jas a breid.,Ella tiene una trenza.
 She does not have a braid.,/ʃiː dʌz nɒt hæv ə breɪd/,shi das not jav a breid.,Ella no tiene una trenza.
 Does she have a braid?,/dʌz ʃiː hæv ə breɪd/,das shi jav a breid?,¿Ella tiene una trenza?
-When does she have a braid?,/wɛn dʌz ʃiː hæv ə breɪd/,uen das shi jav a breid?,¿Cuándo lleva ella una trenza?
+Why does she have a braid?,/waɪ dʌz ʃi hæv ə breɪd/,wai das shi jav e breid?,¿Por qué ella tiene una trenza?
 She had a braid.,/ʃiː hæd ə breɪd/,shi jad a breid.,Ella tenía una trenza.
 He has long sideburns.,/hiː hæz lɒŋ saɪdbɜːrnz/,ji jas long saidburns.,Él tiene patillas largas.
 He does not have long sideburns.,/hiː dʌz nɒt hæv lɒŋ saɪdbɜːrnz/,ji das not jav long saidburns.,Él no tiene patillas largas.
 Does he have long sideburns?,/dʌz hiː hæv lɒŋ saɪdbɜːrnz/,das ji jav long saidburns?,¿Él tiene patillas largas?
-What are long sideburns?,/wɒt ɑːr lɒŋ saɪdbɜːrnz/,uot ar long saidburns?,¿Qué son unas patillas largas?
+Who has long sideburns?,/huː həz lɒŋ ˈsaɪdbɜːnz/,ju jaz long sáidbernz?,¿Quién tiene patillas largas?
 He had long sideburns.,/hiː hæd lɒŋ saɪdbɜːrnz/,ji jad long saidburns.,Él tenía patillas largas.
 She is a red-haired girl.,/ʃiː ɪz ə rɛd hɛrd gɜːrl/,shi is a red jered grol.,Ella es una pelirroja.
 I have gray hair.,/aɪ hæv ɡreɪ hɛr/,ai jav grei jer.,Tengo el pelo gris.
@@ -1298,7 +1298,7 @@ I need a new pair of shoes.,/aɪ niːd ə njuː peər ɒv ʃuːz/,ai nid a niu p
 The shoestring is very long.,/ðə ˈʃuːstrɪŋ ɪz ˈvɛri lɒŋ/,de shustring is veri long.,El cordón del zapato es muy largo.
 The shoestring is not very long.,/ðə ˈʃuːstrɪŋ ɪz nɒt ˈvɛri lɒŋ/,de shustring is not veri long.,El cordón del zapato no es muy largo.
 Is the shoestring very long?,/ɪz ðə ˈʃuːstrɪŋ ˈvɛri lɒŋ/,is de shustring veri long?,¿Es el cordón del zapato muy largo?
-Why is the shoestring very long?,/waɪ ɪz ðə ˈʃuːstrɪŋ ˈvɛri lɒŋ/,guai is de shustring veri long?,¿Por qué el cordón del zapato es muy largo?
+How long is the shoestring?,/haʊ lɒŋ ɪz ðə ˈʃuːstrɪŋ/,jau long is de shústring?,¿De qué longitud es el cordón?
 The shoestring was very long.,/ðə ˈʃuːstrɪŋ wɒz ˈvɛri lɒŋ/,de shustring guoz veri long.,El cordón del zapato era muy largo.
 Please lace up your boots.,/pliːz leɪs ʌp jɔː buːts/,plis leis ap yur boots.,"Por favor, ata tus botas."
 He uses a shoehorn for his shoes.,/hiː ˈjuːzɪz ə ˈʃuːhɔːn fɔː hɪz ʃuːz/,ji yuses a shuhorn for jis shus.,Él usa un calzador para sus zapatos.
@@ -1355,7 +1355,7 @@ I use a backpack.,/aɪ juːz ə ˈbækpæk/,ai yus a bakkpak.,Uso una mochila.
 I like fashion.,/aɪ laɪk ˈfæʃən/,ai laik fashon.,Me gusta la moda.
 I don't like fashion.,/aɪ dəʊnt laɪk ˈfæʃən/,ai dont laik fashon.,No me gusta la moda.
 Do you like fashion?,/duː juː laɪk ˈfæʃən/,du iu laik fashon?,¿Te gusta la moda?
-Which fashion do you like?,/wɪtʃ ˈfæʃən duː juː laɪk/,wich fashon du iu laik?,¿Qué tipo de moda te gusta?
+What kind of fashion do you like?,/wɒt kaɪnd ɒv ˈfæʃn duː juː laɪk/,uot kaind ov fashan du iu laik?,¿Qué tipo de moda te gusta?
 I liked fashion.,/aɪ laɪkt ˈfæʃən/,ai laikt fashon.,Me gustaba la moda.
 This style is in vogue.,/ðɪs staɪl ɪz ɪn vəʊɡ/,dis stail is in vog.,Este estilo está de moda.
 He is a fashion designer.,/hiː ɪz ə ˈfæʃən dɪˈzaɪnə/,ji is a fashon disainer.,Él es diseñador de moda.
@@ -1629,7 +1629,7 @@ She had a pomegranate.,/ʃiː hæd ə ˈpɒmˌɡrænɪt/,shi jad a pomgranit.,El
 I like the redcurrant.,/aɪ laɪk ðə ˈrɛdˌkʌrənt/,ai laik de redkurent.,Me gusta el grosella roja.
 I don't like the redcurrant.,/aɪ dəʊnt laɪk ðə ˈrɛdˌkʌrənt/,ai dount laik de redkurent.,No me gusta la grosella roja.
 Do you like the redcurrant?,/duː juː laɪk ðə ˈrɛdˌkʌrənt/,du iu laik de redkurent?,¿Te gusta la grosella roja?
-Which redcurrant do you like?,/wɪtʃ ˈrɛdˌkʌrənt duː juː laɪk/,guich redkurent du iu laik?,¿Qué grosella roja te gusta?
+Why do you like the redcurrant?,/waɪ duː juː laɪk ðə ˈredkʌrənt/,uái du iu laik de rédkarent?,¿Por qué te gusta la grosella roja?
 I liked the redcurrant.,/aɪ laɪkt ðə ˈrɛdˌkʌrənt/,ai laikt de redkurent.,Me gustaba la grosella roja.
 It is a blackcurrant.,/ɪt ɪz ə ˈblækˌkʌrənt/,it is a blakkurent.,Es una grosella negra.
 A gooseberry is green.,/ə ˈɡʊsˌbɛri ɪz ɡriːn/,a gusbri is grin.,Una grosella espinosa es verde.
@@ -1814,7 +1814,7 @@ My weight is okay.,/maɪ weɪt ɪz əʊˈkeɪ/,mai ueit is okei.,Mi peso está b
 My mother is here.,/maɪ ˈmʌðər ɪz hɪər/,mai mader is jier.,Mi madre está aquí.
 My mother is not here.,/maɪ ˈmʌðər ɪz nɒt hɪər/,mai mader is nat jier.,Mi madre no está aquí.
 Is your mother here?,/ɪz jɔː ˈmʌðər hɪər/,is yor mader jier?,¿Tu madre está aquí?
-When is my mother here?,/wɛn ɪz maɪ ˈmʌðər hɪər/,wen is mai mader jier?,¿Cuándo está aquí mi madre?
+When will my mother be here?,/wɛn wɪl maɪ ˈmʌðə biː hɪə/,uen uil mai moder bi jir?,¿Cuándo estará mi mamá aquí?
 My mother was here.,/maɪ ˈmʌðər wɒz hɪər/,mai mader woz jier.,Mi madre estaba aquí.
 He is a father.,/hiː ɪz ə ˈfɑːðə/,ji is a fader.,Él es padre.
 You are my son.,/juː ɑː maɪ sʌn/,yu ar mai son.,Tú eres mi hijo.
@@ -1875,7 +1875,7 @@ The bride is beautiful.,/ðə braɪd ɪz ˈbjuːtɪfʊl/,de braid is biutiful.,L
 She is very beautiful.,/ʃiː ɪz ˈvɛri ˈbjuːtɪfʊl/,shi is beri biutiful.,Ella es muy hermosa.
 She is not very beautiful.,/ʃiː ɪz nɒt ˈvɛri ˈbjuːtɪfʊl/,shi is nat beri biutiful.,Ella no es muy hermosa.
 Is she very beautiful?,/ɪz ʃiː ˈvɛri ˈbjuːtɪfʊl/,is shi beri biutiful?,¿Ella es muy hermosa?
-What is very beautiful?,/wɒt ɪz ˈvɛri ˈbjuːtɪfʊl/,wot is beri biutiful?,¿Qué es muy hermoso?
+Who is very beautiful?,/huː ɪz ˈvɛri ˈbjuːtɪfʊl/,ju is véri biútiful?,¿Quién es muy hermosa?
 She was very beautiful.,/ʃiː wɒz ˈvɛri ˈbjuːtɪfʊl/,shi woz beri biutiful.,Ella era muy hermosa.
 He is very tall.,/hiː ɪz ˈvɛri tɔːl/,ji is beri tol.,Él es muy alto.
 He is not very tall.,/hiː ɪz nɒt ˈvɛri tɔːl/,ji is nat beri tol.,Él no es muy alto.
@@ -1895,7 +1895,7 @@ He is strong.,/hiː strɒŋ/,ji is stron.,Él es fuerte.
 He has strength.,/hiː hæz strɛŋθ/,ji jas strenz.,Él tiene fuerza.
 He does not have strength.,/hiː dʌz nɒt hæv strɛŋθ/,ji das nat jav strenz.,Él no tiene fuerza.
 Does he have strength?,/dʌz hiː hæv strɛŋθ/,das ji jav strenz?,¿Él tiene fuerza?
-How does he have strength?,/haʊ dʌz hiː hæv strɛŋθ/,jau das ji jav strenz?,¿Cómo él tiene fuerza?
+Why does he have strength?,/waɪ dʌz hiː həv strɛŋθ/,uái daz ji jav strengz?,¿Por qué tiene fuerza?
 He had strength.,/hiː hæd strɛŋθ/,ji jad strenz.,Él tenía fuerza.
 He is a stocky man.,/hiː ɪz ə ˈstɒki mæn/,ji is a stocki man.,Él es un hombre robusto.
 She is elegant.,/ʃiː ˈɛlɪgənt/,shi is ele-gant.,Ella es elegante.
@@ -2119,7 +2119,7 @@ She washes up.,/ʃiː ˈwɒʃɪz ʌp/,shi woshes ap.,Ella se lava.
 He has humor.,/hiː hæz ˈhjuːmə/,ji jaz jiumer.,Él tiene humor.
 He does not have humor.,/hiː dʌz nɒt hæv ˈhjuːmə/,ji das not jav jiumer.,Él no tiene humor.
 Does he have humor?,/dʌz hiː hæv ˈhjuːmə/,das ji jav jiumer?,¿Él tiene humor?
-Who has humor?,/huː hæz ˈhjuːmə/,ju jaz jiumer?,¿Quién tiene humor?
+Why does he have a sense of humor?,/waɪ dʌz hi hæv ə sɛns ɒv hjuːmə/,guai daz ji jav a sens ov jiúmar?,¿Por qué tiene sentido del humor?
 He had humor.,/hiː hæd ˈhjuːmə/,ji jad jiumer.,Él tenía humor.
 She has a sense of humor.,/ʃiː hæz ə sens ɒv ˈhjuːmə/,shi jaz a sens ov jiumer.,Ella tiene sentido del humor.
 We have fun.,/wiː hæv fʌn/,ui jav fan.,Nos divertimos.
@@ -2183,7 +2183,7 @@ I have a thought.,/aɪ hæv ə θɔːt/,ai jav a zot.,Tengo un pensamiento.
 She has an idea.,/ʃiː hæz æn aɪˈdɪə/,shi jaz an aidea.,Ella tiene una idea.
 She doesn't have an idea.,/ʃiː ˈdʌznt hæv æn aɪˈdɪə/,shi dasnt jav an aidea.,Ella no tiene una idea.
 Does she have an idea?,/dʌz ʃiː hæv æn aɪˈdɪə/,das shi jav an aidea?,¿Tiene una idea ella?
-When does she have an idea?,/wɛn dʌz ʃiː hæv æn aɪˈdɪə/,wen das shi jav an aidea?,¿Cuándo tiene una idea ella?
+Why does she have an idea?,/waɪ dʌz ʃi hæv ən aɪˈdɪə/,guai daz shi jav an aidía?,¿Por qué tiene una idea?
 She had an idea.,/ʃiː hæd æn aɪˈdɪə/,shi jad an aidea.,Ella tuvo una idea.
 He likes fantasy.,/hiː laɪks ˈfæntəsi/,ji laiks fantasi.,A él le gusta la fantasía.
 He is a respected teacher.,/hiː ɪz ə rɪˈspɛktɪd ˈtiːtʃə/,ji is a rispektid ticher.,Él es un profesor respetado.
@@ -2214,7 +2214,7 @@ Show me your new phone.,/ʃəʊ miː jɔː njuː fəʊn/,shou mi yur niu foun.,M
 I look at the big cat.,/aɪ lʊk æt ðə bɪɡ kæt/,ai luk at de big cat.,Miro al gato grande.
 I don't look at the big cat.,/aɪ dəʊnt lʊk æt ðə bɪɡ kæt/,ai dont luk at de big cat.,No miro al gato grande.
 Do you look at the big cat?,/duː juː lʊk æt ðə bɪɡ kæt/,du yu luk at de big cat?,¿Miras al gato grande?
-What do you look at the big cat for?,/wɒt duː juː lʊk æt ðə bɪɡ kæt fɔː/,wot du yu luk at de big cat for?,¿Por qué miras al gato grande?
+Why do you look at the big cat?,/waɪ du ju lʊk ət ðə bɪg kæt/,guai diu iu luk at de big cat?,¿Por qué miras al gato grande?
 I looked at the big cat.,/aɪ lʊkt æt ðə bɪɡ kæt/,ai lukt at de big cat.,Miré al gato grande.
 I call my mom now.,/aɪ kɔːl maɪ mɒm naʊ/,ai kol mai mom nau.,Llamo a mi mamá ahora.
 Do not distract the boy.,/duː nɒt dɪˈstrækt ðə bɔɪ/,du not distract de boi.,No distraigas al niño.
@@ -2223,7 +2223,7 @@ Pass me the blue pen.,/pɑːs miː ðə bluː pɛn/,pas mi de bliu pen.,Pásame 
 It is a big demand.,/ɪt ɪz ə bɪɡ dɪˈmɑːnd/,it is a big demand.,Es una gran demanda.
 It isn't a big demand.,/ɪt ˈɪzənt ə bɪɡ dɪˈmɑːnd/,it isent a big demand.,No es una gran demanda.
 Is it a big demand?,/ɪz ɪt ə bɪɡ dɪˈmɑːnd/,is it a big demand?,¿Es una gran demanda?
-Where is that big demand?,/weər ɪz ðæt bɪɡ dɪˈmɑːnd/,wer is dat big demand?,¿Dónde está esa gran demanda?
+Why is it a big demand?,/waɪ ɪz ɪt ə bɪg dɪˈmɑːnd/,guai iz it a big dimánd?,¿Por qué es una gran demanda?
 It was a big demand.,/ɪt wɒz ə bɪɡ dɪˈmɑːnd/,it woz a big demand.,Fue una gran demanda.
 I request some water now.,/aɪ rɪˈkwɛst sʌm ˈwɔːtə naʊ/,ai riquest sam guater nau.,Solicito agua ahora.
 The demand is very high.,/ðə dɪˈmɑːnd ɪz ˈvɛri haɪ/,de demand is jeri jai.,La demanda es muy alta.
@@ -2240,7 +2240,7 @@ I describe my new house.,/aɪ dɪˈskraɪb maɪ njuː haʊs/,ai describ mai niu 
 Her praise is very good.,/hɜː preɪz ɪz ˈvɛri ɡʊd/,jer preiz is jeri gud.,Su elogio es muy bueno.
 Her praise is not very good.,/hɜː preɪz ɪz nɒt ˈvɛri ɡʊd/,jer preiz is not jeri gud.,Su elogio no es muy bueno.
 Is her praise very good?,/ɪz hɜː preɪz ˈvɛri ɡʊd/,is jer preiz jeri gud?,¿Es muy bueno su elogio?
-What is her very good praise?,/wɒt ɪz hɜː ˈvɛri ɡʊd preɪz/,wot is jer jeri gud preiz?,¿Cuál es su muy buen elogio?
+Why is her praise very good?,/waɪ ɪz hɜː preɪz ˈvɛri gʊd/,guai iz jér preis véri gud?,¿Por qué su elogio es muy bueno?
 Her praise was very good.,/hɜː preɪz wɒz ˈvɛri ɡʊd/,jer preiz woz jeri gud.,Su elogio era muy bueno.
 I praise the nice girl.,/aɪ preɪz ðə naɪs ɡɜːl/,ai preiz de nais gerl.,Elogio a la chica agradable.
 His face shows disappointment.,/hɪz feɪs ʃəʊz ˌdɪsəˈpɔɪntmənt/,jis feis shous disappointment.,Su cara muestra decepción.
@@ -2272,7 +2272,7 @@ Can I have a look?,/kæn aɪ hæv ə lʊk/,kan ai jav a luk.,¿Puedo echar un vi
 He has a fixed look.,/hiː hæz ə fɪkst lʊk/,ji jas a fikst luk.,Él tiene una mirada fija.
 He doesn't have a fixed look.,/hiː ˈdʌznt hæv ə fɪkst lʊk/,ji dasnt jav a fikst luk.,Él no tiene una mirada fija.
 Does he have a fixed look?,/dʌz hiː hæv ə fɪkst lʊk/,das ji jav a fikst luk?,¿Él tiene una mirada fija?
-When does he have a fixed look?,/wen dʌz hiː hæv ə fɪkst lʊk/,wen das ji jav a fikst luk?,¿Cuándo tiene él una mirada fija?
+Why does he have a fixed look?,/waɪ dʌz hi hæv ə fɪkst lʊk/,guai daz ji jav a fikst luk?,¿Por qué tiene la mirada fija?
 He had a fixed look.,/hiː hæd ə fɪkst lʊk/,ji jad a fikst luk.,Él tenía una mirada fija.
 I blink my eyes.,/aɪ blɪŋk maɪ aɪz/,ai blinjk mai ais.,Parpadeo los ojos.
 She will wink at him.,/ʃiː wɪl wɪŋk æt hɪm/,shi uil uink at jim.,Ella le guiñará un ojo.
@@ -2291,7 +2291,7 @@ Good luck! You can do it.,/ɡʊd lʌk! juː kæn duː ɪt/,gud lak! yu kan du it
 I see! It is your dog.,/aɪ siː! ɪt ɪz jʊə dɒɡ/,ai si! it is yur dog.,¡Entiendo! Es tu perro.
 I see! It is not your dog.,/aɪ siː! ɪt ɪz nɒt jʊə dɒɡ/,ai si! it is not yur dog.,¡Entiendo! No es tu perro.
 I see! Is it your dog?,/aɪ siː! ɪz ɪt jʊə dɒɡ/,ai si! is it yur dog?,¡Entiendo! ¿Es tu perro?
-I see! Where is your dog?,/aɪ siː! wɛə ɪz jʊə dɒɡ/,ai si! wer is yur dog?,¡Entiendo! ¿Dónde está tu perro?
+Why is it your dog?,/waɪ ɪz ɪt jɔː dɒg/,guai iz it yor dog?,¿Por qué es tu perro?
 I saw! It was your dog.,/aɪ sɔː! ɪt wɒz jʊə dɒɡ/,ai so! it woz yur dog.,¡Entendí! Era tu perro.
 It is a pity that he is sick.,/ɪt ɪz ə ˈpɪti ðæt hiː ɪz sɪk/,it is a piti dat ji is sik.,Es una lástima que él esté enfermo.
 He gives his consent today.,/hiː ɡɪvz hɪz kənˈsent təˈdeɪ/,ji givs jis konsent tudei.,Él da su consentimiento hoy.
@@ -2575,7 +2575,7 @@ The wound is on his arm.,/ðə wuːnd ɪz ɒn hɪz ɑːrm/,de uund is on jiz arm
 She has a trauma.,/ʃiː hæz ə ˈtraʊmə/,shi jaz a trauma.,Ella tiene un trauma.
 She doesn't have a trauma.,/ʃiː ˈdʌznt hæv ə ˈtraʊmə/,shi daznt jav a trauma.,Ella no tiene un trauma.
 Does she have a trauma?,/dʌz ʃiː hæv ə ˈtraʊmə/,daz shi jav a trauma?,¿Ella tiene un trauma?
-Why does she have a trauma?,/waɪ dʌz ʃiː hæv ə ˈtraʊmə/,guai daz shi jav a trauma?,¿Por qué ella tiene un trauma?
+Why does she have trauma?,/waɪ dʌz ʃi hæv ˈtrɔːmə/,guai daz shi jav tróma?,¿Por qué tiene trauma?
 She had a trauma.,/ʃiː hæd ə ˈtraʊmə/,shi jad a trauma.,Ella tenía un trauma.
 He is delirious today.,/hiː ɪz dɪˈlɪriəs təˈdeɪ/,ji iz dilirius today.,Él está delirando hoy.
 I do not stutter.,/aɪ duː nɒt ˈstʌtər/,ai du not stater.,Yo no tartamudeo.
@@ -2592,7 +2592,7 @@ He is vomiting.,/hiː ɪz ˈvɑmɪtɪŋ/,ji iz vometing.,Él está vomitando.
 She has convulsions.,/ʃiː hæz kənˈvʌlʃənz/,shi jaz konvulsions.,Ella tiene convulsiones.
 She doesn't have convulsions.,/ʃiː ˈdʌznt hæv kənˈvʌlʃənz/,shi daznt jav konvulsions.,Ella no tiene convulsiones.
 Does she have convulsions?,/dʌz ʃiː hæv kənˈvʌlʃənz/,daz shi jav konvulsions?,¿Ella tiene convulsiones?
-Who sees that she has convulsions?,/huː siːz ðæt ʃiː hæz kənˈvʌlʃənz/,ju siz dat shi jaz konvulsions?,¿Quién ve que ella tiene convulsiones?
+Why does she have convulsions?,/waɪ dʌz ʃiː hæv kənˈvʌl.ʃənz/,guái daz shi jav kanválshanz?,¿Por qué ella tiene convulsiones?
 She had convulsions.,/ʃiː hæd kənˈvʌlʃənz/,shi jad konvulsions.,Ella tenía convulsiones.
 She is pregnant.,/ʃiː ɪz ˈprɛgnənt/,shi iz pregnant.,Ella está embarazada.
 I was born here.,/aɪ wʌz bɔːrn hɪr/,ai guas born jir.,Yo nací aquí.
@@ -2618,7 +2618,7 @@ The gene is small.,/ðə dʒiːn ɪz smɔːl/,de yin is smol.,El gen es pequeño
 He has no immunity.,/hiː hæz noʊ ɪˈmjuːnəti/,ji jas no inyuniti.,Él no tiene inmunidad.
 He does not have immunity.,/hiː dʌz nɒt hæv ɪˈmjuːnəti/,ji das not jav inyuniti.,Él no tiene inmunidad.
 Does he have immunity?,/dʌz hiː hæv ɪˈmjuːnəti/,das ji jav inyuniti?,¿Tiene él inmunidad?
-Why does he have immunity?,/waɪ dʌz hiː hæv ɪˈmjuːnəti/,uai das ji jav inyuniti?,¿Por qué tiene él inmunidad?
+Why does he have no immunity?,/waɪ dʌz hiː hæv nəʊ ɪˈmjuː.nə.ti/,guái daz ji jav nou imiuniti?,¿Por qué él no tiene inmunidad?
 He had immunity.,/hiː hæd ɪˈmjuːnəti/,ji jad inyuniti.,Él tenía inmunidad.
 It is a hereditary disease.,/ɪt ɪz ə həˈrɛdɪˌtɛri diˈziːz/,it is a jerediteri disis.,Es una enfermedad hereditaria.
 She has a congenital problem.,/ʃiː hæz ə kənˈdʒɛnətəl ˈprɒbləm/,shi jas a konyenital problem.,Ella tiene un problema congénito.
@@ -2901,7 +2901,7 @@ This box is flammable.,/ðɪs bɒks ɪz ˈflæməbəl/,dis boks is flamebol,Esta
 It is forbidden here.,/ɪt ɪz fəˈbɪdən hɪə/,it is forbirden jier,Está prohibido aquí.
 It isn't forbidden here.,/ɪt ˈɪznt fəˈbɪdən hɪə/,it isent forbirden jir.,No está prohibido aquí.
 Is it forbidden here?,/ɪz ɪt fəˈbɪdən hɪə/,is it forbirden jir?,¿Está prohibido aquí?
-How is it forbidden here?,/haʊ ɪz ɪt fəˈbɪdən hɪə/,jau is it forbirden jir?,¿Cómo es que está prohibido aquí?
+Why is it forbidden here?,/waɪ ɪz ɪt fəˈbɪd.ən hɪər/,guái iz it forbídan jir?,¿Por qué está prohibido aquí?
 It was forbidden here.,/ɪt wɒz fəˈbɪdən hɪə/,it uas forbirden jir.,Estaba prohibido aquí.
 No trespassing on my land.,/nəʊ ˈtrɛspəsɪŋ ɒn maɪ lænd/,no trespassing on mai land,Prohibido el paso en mi tierra.
 The wet paint is red.,/ðə wɛt peɪnt ɪz rɛd/,de ueit peint is red,La pintura fresca es roja.
@@ -2959,7 +2959,7 @@ This is a mausoleum.,/ðɪs ɪz ə ˌmɔːsəˈliːəm/,dis is a mosolium.,Este 
 I like the architecture.,/aɪ laɪk ðə ˈɑːkɪtektʃə/,ai laik de arkitektur.,Me gusta la arquitectura.
 I do not like the architecture.,/aɪ duː nɒt laɪk ðə ˈɑːkɪtektʃə/,ai du not laik de arkitektur.,No me gusta la arquitectura.
 Do you like the architecture?,/duː juː laɪk ðə ˈɑːkɪtektʃə/,du iu laik de arkitektur?,¿Te gusta la arquitectura?
-Whose architecture do you like?,/huːz ˈɑːkɪtektʃə duː juː laɪk/,jus arkitektur du iu laik?,¿De quién es la arquitectura que te gusta?
+Why do you like the architecture?,/waɪ duː juː laɪk ðiː ˈɑː.kɪ.tek.tʃər/,guái du iu laik di arquitetchur?,¿Por qué te gusta la arquitectura?
 I liked the architecture.,/aɪ laɪkt ðə ˈɑːkɪtektʃə/,ai laikt de arkitektur.,Me gustó la arquitectura.
 It is a medieval town.,/ɪt ɪz ə ˌmedɪˈiːvl taʊn/,it is a mediebal taun.,Es un pueblo medieval.
 They see ancient things.,/ðeɪ siː ˈeɪnʃənt θɪŋz/,dei si eintshing zinks.,Ven cosas antiguas.
@@ -3044,7 +3044,7 @@ I pay with cash.,/aɪ peɪ wɪð kæʃ/,ai pei widh cash.,Pago con efectivo.
 The check is here.,/ðə tʃɛk ɪz hɪə/,de check is jier.,El cheque está aquí.
 The check isn't here.,/ðə tʃɛk ˈɪznt hɪə/,de check isent jier.,El cheque no está aquí.
 Is the check here?,/ɪz ðə tʃɛk hɪə/,is de check jier?,¿Está aquí el cheque?
-When is the check here?,/wɛn ɪz ðə tʃɛk hɪə/,guen is de check jier?,¿Cuándo está aquí el cheque?
+Why is the check here?,/waɪ ɪz ðə tʃek hɪər/,guái iz de chek jir?,¿Por qué está el cheque aquí?
 The check was here.,/ðə tʃɛk wɒz hɪə/,de check uas jier.,El cheque estaba aquí.
 I write a check.,/aɪ raɪt ə tʃɛk/,ai rait a check.,Escribo un cheque.
 This is my checkbook.,/ðɪs ɪz maɪ ˈtʃɛkbʊk/,dis is mai checkbuk.,Este es mi chequera.
@@ -3057,7 +3057,7 @@ She got an inheritance.,/ʃiː gɒt ən ɪnˈhɛrɪtəns/,shi got an inheritans.
 He has a fortune.,/hiː hæz ə ˈfɔːrtʃən/,ji jas a forchun.,Él tiene una fortuna.
 He doesn't have a fortune.,/hiː ˈdʌznt hæv ə ˈfɔːrtʃən/,ji dasent jav a forchun.,Él no tiene una fortuna.
 Does he have a fortune?,/dʌz hiː hæv ə ˈfɔːrtʃən/,das ji jav a forchun?,¿Él tiene una fortuna?
-What fortune does he have?,/wɒt ˈfɔːrtʃən dʌz hiː hæv/,guot forchun das ji jav?,¿Qué fortuna tiene él?
+Why does he have a fortune?,/waɪ dʌz hiː hæv ə ˈfɔː.tʃuːn/,guái daz ji jav a fórchiun?,¿Por qué él tiene una fortuna?
 He had a fortune.,/hiː hæd ə ˈfɔːrtʃən/,ji jad a forchun.,Él tenía una fortuna.
 They lease the house.,/ðeɪ liːs ðə haʊs/,dei lis de jaus.,Ellos alquilan la casa.
 The rent is high.,/ðə rɛnt ɪz haɪ/,de rent is jai.,La renta es alta.
@@ -3067,7 +3067,7 @@ What is the cost?,/wɒt ɪz ðə kɒst/,uat is de cost.,¿Cuál es el costo?
 It is a big sum.,/ɪt ɪz ə bɪg sʌm/,it is a big sam.,Es una suma grande.
 It is not a big sum.,/ɪt ɪz nɒt ə bɪg sʌm/,it is not a big sam.,No es una suma grande.
 Is it a big sum?,/ɪz ɪt ə bɪg sʌm/,is it a big sam?,¿Es una suma grande?
-What is a big sum?,/wɒt ɪz ə bɪg sʌm/,wot is a big sam?,¿Qué es una suma grande?
+How big is the sum?,/haʊ bɪɡ ɪz ðə sʌm/,jau big iz de sam?,¿Qué tan grande es la suma?
 It was a big sum.,/ɪt wɒz ə bɪg sʌm/,it woz a big sam.,Era una suma grande.
 I spend my money.,/aɪ spɛnd maɪ ˈmʌni/,ai spend mai mani.,Gasto mi dinero.
 My expenses are low.,/maɪ ɪkˈspɛnsɪz ɑːr loʊ/,mai expenses ar lo.,Mis gastos son bajos.
@@ -3083,7 +3083,7 @@ I go to the post office.,/aɪ goʊ tuː ðə poʊst ˈɒfɪs/,ai gou tu de post 
 The mail is here.,/ðə meɪl ɪz hɪər/,de meil is jiir.,El correo está aquí.
 The mail is not here.,/ðə meɪl ɪz nɒt hɪər/,de meil is not jiir.,El correo no está aquí.
 Is the mail here?,/ɪz ðə meɪl hɪər/,is de meil jiir?,¿Está aquí el correo?
-When is the mail here?,/wɛn ɪz ðə meɪl hɪər/,wen is de meil jiir?,¿Cuándo está aquí el correo?
+Where is the mail?,/weər ɪz ðə meɪl/,fuer iz de meil?,¿Dónde está el correo?
 The mail was here.,/ðə meɪl wɒz hɪər/,de meil woz jiir.,El correo estaba aquí.
 The mailman is here.,/ðə ˈmeɪlmæn ɪz hɪər/,de meilman is jiir.,El cartero está aquí.
 Check the opening hours.,/tʃɛk ðə ˈoʊpənɪŋ aʊərz/,chek de oupening auers.,Revisa el horario de apertura.
@@ -3107,7 +3107,7 @@ This is standard.,/ðɪs ɪz ˈstændəd/,dis is estandar,Esto es estándar.
 It is very economical.,/ɪt ɪz ˈvɛri ˌiːkəˈnɒmɪkəl/,it is beri ikonomical,Es muy económico.
 It is not very economical.,/ɪt ɪz nɒt ˈvɛri ˌiːkəˈnɒmɪkəl/,it is not beri ikonomical.,No es muy económico.
 Is it very economical?,/ɪz ɪt ˈvɛri ˌiːkəˈnɒmɪkəl/,is it beri ikonomical?,¿Es muy económico?
-How is it very economical?,/haʊ ɪz ɪt ˈvɛri ˌiːkəˈnɒmɪkəl/,jau is it beri ikonomical?,¿Cómo es muy económico?
+Why is it very economical?,/waɪ ɪz ɪt ˈver.i ˌiː.kəˈnɒm.ɪ.kəl/,guái iz it véri iikanómikal?,¿Por qué es muy económico?
 It was very economical.,/ɪt wɒz ˈvɛri ˌiːkəˈnɒmɪkəl/,it woz beri ikonomical.,Era muy económico.
 The weight is fine.,/ðə weɪt ɪz faɪn/,de ueit is fain,El peso está bien.
 Please weigh up this.,/pliːz weɪ ʌp ðɪs/,pliz uei ap dis,Por favor pesa esto.
@@ -3129,7 +3129,7 @@ This is an old building.,/ðɪs ɪz æn oʊld ˈbɪldɪŋ/,dis is an old bilding
 The house is very old.,/ðə haʊs ɪz ˈvɛri oʊld/,de jaus is bery old.,La casa es muy vieja.
 The house is not very old.,/ðə haʊs ɪz nɒt ˈvɛri oʊld/,de jaus is not bery old.,La casa no es muy vieja.
 Is the house very old?,/ɪz ðə haʊs ˈvɛri oʊld/,is de jaus bery old?,¿La casa es muy vieja?
-Why is the house very old?,/waɪ ɪz ðə haʊs ˈvɛri oʊld/,wai is de jaus bery old?,¿Por qué la casa es muy vieja?
+How old is the house?,/haʊ əʊld ɪz ðə haʊs/,jau ould is de jaus?,¿Qué tan vieja es la casa?
 The house was very old.,/ðə haʊs wɒz ˈvɛri oʊld/,de jaus woz bery old.,La casa era muy vieja.
 I like the modern style.,/aɪ laɪk ðə ˈmɑːdərn staɪl/,ai laik de moden stain.,Me gusta el estilo moderno.
 The building is very tall.,/ðə ˈbɪldɪŋ ɪz ˈvɛri tɔːl/,de bilding is bery tol.,El edificio es muy alto.
@@ -3241,7 +3241,7 @@ We sit on the veranda.,/wiː sɪt ɒn ðə vəˈrændə/,ui sit on de beranda.,N
 The terrace is very big.,/ðə ˈtɛrəs ɪz ˈvɛri bɪɡ/,de teres is beri big.,La terraza es muy grande.
 The terrace is not very big.,/ðə ˈtɛrəs ɪz nɒt ˈvɛri bɪɡ/,de teres is not beri big.,La terraza no es muy grande.
 Is the terrace very big?,/ɪz ðə ˈtɛrəs ˈvɛri bɪɡ/,is de teres beri big?,¿La terraza es muy grande?
-Why is the terrace very big?,/waɪ ɪz ðə ˈtɛrəs ˈvɛri bɪɡ/,wai is de teres beri big?,¿Por qué la terraza es muy grande?
+How big is the terrace?,/haʊ bɪɡ ɪz ðə ˈtɛrəs/,jau big iz de terras?,¿Qué tan grande es la terraza?
 The terrace was very big.,/ðə ˈtɛrəs wɒz ˈvɛri bɪɡ/,de teres woz beri big.,La terraza era muy grande.
 He stands on the front steps.,/hiː stændz ɒn ðə frʌnt stɛps/,ji stands on de front steps.,Él está en las escaleras de entrada.
 I like the swing.,/aɪ laɪk ðə swɪŋ/,ai laik de swing.,Me gusta el columpio.
@@ -3287,7 +3287,7 @@ The underground passage is dark.,/ðə ˈʌndərɡraʊnd ˈpæsɪdʒ ɪz dɑːrk
 The moat has water.,/ðə moʊt hæz ˈwɔːtər/,de mout jas uater.,El foso tiene agua.
 The moat doesn't have water.,/ðə moʊt ˈdʌznt hæv ˈwɔːtər/,de mout dasnt jav uater.,El foso no tiene agua.
 Does the moat have water?,/dʌz ðə moʊt hæv ˈwɔːtər/,das de mout jav uater?,¿El foso tiene agua?
-Where is the water in the moat?,/weər ɪz ðə ˈwɔːtər ɪn ðə moʊt/,uer is de uater in de mout?,¿Dónde está el agua del foso?
+How much water does the moat have?,/haʊ mʌtʃ ˈwɔːtə dʌz ðə məʊt hæv/,jau much uoter daz de mou jav?,¿Cuánta agua tiene el foso?
 The moat had water.,/ðə moʊt hæd ˈwɔːtər/,de mout jad uater.,El foso tenía agua.
 The chain is very strong.,/ðə tʃeɪn ɪz ˈvɛri strɒŋ/,de chein is beri estrong.,La cadena es muy fuerte.
 The chain isn't very strong.,/ðə tʃeɪn ˈɪznt ˈvɛri strɒŋ/,de chein isnt beri estrong.,La cadena no es muy fuerte.
@@ -3309,7 +3309,7 @@ The entry room is small.,/ðə ˈɛntri ruːm ɪz smɔːl/,de entri rum is esmol
 The bathroom is here.,/ðə ˈbæθruːm ɪz hɪər/,de badrum is jier.,El baño está aquí.
 The bathroom isn't here.,/ðə ˈbæθruːm ˈɪznt hɪər/,de badrum isnt jier.,El baño no está aquí.
 Is the bathroom here?,/ɪz ðə ˈbæθruːm hɪər/,is de badrum jier?,¿Está el baño aquí?
-When is the bathroom here?,/wɛn ɪz ðə ˈbæθruːm hɪər/,guen is de badrum jier?,¿Cuándo está aquí el baño?
+Where is the bathroom?,/weər ɪz ðə ˈbɑːθruːm/,fuer iz de bazrum?,¿Dónde está el baño?
 The bathroom was here.,/ðə ˈbæθruːm wɒz hɪər/,de badrum woz jier.,El baño estaba aquí.
 The half bath is clean.,/ðə hæf bæθ ɪz kliːn/,de jaf bad is clin.,El medio baño está limpio.
 The ceiling is white.,/ðə ˈsiːlɪŋ ɪz waɪt/,de siling is uait.,El techo es blanco.
@@ -3527,7 +3527,7 @@ Look at the puddle.,/lʊk æt ðə ˈpʌdəl/,luk at de pa-dl,Mira el charco.
 This pipe is big.,/ðɪs paɪp ɪz bɪɡ/,dis paip is big,Esta tubería es grande.
 This pipe isn't big.,/ðɪs paɪp ˈɪzənt bɪɡ/,dis paip isent big.,Esta tubería no es grande.
 Is this pipe big?,/ɪz ðɪs paɪp bɪɡ/,is dis paip big?,¿Es grande esta tubería?
-Whose is this big pipe?,/huːz ɪz ðɪs bɪɡ paɪp/,jus is dis big paip?,¿De quién es esta tubería grande?
+Whose big pipe is this?,/huːz bɪɡ paɪp ɪz ðɪs/,jus big paip iz dis?,¿De quién es esta tubería grande?
 This pipe was big.,/ðɪs paɪp wɒz bɪɡ/,dis paip uoz big.,Esta tubería era grande.
 Close the stop valve.,/kləʊz ðə stɒp vælv/,cloz de stop balv,Cierra la válvula de paso.
 The sink is clogged up.,/ðə sɪŋk ɪz klɒgd ʌp/,de sink is clogd ap,El fregadero está tapado.
@@ -3575,7 +3575,7 @@ I call for help.,/aɪ kɔːl fɔː hɛlp/,ai kol for jelp.,Pido ayuda.
 The rescuer is here.,/ðə ˈrɛskjuːər ɪz hɪə/,de reskyuer is jir.,El rescatador está aquí.
 The rescuer isn't here.,/ðə ˈrɛskjuːər ˈɪzənt hɪə/,de reskyuer isent jir.,El rescatador no está aquí.
 Is the rescuer here?,/ɪz ðə ˈrɛskjuːər hɪə/,is de reskyuer jir?,¿Está aquí el rescatador?
-When is the rescuer here?,/wen ɪz ðə ˈrɛskjuːər hɪə/,uen is de reskyuer jir?,¿Cuándo está aquí el rescatador?
+Why is the rescuer here?,/waɪ ɪz ðə ˈrɛskjuːər hɪər/,uai iz de reskiuer jir?,¿Por qué está aquí el rescatista?
 The rescuer was here.,/ðə ˈrɛskjuːər wɒz hɪə/,de reskyuer uoz jir.,El rescatador estaba aquí.
 They rescue the cat.,/ðeɪ ˈrɛskjuː ðə kæt/,dei reskyu de kat.,Ellos rescatan al gato.
 We arrive at night.,/wiː əˈraɪv æt naɪt/,ui arraiv at nait.,Llegamos de noche.
@@ -3739,7 +3739,7 @@ This is a workshop.,/ðɪs ɪz ə ˈwɜːrkʃɒp/,dis is a uorkshop.,Esto es un 
 The works are here.,/ðə wɜːrks ɑːr hɪr/,de uorks ar jir.,Las obras están aquí.
 The works are not here.,/ðə wɜːrks ɑːr nɒt hɪər/,de uorks ar not jir.,Las obras no están aquí.
 Are the works here?,/ɑːr ðə wɜːrks hɪər/,ar de uorks jir?,¿Están las obras aquí?
-When are the works here?,/wen ɑːr ðə wɜːrks hɪər/,uen ar de uorks jir?,¿Cuándo están las obras aquí?
+Where are the works?,/weə ə ðə wɜːks/,uer ar der werks?,¿Dónde están las obras?
 The works were here.,/ðə wɜːrks wɜːr hɪər/,de uorks uer jir.,Las obras estaban aquí.
 The industry is old.,/ðə ˈɪndəstri ɪz əʊld/,de industri is old.,La industria es antigua.
 It is an industrial city.,/ɪt ɪz ən ɪnˈdʌstriəl ˈsɪti/,it is an industrial siti.,Es una ciudad industrial.
@@ -3761,7 +3761,7 @@ The rate of output is high.,/ðə reɪt ɒv ˈaʊtpʊt ɪz haɪ/,de reit of autp
 The quality is very good.,/ðə ˈkwɒlɪti ɪz ˈvɛri gʊd/,de kuoliti is beri gud.,La calidad es muy buena.
 The quality is not very good.,/ðə ˈkwɒlɪti ɪz nɒt ˈvɛri gʊd/,de kuoliti is not beri gud.,La calidad no es muy buena.
 Is the quality very good?,/ɪz ðə ˈkwɒlɪti ˈvɛri gʊd/,is de kuoliti beri gud?,¿Es la calidad muy buena?
-What quality is very good?,/wɒt ˈkwɒlɪti ɪz ˈvɛri gʊd/,uot kuoliti is beri gud?,¿Qué calidad es muy buena?
+Why is the quality very good?,/waɪ ɪz ðə ˈkwɒləti ˈvɛri ɡʊd/,uay iz der kuoliti veri gud?,¿Por qué es muy buena la calidad?
 The quality was very good.,/ðə ˈkwɒlɪti wɒz ˈvɛri gʊd/,de kuoliti uoz beri gud.,La calidad era muy buena.
 Checking the work is important.,/ˈtʃɛkɪŋ ðə wɜːk ɪz ɪmˈpɔːtənt/,cheking de werk is impórtant.,Revisar el trabajo es importante.
 We need quality control.,/wiː niːd ˈkwɒlɪti kənˈtroʊl/,ui nid kuoliti kontrol.,Necesitamos control de calidad.
@@ -3805,7 +3805,7 @@ The cistern holds water.,/ðə ˈsɪstən həʊldz ˈwɔːtə/,de sistan jolds u
 I see a big truck.,/aɪ siː ə bɪg trʌk/,ai si a big truck.,Veo un camión grande.
 I do not see a big truck.,/aɪ duː nɒt siː ə bɪg trʌk/,ai du not si a big truck.,No veo un camión grande.
 Do you see a big truck?,/duː juː siː ə bɪg trʌk/,du iu si a big truck?,¿Ves un camión grande?
-Why do you see a big truck?,/waɪ duː juː siː ə bɪg trʌk/,uai du iu si a big truck?,¿Por qué ves un camión grande?
+What big truck do you see?,/wɒt bɪɡ trʌk duː juː siː/,uot big trak du iu si?,¿Qué camión grande ves?
 I saw a big truck.,/aɪ sɔː ə bɪg trʌk/,ai so a big truck.,Vi un camión grande.
 This is a machine tool.,/ðɪs ɪz ə məˈʃiːn tuːl/,dis is a mashin tul.,Esta es una máquina herramienta.
 The mechanism works well.,/ðə ˈmekənɪzəm wɜːks wel/,de mecanism uerks uel.,El mecanismo funciona bien.
@@ -3843,7 +3843,7 @@ They import food.,/ðeɪ ɪmˈpɔːt fuːd/,dei import fud.,Ellos importan comid
 The import is here.,/ðə ˈɪmpɔːt ɪz hɪə/,de import is jier.,La importación está aquí.
 The import is not here.,/ðə ˈɪmpɔːt ɪz nɒt hɪə/,de import is not jier.,La importación no está aquí.
 Is the import here?,/ɪz ðə ˈɪmpɔːt hɪə/,is de import jier?,¿Está aquí la importación?
-How is the import here?,/haʊ ɪz ðə ˈɪmpɔːt hɪə/,jau is de import jier?,¿Cómo está aquí la importación?
+Where is the import?,/weə ɪz ðə ˈɪmpɔːt/,uer iz der import?,¿Dónde está la importación?
 The import was here.,/ðə ˈɪmpɔːt wɒz hɪə/,de import uoz jier.,La importación estaba aquí.
 The export is good.,/ðə ˈɛkspɔːt ɪz ɡʊd/,de export is gud.,La exportación es buena.
 She is an exporter.,/ʃiː ɪz ən ɛkˈspɔːtə/,shi is an exporter.,Ella es una exportadora.
@@ -3879,7 +3879,7 @@ They have controlling interest in the firm.,/ðeɪ hæv kənˈtrəʊlɪŋ ˈɪnt
 This investment is very good.,/ðɪs ɪnˈvɛstmənt ɪz ˈvɛri ɡʊd/,dis investmant is veri gud,Esta inversión es muy buena.
 This investment isn't very good.,/ðɪs ɪnˈvɛstmənt ˈɪzənt ˈvɛri ɡʊd/,dis investmant isent veri gud.,Esta inversión no es muy buena.
 Is this investment very good?,/ɪz ðɪs ɪnˈvɛstmənt ˈvɛri ɡʊd/,is dis investmant veri gud?,¿Es muy buena esta inversión?
-When is this investment very good?,/wɛn ɪz ðɪs ɪnˈvɛstmənt ˈvɛri ɡʊd/,wen is dis investmant veri gud?,¿Cuándo es muy buena esta inversión?
+Why is this investment very good?,/waɪ ɪz ðɪs ɪnˈvɛstmənt ˈvɛri ɡʊd/,uay iz dis inestment veri gud?,¿Por qué es muy buena esta inversión?
 This investment was very good.,/ðɪs ɪnˈvɛstmənt wɒz ˈvɛri ɡʊd/,dis investmant woz veri gud.,Esta inversión fue muy buena.
 I invest money in the business.,/aɪ ɪnˈvɛst ˈmʌni ɪn ðə ˈbɪznɪs/,ai invest mapi in de biznes,Invierto dinero en el negocio.
 Ten percent is a lot.,/tɛn pəˈsɛnt ɪz ə lɒt/,ten present is a lot,Diez por ciento es mucho.
@@ -3951,7 +3951,7 @@ Read the pamphlet.,/riːd ðə ˈpæmflɪt/,rid de pamflet.,Lee el folleto.
 I like the newsletter.,/aɪ laɪk ðə ˈnjuːzˌlɛtə/,ai laik de niuzleter.,Me gusta el boletín.
 I don't like the newsletter.,/aɪ dəʊnt laɪk ðə ˈnjuːzˌlɛtə/,ai dont laik de niuzleter.,No me gusta el boletín.
 Do you like the newsletter?,/duː juː laɪk ðə ˈnjuːzˌlɛtə/,du iu laik de niuzleter?,¿Te gusta el boletín?
-How often do you like the newsletter?,/haʊ ˈɒfən duː juː laɪk ðə ˈnjuːzˌlɛtə/,jau ofen du iu laik de niuzleter?,¿Con qué frecuencia te gusta el boletín?
+Why do you like the newsletter?,/waɪ duː juː laɪk ðə ˈnjuːzˌlɛtə/,uay du yu laik der niuzletar?,¿Por qué te gusta el boletín?
 I liked the newsletter.,/aɪ laɪkt ðə ˈnjuːzˌlɛtə/,ai laikt de niuzleter.,Me gustó el boletín.
 Look at the store sign.,/lʊk æt ðə stɔː saɪn/,luk at de stor sain.,Mira el letrero de la tienda.
 The poster is big.,/ðə ˈpəʊstə ɪz bɪɡ/,de poster is big.,El póster es grande.
@@ -3979,7 +3979,7 @@ I withdraw the money.,/aɪ wɪðˈdrɔː ðə ˈmʌni/,ai widro de moni.,Retiro 
 The deposit is here.,/ðə dɪˈpɒzɪt ɪz hɪə/,de deposit is jier.,El depósito está aquí.
 The deposit is not here.,/ðə dɪˈpɒzɪt ɪz nɒt hɪə/,de deposit is not jier.,El depósito no está aquí.
 Is the deposit here?,/ɪz ðə dɪˈpɒzɪt hɪə/,is de deposit jier?,¿Está aquí el depósito?
-When is the deposit here?,/wɛn ɪz ðə dɪˈpɒzɪt hɪə/,guen is de deposit jier?,¿Cuándo está aquí el depósito?
+Where is the deposit?,/weə ɪz ðə ˈdɛpɒzɪt/,uer iz der deposit?,¿Dónde está el depósito?
 The deposit was here.,/ðə dɪˈpɒzɪt wɒz hɪə/,de deposit uoz jier.,El depósito estaba aquí.
 Make a deposit today.,/meɪk ə dɪˈpɒzɪt təˈdeɪ/,meik a deposit tudei.,Haz un depósito hoy.
 It is a wire transfer.,/ɪt ɪz ə ˈwaɪə ˈtrænsfɜː/,it is a uaire transfer.,Es una transferencia bancaria.
@@ -4115,7 +4115,7 @@ This is the waybill.,/ðɪs ɪz ðə ˈweɪbɪl/,dis is de ueibil.,Esta es la gu
 She has a will.,/ʃiː hæz ə wɪl/,shi jas a uil.,Ella tiene un testamento.
 She does not have a will.,/ʃiː dʌz nɒt hæv ə wɪl/,shi das not jav a uil.,Ella no tiene un testamento.
 Does she have a will?,/dʌz ʃiː hæv ə wɪl/,das shi jav a uil?,¿Ella tiene un testamento?
-When does she have a will?,/wɛn dʌz ʃiː hæv ə wɪl/,guen das shi jav a uil?,¿Cuándo tiene ella un testamento?
+Why does she have a will?,/waɪ dʌz ʃiː hæv ə wɪl/,uay daz shi jav e wil?,¿Por qué ella tiene un testamento?
 She had a will.,/ʃiː hæd ə wɪl/,shi jad a uil.,Ella tenía un testamento.
 We need accounting services.,/wiː niːd əˈkaʊntɪŋ ˈsɜːrvɪsɪz/,ui nid akaunting servisiz.,Necesitamos servicios contables.
 I like the advertising.,/aɪ laɪk ðiː ˈædvərtaɪzɪŋ/,ai laik de adverteising.,Me gusta la publicidad.
@@ -4128,7 +4128,7 @@ We have air-conditioners.,/wiː hæv ˈeərkəndɪʃənərz/,ui jav air-kondisho
 This is a big airline.,/ðɪs ɪz ə bɪg ˈeərlaɪn/,dis is a big airlain.,Esta es una aerolínea grande.
 This isn't a big airline.,/ðɪs ˈɪznt ə bɪg ˈeərlaɪn/,dis isent a big airlain.,Esta no es una aerolínea grande.
 Is this a big airline?,/ɪz ðɪs ə bɪg ˈeərlaɪn/,is dis a big airlain?,¿Es esta una aerolínea grande?
-Where is this big airline?,/wɛər ɪz ðɪs bɪg ˈeərlaɪn/,guer is dis big airlain?,¿Dónde está esta aerolínea grande?
+Why is this a big airline?,/waɪ ɪz ðɪs ə bɪɡ ˈeəlaɪn/,uay iz dis e big eerlain?,¿Por qué esta es una gran aerolínea?
 This was a big airline.,/ðɪs wɒz ə bɪg ˈeərlaɪn/,dis woz a big airlain.,Esta era una aerolínea grande.
 They sell alcoholic drinks.,/ðeɪ sɛl ˌælkəˈhɒlɪk drɪŋks/,dei sel alkóholic drinks.,Ellos venden bebidas alcohólicas.
 I like old antiquities.,/aɪ laɪk oʊld ˌæntɪˈkwɪtiz/,ai laik old antiquitis.,Me gustan las antigüedades viejas.
@@ -4362,7 +4362,7 @@ We can pasture the sheep.,/wiː kæn ˈpæstʃər ðə ʃiːp/,gui can pasteur d
 The herdsman has a dog.,/ðə ˈhɜːrdzmən hæz ə dɔːɡ/,de jordsman jas a dog.,El pastor tiene un perro.
 The herdsman does not have a dog.,/ðə ˈhɜːrdzmən dʌz nɒt hæv ə dɔːɡ/,de jordsman das not jav a dog.,El pastor no tiene un perro.
 Does the herdsman have a dog?,/dʌz ðə ˈhɜːrdzmən hæv ə dɔːɡ/,das de jordsman jav a dog?,¿Tiene el pastor un perro?
-Who has a dog?,/huː hæz ə dɔːɡ/,ju jaz a dog?,¿Quién tiene un perro?
+Why does the herdsman have a dog?,/waɪ dʌz ðə ˈhɜːdzmən hæv ə dɒɡ/,wuai daz de jerdzman jav e dog?,¿Por qué el pastor tiene un perro?
 The herdsman had a dog.,/ðə ˈhɜːrdzmən hæd ə dɔːɡ/,de jordsman jad a dog.,El pastor tenía un perro.
 This is green pastureland.,/ðɪs ɪz ɡriːn ˈpæstʃərlænd/,dis is grin pastcherland.,Esto es pasto verde.
 He does cattle breeding.,/hiː dʌz ˈkætl ˈbriːdɪŋ/,ji das catl bridin.,Él se dedica a la ganadería.
@@ -4370,7 +4370,7 @@ Sheep farming is hard work.,/ʃiːp ˈfɑːrmɪŋ ɪz hɑːrd wɜːrk/,shiip far
 I see a big plantation.,/aɪ siː ə bɪɡ ˌplænˈteɪʃən/,ai si a big plenteishon.,Veo una plantación grande.
 I do not see a big plantation.,/aɪ duː nɒt siː ə bɪɡ ˌplænˈteɪʃən/,ai du not si a big plenteishon.,No veo una plantación grande.
 Do you see a big plantation?,/duː juː siː ə bɪɡ ˌplænˈteɪʃən/,du iu si a big plenteishon?,¿Ves una plantación grande?
-How do you see a big plantation?,/haʊ duː juː siː ə bɪɡ ˌplænˈteɪʃən/,jau du iu si a big plenteishon?,¿Cómo ves una plantación grande?
+Why do you see a big plantation?,/waɪ duː juː siː ə bɪɡ plɑːˈneɪʃən/,wuai du yu si e big planeishon?,¿Por qué ves una gran plantación?
 I saw a big plantation.,/aɪ sɔː ə bɪɡ ˌplænˈteɪʃən/,ai so a big plenteishon.,Vi una plantación grande.
 Look at this row.,/lʊk æt ðɪs roʊ/,luk at dis ro.,Mira esta hilera.
 It is a hot hothouse.,/ɪt ɪz ə hɑːt ˈhɑːtˌhaʊs/,it is a jato jaojjaus.,Es un invernadero caliente.
@@ -4553,7 +4553,7 @@ The manufacturer makes toys.,/ðə ˌmænjʊˈfæktʃərə meɪks tɔɪz/,de man
 The distributor has water.,/ðə dɪsˈtrɪbjʊtə hæz ˈwɔːtə/,de distributor jaser uater.,El distribuidor tiene agua.
 The distributor does not have water.,/ðə dɪsˈtrɪbjʊtə dʌz nɒt hæv ˈwɔːtə/,de distributor das not jav uater.,El distribuidor no tiene agua.
 Does the distributor have water?,/dʌz ðə dɪsˈtrɪbjʊtə hæv ˈwɔːtə/,das de distributor jav uater?,¿Tiene agua el distribuidor?
-When does the distributor have water?,/wɛn dʌz ðə dɪsˈtrɪbjʊtə hæv ˈwɔːtə/,guen das de distributor jav uater?,¿Cuándo tiene agua el distribuidor?
+Why does the distributor have water?,/waɪ dʌz ðə dɪˈstrɪbjʊtə hæv ˈwɔːtə/,wuai daz de distribiutor jav wuater?,¿Por qué el distribuidor tiene agua?
 The distributor had water.,/ðə dɪsˈtrɪbjʊtə hæd ˈwɔːtə/,de distributor jad uater.,El distribuidor tenía agua.
 The middleman helps us.,/ðə ˈmɪdəlmæn hɛlps ʌs/,de middleman jel pas as.,El intermediario nos ayuda.
 The consultant talks a lot.,/ðə kənˈsʌltənt tɔːks ə lɒt/,de consultant talks a lot.,El consultor habla mucho.
@@ -4594,7 +4594,7 @@ The hairdresser cuts hair.,/ðə ˈhɛrdrɛsər kʌts hɛr/,de jairdreser cuts j
 The mailman has a bag.,/ðə ˈmeɪlmæn hæz æ bæg/,de meilman jas a bag.,El cartero tiene una bolsa.
 The mailman doesn't have a bag.,/ðə ˈmeɪlmæn ˈdʌznt hæv æ bæg/,de meilman dasent jav a bag.,El cartero no tiene una bolsa.
 Does the mailman have a bag?,/dʌz ðə ˈmeɪlmæn hæv æ bæg/,das de meilman jav a bag?,¿El cartero tiene una bolsa?
-Who has a bag?,/huː hæz æ bæg/,ju jas a bag?,¿Quién tiene una bolsa?
+Why does the mailman have a bag?,/waɪ dʌz ðə ˈmeɪlmæn hæv ə bæɡ/,wuai daz de meilman jav e bag?,¿Por qué el cartero tiene una bolsa?
 The mailman had a bag.,/ðə ˈmeɪlmæn hæd æ bæg/,de meilman jad a bag.,El cartero tenía una bolsa.
 The salesman is busy.,/ðə ˈseɪlzmæn ɪz ˈbɪzi/,de seilzman is bisi.,El vendedor está ocupado.
 The gardener loves flowers.,/ðə ˈgɑːrdənər lʌvz ˈflaʊərz/,de gardener lavs flauers.,El jardinero ama las flores.
@@ -4806,7 +4806,7 @@ She is a volleyball player.,/ʃiː ɪz ə ˈvɒlibɔːl pleɪər/,shi is a vo-le
 I like boxing.,/aɪ laɪk ˈbɒksɪŋ/,ai laik box-sing.,Me gusta el boxeo.
 I don't like boxing.,/aɪ dəʊnt laɪk ˈbɒksɪŋ/,ai dont laik box-sing.,No me gusta el boxeo.
 Do you like boxing?,/duː juː laɪk ˈbɒksɪŋ/,du iu laik box-sing?,¿Te gusta el boxeo?
-Which boxer do you watch in boxing?,/wɪtʃ ˈbɒksər duː juː wɒtʃ ɪn ˈbɒksɪŋ/,guich boxer du iu guoch in box-sing?,¿Qué boxeador ves en el boxeo?
+Why do you like boxing?,/waɪ duː juː laɪk ˈbɒksɪŋ/,wuai du yu laik boxing?,¿Por qué te gusta el boxeo?
 I liked boxing.,/aɪ laɪkt ˈbɒksɪŋ/,ai laikt box-sing.,Me gustaba el boxeo.
 He is a boxer.,/hiː ɪz ə ˈbɒksər/,ji is a box-er.,Él es un boxeador.
 I like wrestling.,/aɪ laɪk ˈrɛslɪŋ/,ai laik res-ling.,Me gusta la lucha.
@@ -4847,7 +4847,7 @@ The weightlifter is strong.,/ðə ˈweɪtˌlɪftər ɪz strɒŋ/,de ueitlifter i
 I like car racing.,/aɪ laɪk kɑː ˈreɪsɪŋ/,ai laik car reising.,Me gusta las carreras de coches.
 I don't like car racing.,/aɪ dəʊnt laɪk kɑː ˈreɪsɪŋ/,ai dont laik car reising.,No me gustan las carreras de coches.
 Do you like car racing?,/duː juː laɪk kɑː ˈreɪsɪŋ/,du yu laik car reising?,¿Te gustan las carreras de coches?
-What car racing do you like?,/wɒt kɑː ˈreɪsɪŋ duː juː laɪk/,guot car reising du yu laik?,¿Qué carreras de coches te gustan?
+What kind of car racing do you like?,/wɒt kaɪnd ɒv kɑː ˈreɪsɪŋ duː juː laɪk/,wuot kaind ov kar reising du yu laik?,¿Qué tipo de carreras de autos te gusta?
 I liked car racing.,/aɪ laɪkt kɑː ˈreɪsɪŋ/,ai laikt car reising.,Me gustaban las carreras de coches.
 He is a racing driver.,/hiː ɪz ə ˈreɪsɪŋ ˈdraɪvə/,ji is a reising draiver.,Él es piloto de carreras.
 She likes cycling.,/ʃiː laɪks ˈsaɪklɪŋ/,shi laiks saikling.,A ella le gusta el ciclismo.
@@ -4963,7 +4963,7 @@ They can score in the game.,/ðeɪ kæn skɔːr ɪn ðə geɪm/,dei kan skor in 
 It is a very big goal.,/ɪt ɪz ə vɛri bɪg gəʊl/,it is a beri big gouol.,Es un gol muy grande.
 It isn't a very big goal.,/ɪt ˈɪznt ə vɛri bɪg gəʊl/,it isent a beri big gouol.,No es un gol muy grande.
 Is it a very big goal?,/ɪz ɪt ə vɛri bɪg gəʊl/,is it a beri big gouol?,¿Es un gol muy grande?
-Whose very big goal is it?,/huːz ˈvɛri bɪg gəʊl ɪz ɪt/,jus beri big gouol is it?,¿De quién es este gol tan grande?
+Whose goal is it?,/huːz ɡəʊl ɪz ɪt/,juz goul iz it?,¿De quién es la meta?
 It was a very big goal.,/ɪt wɒz ə vɛri bɪg gəʊl/,it woz a beri big gouol.,Fue un gol muy grande.
 He wants to score a goal.,/hiː wɒnts tuː skɔːr ə gəʊl/,ji uants tu skor a gouol.,Él quiere anotar un gol.
 The coach makes a substitution.,/ðə kəʊtʃ meɪks ə sʌbstɪtjuːʃən/,de koch meiks a sabstitucion.,El entrenador hace una sustitución.
@@ -5110,7 +5110,7 @@ He is my opponent.,/hiː ɪz maɪ əˈpəʊnənt/,ji is mai oponent.,Él es mi o
 We like the start.,/wiː laɪk ðə stɑːt/,ui laik de start.,Nos gusta el inicio.
 We don't like the start.,/wiː dəʊnt laɪk ðə stɑːt/,ui dount laik de start.,No nos gusta el inicio.
 Do we like the start?,/duː wiː laɪk ðə stɑːt/,du ui laik de start?,¿Nos gusta el inicio?
-Why do we like the start?,/waɪ duː wiː laɪk ðə stɑːt/,uai du ui laik de start?,¿Por qué nos gusta el inicio?
+Why do we like the start?,/waɪ duː wiː laɪk ðə stɑːt/,wuai du wi laik de start?,¿Por qué nos gusta el comienzo?
 We liked the start.,/wiː laɪkt ðə stɑːt/,ui laikt de start.,Nos gustó el inicio.
 See the finish line.,/siː ðə ˈfɪnɪʃ laɪn/,si de finish lain.,Mira la línea de meta.
 The defeat is sad.,/ðə dɪˈfiːt ɪz sæd/,de difit is sad.,La derrota es triste.
@@ -5149,6 +5149,7 @@ The pupil reads a book.,/ðə ˈpjuːpɪl riːdz ə bʊk/,de piupil rids a buk.,
 The pupil has a bag.,/ðə ˈpjuːpɪl hæz ə bæg/,de piupil jas a bag.,La alumna tiene una bolsa.
 The pupil does not have a bag.,/ðə ˈpjuːpɪl dʌz nɒt hæv ə bæg/,de piupil das not jav a bag.,La alumna no tiene una bolsa.
 Does the pupil have a bag?,/dʌz ðə ˈpjuːpɪl hæv ə bæg/,das de piupil jav a bag?,¿La alumna tiene una bolsa?
+Who has a bag?,/huː hæz ə bæg/,ju jas a bag?,¿Quién tiene una bolsa?
 The pupil had a bag.,/ðə ˈpjuːpɪl hæd ə bæg/,de piupil jad a bag.,La alumna tenía una bolsa.
 The schoolboy runs fast.,/ðə ˈskuːlbɔɪ rʌnz fɑːst/,de sculboi runs fast.,El escolar corre rápido.
 The schoolgirl sings a song.,/ðə ˈskuːlgɜːl sɪŋz ə sɒŋ/,de scurgol sings a song.,La escolar canta una canción.
@@ -5244,7 +5245,7 @@ The law is good.,/ðə lɔː ɪz ɡʊd/,de law is gud.,La ley es buena.
 I like physics.,/aɪ laɪk ˈfɪzɪks/,ai laik fiziks.,Me gusta la física.
 I don't like physics.,/aɪ dəʊnt laɪk ˈfɪzɪks/,ai dount laik fiziks.,No me gusta la física.
 Do you like physics?,/duː juː laɪk ˈfɪzɪks/,du iu laik fiziks?,¿Te gusta la física?
-When do you like physics?,/wen duː juː laɪk ˈfɪzɪks/,uen du iu laik fiziks?,¿Cuándo te gusta la física?
+Why do you like physics?,/waɪ duː juː laɪk ˈfɪzɪks/,guái du yu laik físiks?,¿Por qué te gusta la física?
 I liked physics.,/aɪ laɪkt ˈfɪzɪks/,ai laikt fiziks.,Me gustaba la física.
 She studies chemistry.,/ʃiː ˈstʌdiz ˈkɛmɪstri/,shi stadies kemistri.,Ella estudia química.
 It is philosophy.,/ɪt ɪz fɪˈlɒsəfi/,it is filosofi.,Es filosofía.
@@ -5315,7 +5316,7 @@ Sign on the dotted line.,/saɪn ɒn ðə ˈdɒtɪd laɪn/,sain on de dotid lain.
 I like language.,/aɪ laɪk ˈlæŋɡwɪdʒ/,ai laik langüich.,Me gusta el idioma.
 I don't like language.,/aɪ doʊnt laɪk ˈlæŋɡwɪdʒ/,ai dont laik langüich.,No me gusta el idioma.
 Do you like language?,/du ju laɪk ˈlæŋɡwɪdʒ/,du yu laik langüich?,¿Te gusta el idioma?
-Why do you like language?,/waɪ du ju laɪk ˈlæŋɡwɪdʒ/,uai du yu laik langüich?,¿Por qué te gusta el idioma?
+Why do you like languages?,/waɪ duː juː laɪk ˈlæŋɡwɪdʒɪz/,guái du yu laik létngüidiyez?,¿Por qué te gustan los idiomas?
 I liked language.,/aɪ laɪkt ˈlæŋɡwɪdʒ/,ai laikt langüich.,Me gustó el idioma.
 It is a foreign car.,/ɪt ɪz ə ˈfɒrɪn kɑːr/,it is a forin car.,Es un coche extranjero.
 She learns a foreign language.,/ʃiː lɜːnz ə ˈfɒrɪn ˈlæŋɡwɪdʒ/,shi lerns a forin langüich.,Ella aprende un idioma extranjero.
@@ -5328,7 +5329,7 @@ We write a letter.,/wiː raɪt ə ˈlɛtər/,ui rait a leter.,Escribimos una car
 He runs very fast.,/hiː rʌnz ˈvɛri fɑːst/,ji rans very fast.,Él corre muy rápido.
 He does not run very fast.,/hiː dʌz nɒt rʌn ˈvɛri fɑːst/,ji das not ran very fast.,Él no corre muy rápido.
 Does he run very fast?,/dʌz hiː rʌn ˈvɛri fɑːst/,das ji ran very fast?,¿Él corre muy rápido?
-How often does he run very fast?,/haʊ ˈɒfən dʌz hiː rʌn ˈvɛri fɑːst/,jau ofen das ji ran very fast?,¿Con qué frecuencia corre él muy rápido?
+How fast does he run?,/haʊ fɑːst dʌz hiː rʌn/,jáu fast daz jí ran?,¿Qué tan rápido corre?
 He ran very fast.,/hiː ræn ˈvɛri fɑːst/,ji ran very fast.,Él corrió muy rápido.
 Please walk slowly.,/pliːz wɔːk ˈsləʊli/,pliz uok slouli.,Por favor camina despacio.
 She speaks fluently.,/ʃiː spiːks ˈfluːəntli/,shi spiks fluentli.,Ella habla con fluidez.
@@ -5564,7 +5565,7 @@ It is his masterpiece.,/ɪt ɪz hɪz ˈmæstərpiːs/,it is jis masterpiece.,Es 
 The workshop is very big.,/ðə ˈwɜːrkʃɒp ɪz ˈvɛri bɪg/,de uerkshop is beri big.,El taller es muy grande.
 The workshop isn't very big.,/ðə ˈwɜːrkʃɒp ˈɪznt ˈvɛri bɪg/,de uerkshop isnt beri big.,El taller no es muy grande.
 Is the workshop very big?,/ɪz ðə ˈwɜːrkʃɒp ˈvɛri bɪg/,is de uerkshop beri big?,¿Es el taller muy grande?
-When is the workshop?,/wen ɪz ðə ˈwɜːrkʃɒp/,uen is de uerkshop?,¿Cuándo es el taller?
+How big is the workshop?,/haʊ bɪɡ ɪz ðə ˈwɜːkʃɒp/,jáu big iz de wérkshop?,¿Qué tan grande es el taller?
 The workshop was very big.,/ðə ˈwɜːrkʃɒp wɒz ˈvɛri bɪg/,de uerkshop uoz beri big.,El taller era muy grande.
 He paints on the canvas.,/hiː peɪnts ɒn ðə ˈkænvəs/,ji peints on de canvas.,Él pinta en el lienzo.
 Put the art on the easel.,/pʊt ðə ɑːrt ɒn ðə ˈiːzəl/,put de art on de isil.,Pon el arte en el caballete.
@@ -5726,7 +5727,7 @@ It is a good place.,/ɪt ɪz ə ɡʊd pleɪs/,it is a gud pleis.,Es un buen luga
 I like the exotic.,/aɪ laɪk ðə ɪɡˈzɒtɪk/,ai laik de ezotik.,Me gusta lo exótico.
 I don't like the exotic.,/aɪ dəʊnt laɪk ðə ɪɡˈzɒtɪk/,ai dount laik de ezotik.,No me gusta lo exótico.
 Do you like the exotic?,/duː juː laɪk ðə ɪɡˈzɒtɪk/,du iu laik de ezotik?,¿Te gusta lo exótico?
-When do you like the exotic?,/wen duː juː laɪk ðə ɪɡˈzɒtɪk/,uen du iu laik de ezotik?,¿Cuándo te gusta lo exótico?
+Why do you like the exotic?,/waɪ duː juː laɪk ði ɪɡˈzɒtɪk/,guái du yu laik di igzótik?,¿Por qué te gusta lo exótico?
 I liked the exotic.,/aɪ laɪkt ðə ɪɡˈzɒtɪk/,ai laikt de ezotik.,Me gustaba lo exótico.
 We are a group.,/wiː ɑː ə ɡruːp/,ui ar a grup.,Somos un grupo.
 We go on an excursion.,/wiː ɡəʊ ɒn ən ɪkˈskɜːʒən/,ui go on an ekskurshon.,Vamos de excursión.
@@ -5879,7 +5880,7 @@ The fish does not bite.,/ðə fɪʃ dʌz nɒt baɪt/,de fish das not bait.,El pe
 The catch is big.,/ðə kæʃ ɪz bɪg/,de cash is big.,La captura es grande.
 The catch is not big.,/ðə kæʃ ɪz nɒt bɪg/,de cash is not big.,La captura no es grande.
 Is the catch big?,/ɪz ðə kæʃ bɪg/,is de cash big?,¿Es grande la captura?
-Who caught the big catch?,/huː kɔːt ðə bɪg kæʃ/,ju cot de big cash?,¿Quién logró la gran captura?
+How big is the catch?,/haʊ bɪɡ ɪz ðə kætʃ/,jáu big iz de kách?,¿Qué tan grande es la captura?
 The catch was big.,/ðə kæʃ wɒz bɪg/,de cash woz big.,La captura fue grande.
 The ice-hole is deep.,/ðə ˈaɪs hoʊl ɪz diːp/,de aij-jol is dip.,El agujero en el hielo es profundo.
 He has a fishing net.,/hiː hæz ə ˈfɪʃɪŋ nɛt/,ji jas a fishing net.,Él tiene una red de pesca.
@@ -6032,7 +6033,7 @@ We see a motorboat.,/wiː siː ə ˈməʊtəbəʊt/,ui si a motorbout.,Vemos una
 I like water ski.,/aɪ laɪk ˈwɔːtə skiː/,ai laik uater ski.,Me gusta el esquí acuático.
 I do not like water ski.,/aɪ dʊ nɒt laɪk ˈwɔːtə skiː/,ai du not laik uater ski.,No me gusta el esquí acuático.
 Do you like water ski?,/duː juː laɪk ˈwɔːtə skiː/,du yu laik uater ski?,¿Te gusta el esquí acuático?
-How do you like water ski?,/haʊ duː juː laɪk ˈwɔːtə skiː/,jao du yu laik uater ski?,¿Cómo te gusta el esquí acuático?
+Why do you like water skiing?,/waɪ duː juː laɪk ˈwɔːtə skiːɪŋ/,guái du yu laik wóter skíing?,¿Por qué te gusta el esquí acuático?
 I liked water ski.,/aɪ laɪkt ˈwɔːtə skiː/,ai laikt uater ski.,Me gustó el esquí acuático.
 Rent a paddle boat.,/rɛnt ə ˈpædəl bəʊt/,rent a padel bout.,Alquila un pedalo.
 He likes surfing.,/hiː laɪks ˈsɜːfɪŋ/,ji laiks surfing.,Le gusta el surf.
@@ -6249,7 +6250,7 @@ I use a cord.,/aɪ juːz ə kɔːd/,ai yus a cord.,Uso un cordón.
 The wire is here.,/ðə ˈwaɪər ɪz hɪə/,de uáir is jier.,El cable está aquí.
 The wire is not here.,/ðə ˈwaɪər ɪz nɒt hɪə/,de uáir is not jier.,El cable no está aquí.
 Is the wire here?,/ɪz ðə ˈwaɪər hɪə/,is de uáir jier?,¿Está el cable aquí?
-When is the wire here?,/wɛn ɪz ðə ˈwaɪər hɪə/,uen is de uáir jier?,¿Cuándo está el cable aquí?
+Where is the wire?,/weər ɪz ðə ˈwaɪə/,wéar iz de wáiar?,¿Dónde está el cable?
 The wire was here.,/ðə ˈwaɪər wɒz hɪə/,de uáir uoz jier.,El cable estaba aquí.
 See the cable.,/siː ðə ˈkeɪbəl/,si de kéibol.,Mira el cable.
 It is a sledgehammer.,/ɪt ɪz ə ˈslɛdʒˌhæmə/,it is a sleyedj-jamer.,Es una maza.
@@ -6420,7 +6421,7 @@ This is my cabin.,/ðɪs ɪz maɪ ˈkæbɪn/,dis is mai cabin.,Esta es mi cabina
 The wardroom is very big.,/ðə ˈwɔːdruːm ɪz ˈvɛri bɪg/,de wardrum is veri big.,El camarote de oficiales es muy grande.
 The wardroom is not very big.,/ðə ˈwɔːdruːm ɪz nɒt ˈvɛri bɪg/,de wardrum is not veri big.,El camarote de oficiales no es muy grande.
 Is the wardroom very big?,/ɪz ðə ˈwɔːdruːm ˈvɛri bɪg/,is de wardrum veri big?,¿Es el camarote de oficiales muy grande?
-What is the wardroom?,/wɒt ɪz ðə ˈwɔːdruːm/,guot is de wardrum?,¿Qué es el camarote de oficiales?
+How big is the wardroom?,/haʊ ˈbɪɡ ɪz ðə ˈwɔːdruːm/,jau big iz de wuadrum?,¿Qué tan grande es la sala de oficiales?
 The wardroom was very big.,/ðə ˈwɔːdruːm wəz ˈvɛri bɪg/,de wardrum uas veri big.,El camarote de oficiales era muy grande.
 He works in the engine room.,/hiː wɜːks ɪn ðə ˈɛndʒɪn ruːm/,ji uorks in de enchin rum.,Él trabaja en la sala de máquinas.
 She goes to the bridge.,/ʃiː gəʊz tuː ðə brɪdʒ/,shi gous tu de bridch.,Ella va al puente de mando.
@@ -6762,7 +6763,7 @@ The guardrail protects the road.,/ðə ˈɡɑːrdreɪl prəˈtɛkts ðə roʊd/,
 The ditch has water.,/ðə dɪʧ hæz ˈwɔːtər/,de dich jas woter.,La zanja tiene agua.
 The ditch doesn't have water.,/ðə dɪʧ ˈdʌznt hæv ˈwɔːtər/,de dich dasent jav woter.,La zanja no tiene agua.
 Does the ditch have water?,/dʌz ðə dɪʧ hæv ˈwɔːtər/,das de dich jav woter.,¿La zanja tiene agua?
-What kind of water does the ditch have?,/wɒt kaɪnd ɒv ˈwɔːtər dʌz ðə dɪʧ hæv/,guot kaind of woter das de dich jav.,¿Qué tipo de agua tiene la zanja?
+What does the ditch have?,/wɒt dʌz ðə dɪtʃ hæv/,guot daz dich hav?,¿Qué tiene la zanja?
 The ditch had water.,/ðə dɪʧ hæd ˈwɔːtər/,de dich jad woter.,La zanja tenía agua.
 The car stopped on the roadside.,/ðə kɑːr ˈstɑːpt ɒn ðə ˈroʊdsaɪd/,de kar stopt on de rodsaid.,El carro se detuvo en el lado de la carretera.
 The lamppost has a light.,/ðə ˈlæmpoʊst hæz aɪ laɪt/,de lampost jas a lait.,El poste de luz tiene una luz.
@@ -7024,7 +7025,7 @@ The bad men wound him.,/ðə bæd mɛn wuːnd hɪm/,de bad men juind him.,Los ho
 She has a big wound.,/ʃiː hæz ə bɪɡ wuːnd/,shi jas a big juind.,Ella tiene una herida grande.
 She doesn't have a big wound.,/ʃiː ˈdʌznt hæv ə bɪɡ wuːnd/,shi daznt jav a big juind.,Ella no tiene una herida grande.
 Does she have a big wound?,/dʌz ʃiː hæv ə bɪɡ wuːnd/,daz shi jav a big juind?,¿Tiene ella una herida grande?
-How did she get a big wound?,/haʊ dɪd ʃiː ɡet ə bɪɡ wuːnd/,jau did shi guet a big juind?,¿Cómo consiguió ella una herida grande?
+How big is her wound?,/haʊ ˈbɪɡ ɪz hɜː wuːnd/,jau big iz jer wund?,¿Qué tan grande es su herida?
 She had a big wound.,/ʃiː hæd ə bɪɡ wuːnd/,shi jad a big juind.,Ella tenía una herida grande.
 The doctor helps the wounded.,/ðə ˈdɒktə hɛlps ðə ˈwuːndɪd/,de doctor jelps de juindid.,El médico ayuda a los heridos.
 He was in the war.,/hiː wɒz ɪn ðə wɔː/,ji uoz in de uor.,Él estuvo en la guerra.
@@ -7264,7 +7265,7 @@ The inquisitor looks at him.,/ðə ɪnˈkwɪzɪtər lʊks æt hɪm/,de inquisito
 That torture is very bad.,/ðæt ˈtɔːrtʃər ɪz ˈvɛri bæd/,dat torturer is jeri bad.,Esa tortura es muy mala.
 That torture is not very bad.,/ðæt ˈtɔːrtʃər ɪz nɒt ˈvɛri bæd/,dat torturer is not jeri bad.,Esa tortura no es muy mala.
 Is that torture very bad?,/ɪz ðæt ˈtɔːrtʃər ˈvɛri bæd/,is dat torturer jeri bad?,¿Es muy mala esa tortura?
-Why is that torture very bad?,/waɪ ɪz ðæt ˈtɔːrtʃər ˈvɛri bæd/,guai is dat torturer jeri bad?,¿Por qué es muy mala esa tortura?
+Why is that torture so bad?,/waɪ ɪz ðæt ˈtɔːtʃə səʊ bæd/,guai iz dat torcher sou bad?,¿Por qué está tan mala esa tortura?
 That torture was very bad.,/ðæt ˈtɔːrtʃər wɒz ˈvɛri bæd/,dat torturer uoz jeri bad.,Esa tortura era muy mala.
 He is a cruel man.,/hiː ɪz ə ˈkruːəl mæn/,ji is a cruel man.,Él es un hombre cruel.
 The heretic runs away.,/ðə ˈhɛrətɪk rʌnz əˈweɪ/,de heretic runs auei.,El hereje huye.
@@ -7282,7 +7283,7 @@ I liked old treasures.,/aɪ laɪkt əʊld ˈtrɛʒəz/,ai laikt old treshers.,Me
 This is a big discovery.,/ðɪs ɪz ə bɪg dɪsˈkʌvəri/,dis is a big discavari.,Este es un gran descubrimiento.
 This is not a big discovery.,/ðɪs ɪz nɒt ə bɪg dɪsˈkʌvəri/,dis is nat a big discavari.,Este no es un gran descubrimiento.
 Is this a big discovery?,/ɪz ðɪs ə bɪg dɪsˈkʌvəri/,is dis a big discavari?,¿Es este un gran descubrimiento?
-Whose is this big discovery?,/huːz ɪz ðɪs bɪg dɪsˈkʌvəri/,jus is dis big discavari?,¿De quién es este gran descubrimiento?
+Whose big discovery is this?,/huːz ˈbɪɡ dɪˈskʌvəri ɪz ðɪs/,jus big diskaveri is dis?,¿De quién es este gran descubrimiento?
 This was a big discovery.,/ðɪs wɒz ə bɪg dɪsˈkʌvəri/,dis woz a big discavari.,Este fue un gran descubrimiento.
 We go to discover things.,/wiː ɡəʊ tuː dɪsˈkʌvə θɪŋz/,ui gou tu discaver zings.,Vamos a descubrir cosas.
 The expedition starts soon.,/ðə ˌɛkspɪˈdɪʃən stɑːts suːn/,de ekspedishion starts sun.,La expedición comienza pronto.
@@ -7302,13 +7303,14 @@ The prince is very young.,/ðə prɪns ɪz ˈvɛri jʌŋ/,de prins is beri yong.
 The princess has a dog.,/ðə prɪnˈsɛs hæz ə dɒɡ/,de prinses jas a dog.,La princesa tiene un perro.
 The princess does not have a dog.,/ðə prɪnˈsɛs dʌz nɒt hæv ə dɒɡ/,de prinses das nat jav a dog.,La princesa no tiene un perro.
 Does the princess have a dog?,/dʌz ðə prɪnˈsɛs hæv ə dɒɡ/,das de prinses jav a dog?,¿La princesa tiene un perro?
+Who has a dog?,/huː hæz ə dɒɡ/,ju jas a dog?,¿Quién tiene un perro?
 The princess had a dog.,/ðə prɪnˈsɛs hæd ə dɒɡ/,de prinses jad a dog.,La princesa tenía un perro.
 The president speaks well.,/ðə ˈprɛzɪdənt spiːks wɛl/,de president spikes uel.,El presidente habla bien.
 He is the vice-president.,/hiː ɪz ðə ˈvaɪsˈprɛzɪdənt/,ji is de vais-president.,Él es el vicepresidente.
 The senator is here.,/ðə ˈsɛnətər ɪz hɪə/,de senator is jier.,El senador está aquí.
 The senator is not here.,/ðə ˈsɛnətər ɪz nɒt hɪə/,de senator is not jier.,El senador no está aquí.
 Is the senator here?,/ɪz ðə ˈsɛnətər hɪə/,is de senator jier?,¿Está aquí el senador?
-Who is here with the senator?,/huː ɪz hɪə wɪð ðə ˈsɛnətər/,ju is jir uiz de senator?,¿Quién está aquí con el senador?
+Why is the senator here?,/waɪ ɪz ðə ˈsenətə hɪə/,guai iz de senater jir?,¿Por qué está aquí el senador?
 The senator was here.,/ðə ˈsɛnətər wɒz hɪə/,de senator uoz jier.,El senador estaba aquí.
 The monarch rules all.,/ðə ˈmɒnək ruːlz ɔːl/,de monark ruls ol.,El monarca gobierna a todos.
 She is a great ruler.,/ʃiː ɪz ə ɡreɪt ˈruːlə/,shi is a greit ruler.,Ella es una gran gobernante.
@@ -7339,7 +7341,7 @@ The freeway is fast.,/ðə ˈfriːweɪ ɪz fæst/,de friuei is fast.,La autopist
 We like the highway.,/wiː laɪk ðə ˈhaɪweɪ/,ui laik de jaiuei.,Nos gusta la carretera.
 We do not like the highway.,/wiː duː nɒt laɪk ðə ˈhaɪweɪ/,ui du nat laik de jaiuei.,No nos gusta la carretera.
 Do you like the highway?,/duː juː laɪk ðə ˈhaɪweɪ/,du iu laik de jaiuei?,¿Les gusta la carretera?
-When do you like the highway?,/wɛn duː juː laɪk ðə ˈhaɪweɪ/,guen du iu laik de jaiuei?,¿Cuándo les gusta la carretera?
+Why do you like the highway?,/waɪ duː juː laɪk ðə ˈhaɪweɪ/,guai du iu laik de jaiwei?,¿Por qué te gusta la autopista?
 We liked the highway.,/wiː laɪkt ðə ˈhaɪweɪ/,ui laikt de jaiuei.,Nos gustó la carretera.
 The interstate is big.,/ðə ˈɪntərsteɪt ɪz bɪɡ/,de intersteit is big.,La interestatal es grande.
 The interstate is not big.,/ðə ˈɪntərsteɪt ɪz nɒt bɪɡ/,de intersteit is not big.,La interestatal no es grande.
@@ -7542,7 +7544,7 @@ I look for my cat.,/aɪ lʊk fɔː maɪ kæt/,ai luk for mai kat.,Busco a mi gat
 She has a suspicion.,/ʃi hæz ə səˈspɪʃən/,shi jas a saspision.,Ella tiene una sospecha.
 She does not have a suspicion.,/ʃiː dʌz nɒt hæv ə səˈspɪʃən/,shi das not jav a saspision.,Ella no tiene una sospecha.
 Does she have a suspicion?,/dʌz ʃiː hæv ə səˈspɪʃən/,das shi jav a saspision?,¿Tiene ella una sospecha?
-Whose suspicion does she have?,/huːz səˈspɪʃən dʌz ʃiː hæv/,jus saspision das shi jav?,¿De quién es la sospecha que ella tiene?
+Why does she have a suspicion?,/waɪ dʌz ʃiː hæv ə səˈspɪʃən/,guai daz shi hav e saspishon?,¿Por qué tiene ella una sospecha?
 She had a suspicion.,/ʃiː hæd ə səˈspɪʃən/,shi jad a saspision.,Ella tenía una sospecha.
 He is very suspicious.,/hi ɪz ˈvɛri səˈspɪʃəs/,ji iz veri saspisios.,Él es muy sospechoso.
 He is not very suspicious.,/hi ɪz nɒt ˈvɛri səˈspɪʃəs/,ji iz not veri saspisios.,Él no es muy sospechoso.
@@ -7615,7 +7617,7 @@ You are a responsible boy.,/juː ɑːr ə rɪˈspɒnsəbəl bɔɪ/,iu ar a respo
 I like the cosmos.,/aɪ laɪk ðə ˈkɒzmɒs/,ai laik de cosmos.,Me gusta el cosmos.
 I do not like the cosmos.,/aɪ də nɒt laɪk ðə ˈkɒzmɒs/,ai da not laik de cosmos.,No me gusta el cosmos.
 Do you like the cosmos?,/du juː laɪk ðə ˈkɒzmɒs/,du yu laik de cosmos?,¿Te gusta el cosmos?
-How big is the cosmos?,/haʊ bɪɡ ɪz ðə ˈkɒzmɒs/,jau big is de cosmos?,¿Qué tan grande es el cosmos?
+Why do you like the cosmos?,/waɪ duː juː laɪk ðə ˈkɒzmɒs/,uái du yu laik dez kózmos?,¿Por qué te gusta el cosmos?
 I liked the cosmos.,/aɪ laɪkt ðə ˈkɒzmɒs/,ai laikt de cosmos.,Me gustó el cosmos.
 We see a space ship.,/wiː siː ə speɪs ʃɪp/,ui si a es ship.,Vemos una nave espacial.
 He is in outer space.,/hiː ɪz ɪn ˈaʊtə speɪs/,ji is in auter es.,Él está en el espacio exterior.
@@ -7623,7 +7625,7 @@ I love the world.,/aɪ lʌv ðə wɜːrld/,ai lav de uerld.,Yo amo al mundo.
 The universe is big.,/ðə ˈjuːnɪvɜːrs ɪz bɪg/,de yuniverz is big.,El universo es grande.
 The universe is not big.,/ðə ˈjuːnɪvɜːrs ɪz nɒt bɪɡ/,de yuniverz is not big.,El universo no es grande.
 Is the universe big?,/ɪz ðə ˈjuːnɪvɜːrs bɪɡ/,iz de yuniverz big?,¿Es grande el universo?
-Who created the big universe?,/huː kriˈeɪtɪd ðə bɪɡ ˈjuːnɪvɜːrs/,ju kriyeitid de big yuniverz?,¿Quién creó el universo grande?
+How big is the universe?,/haʊ bɪɡ ɪz ðə ˈjuːnɪvɜːs/,jau big iz dez yiúnivers?,¿Qué tan grande es el universo?
 The universe was big.,/ðə ˈjuːnɪvɜːrs wəz bɪɡ/,de yuniverz woz big.,El universo era grande.
 We see a galaxy.,/wiː siː ə ˈgæləksi/,ui si a galaksi.,Vemos una galaxia.
 Look at that star.,/lʊk æt ðæt stɑːr/,luk at dat star.,Mira esa estrella.
@@ -7826,7 +7828,7 @@ They walk up the slope.,/ðeɪ wɒk ʌp ðə sləʊp/,dei uok ap de sloup.,Ellos
 The volcano is very big.,/ðə vɒlˈkeɪnoʊ ɪz ˈvɛri bɪg/,de volkeino is veri big.,El volcán es muy grande.
 The volcano is not very big.,/ðə vɒlˈkeɪnoʊ ɪz nɒt ˈvɛri bɪg/,de volkeino is not veri big.,El volcán no es muy grande.
 Is the volcano very big?,/ɪz ðə vɒlˈkeɪnoʊ ˈvɛri bɪg/,is de volkeino veri big?,¿Es el volcán muy grande?
-Why is the volcano very big?,/waɪ ɪz ðə vɒlˈkeɪnoʊ ˈvɛri bɪg/,uai is de volkeino veri big?,¿Por qué el volcán es muy grande?
+How big is the volcano?,/haʊ bɪɡ ɪz ðə vɒlˈkeɪnəʊ/,jau big iz dez volkéino?,¿Qué tan grande es el volcán?
 The volcano was very big.,/ðə vɒlˈkeɪnoʊ wɒz ˈvɛri bɪg/,de volkeino uoz veri big.,El volcán era muy grande.
 This is an active volcano.,/ðɪs ɪz æn ˈæktɪv vɒlˈkeɪnoʊ/,dis is an aktib volkeino.,Este es un volcán activo.
 That dormant volcano is quiet.,/ðæt ˈdɔːrmənt vɒlˈkeɪnoʊ ɪz ˈkwaɪət/,dat dormant volkeino is kuaiet.,Ese volcán dormido está tranquilo.
@@ -8076,7 +8078,7 @@ It is snowing right now.,/ɪt ɪz ˈsnəʊɪŋ raɪt naʊ/,it is snouing rait na
 We have a big thunderstorm.,/wiː hæv ə bɪɡ ˈθʌndəstɔːm/,ui jav a big zunderstorm.,Tenemos una gran tormenta.
 We don't have a big thunderstorm.,/wiː dəʊnt hæv ə bɪɡ ˈθʌndəstɔːm/,ui dont jav a big zunderstorm.,No tenemos una gran tormenta.
 Do you have a big thunderstorm?,/duː juː hæv ə bɪɡ ˈθʌndəstɔːm/,du iu jav a big zunderstorm?,¿Tienen una gran tormenta?
-When do you have a big thunderstorm?,/wen duː juː hæv ə bɪɡ ˈθʌndəstɔːm/,uen du iu jav a big zunderstorm?,¿Cuándo tienen una gran tormenta?
+How big is the thunderstorm?,/haʊ bɪɡ ɪz ðə ˈθʌndəstɔːm/,jau big iz dez zanderstorm?,¿Qué tan grande es la tormenta?
 We had a big thunderstorm.,/wiː hæd ə bɪɡ ˈθʌndəstɔːm/,ui jad a big zunderstorm.,Tuvimos una gran tormenta.
 Look at the lightning outside.,/lʊk æt ðə ˈlaɪtnɪŋ ˈaʊtsaɪd/,luk at de laitning autsaid.,Mira el rayo afuera.
 The light flashes in the sky.,/ðə laɪt flæʃɪz ɪn ðə skaɪ/,de lait flashes in de skai.,La luz destella en el cielo.
@@ -8151,7 +8153,7 @@ The car will honk.,/ðə kɑː wɪl hɒŋk/,de car uil jonk.,El carro tocará el
 I like winter.,/aɪ laɪk wɪntə/,ai laik uinter.,Me gusta el invierno.
 I don't like winter.,/aɪ dəʊnt laɪk ˈwɪntə/,ai dont laik uinter.,No me gusta el invierno.
 Do you like winter?,/duː juː laɪk ˈwɪntə/,du iu laik uinter?,¿Te gusta el invierno?
-How often do you like winter?,/haʊ ˈɒfən duː juː laɪk ˈwɪntə/,jau ofen du iu laik uinter?,¿Con qué frecuencia te gusta el invierno?
+Why do you like winter?,/waɪ duː juː laɪk ˈwɪntə/,uái du yu laikuínter?,¿Por qué te gusta el invierno?
 I liked winter.,/aɪ laɪkt ˈwɪntə/,ai laikt uinter.,Me gustaba el invierno.
 It is a winter day.,/ɪt ɪz ə wɪntə deɪ/,it iz a uinter dei.,Es un día de invierno.
 We ski in winter.,/wiː skiː ɪn wɪntə/,ui ski in uinter.,Esquiamos en invierno.
@@ -8204,7 +8206,7 @@ The snow leopard likes snow.,/ðə snəʊ ˈlɛpəd laɪks snəʊ/,de esnou lepe
 The lynx has big ears.,/ðə lɪŋks hæz bɪg ɪəz/,de lincs jas big irs.,El lince tiene orejas grandes.
 The lynx doesn't have big ears.,/ðə lɪŋks ˈdʌznt hæv bɪɡ ɪəz/,de lincs daznt jav big irs.,El lince no tiene orejas grandes.
 Does the lynx have big ears?,/dʌz ðə lɪŋks hæv bɪɡ ɪəz/,daz de lincs jav big irs?,¿El lince tiene orejas grandes?
-Who has big ears?,/huː hæz bɪɡ ɪəz/,ju jas big irs?,¿Quién tiene orejas grandes?
+What has big ears?,/wɒt hæz bɪɡ ɪəz/,uót jez big ierz?,¿Qué tiene orejas grandes?
 The lynx had big ears.,/ðə lɪŋks hæd bɪɡ ɪəz/,de lincs jad big irs.,El lince tenía orejas grandes.
 The coyote eats food.,/ðə kɔɪˈəʊtiː iːts fuːd/,de kaiyoti its fud.,El coyote come comida.
 The jackal runs away.,/ðə ˈdʒækəl rʌnz əˈweɪ/,de yackal runs auei.,El chacal se escapa.
@@ -8391,7 +8393,7 @@ The kid is happy.,/ðə kɪd ɪz ˈhæpi/,de kid is japi.,El cabrito está feliz
 I like the lamb.,/aɪ laɪk ðə læm/,ai laik de lam.,Me gusta el cordero.
 I don't like the lamb.,/aɪ dəʊnt laɪk ðə læm/,ai dount laik de lam.,No me gusta el cordero.
 Do you like the lamb?,/duː juː laɪk ðə læm/,du iu laik de lam?,¿Te gusta el cordero?
-When do you like to eat the lamb?,/wɛn duː juː laɪk tuː iːt ðə læm/,guen du iu laik tu it de lam?,¿Cuándo te gusta comer el cordero?
+Why do you like the lamb?,/waɪ duː juː laɪk ðə læm/,uái du yu laik dez lam?,¿Por qué te gusta el cordero?
 I liked the lamb.,/aɪ laɪkt ðə læm/,ai laikt de lam.,Me gustó el cordero.
 The fawn jumps.,/ðə fɔːn dʒʌmps/,de fon dzamps.,El cervatillo salta.
 The young camel sits.,/ðə jʌŋ ˈkæməl sɪts/,de yang camel sits.,El camello joven se sienta.
@@ -8497,7 +8499,7 @@ The piranha has sharp teeth.,/ðə pɪˈrɑːnə hæz ʃɑːrp tiːθ/,de pirana
 I see a big shark.,/aɪ siː ə bɪɡ ʃɑːrk/,ai si a big shark.,Veo un tiburón grande.
 I do not see a big shark.,/aɪ duː nɒt siː ə bɪɡ ʃɑːrk/,ai du not si a big shark.,No veo un tiburón grande.
 Do you see a big shark?,/duː juː siː ə bɪɡ ʃɑːrk/,du yu si a big shark?,¿Ves un tiburón grande?
-When do you see a big shark?,/wɛn duː juː siː ə bɪɡ ʃɑːrk/,guen du yu si a big shark?,¿Cuándo ves un tiburón grande?
+What do you see?,/wɒt du juː siː/,guot du iu si?,¿Qué ves?
 I saw a big shark.,/aɪ sɔː ə bɪɡ ʃɑːrk/,ai so a big shark.,Vi un tiburón grande.
 The dolphin jumps high.,/ðə ˈdɒlfɪn dʒʌmps haɪ/,de dolfin yamps jai.,El delfín salta alto.
 The whale is very big.,/ðə weɪl ɪz ˈvɛri bɪɡ/,de ueil is very big.,La ballena es muy grande.
@@ -8631,7 +8633,7 @@ Bird migration happens in fall.,/bɜːrdz maɪˈɡreɪʃən ˈhæpənz ɪn fɔː
 I see a big mountain.,/aɪ siː ə bɪɡ ˈmaʊntən/,ai si a big maunten.,Veo una gran montaña.
 I do not see a big mountain.,/aɪ duː nɒt siː ə bɪɡ ˈmaʊntən/,ai du not si a big maunten.,No veo una gran montaña.
 Do you see a big mountain?,/duː juː siː ə bɪɡ ˈmaʊntən/,du yu si a big maunten?,¿Ves una gran montaña?
-Why do you see a big mountain?,/waɪ duː juː siː ə bɪɡ ˈmaʊntən/,guai du yu si a big maunten?,¿Por qué ves una gran montaña?
+Where do you see a big mountain?,/weə duː juː siː ə bɪɡ ˈmaʊntɪn/,uéer du yu si e big máuntin?,¿Dónde ves una montaña grande?
 I saw a big mountain.,/aɪ sɔː ə bɪɡ ˈmaʊntən/,ai so a big maunten.,Vi una gran montaña.
 The reef is in the sea.,/ðə riːf ɪz ɪn ðə siː/,de rif is in de si.,El arrecife está en el mar.
 He stands on the cliff.,/hiː stændz ɒn ðə klɪf/,ji stands on de clif.,Él está de pie en el acantilado.
@@ -8863,7 +8865,7 @@ It is a field strawberry.,/ɪt ɪz ə fiːld ˈstrɔːbəri/,it iz a field strob
 I like the bilberry.,/aɪ laɪk ðə ˈbɪlbəri/,ai laik de bilberi.,Me gusta el arándano.
 I don't like the bilberry.,/aɪ dəʊnt laɪk ðə ˈbɪlbəri/,ai dont laik de bilberi.,No me gusta el arándano.
 Do you like the bilberry?,/duː juː laɪk ðə ˈbɪlbəri/,du iu laik de bilberi?,¿Te gusta el arándano?
-When do you like the bilberry?,/wen duː juː laɪk ðə ˈbɪlbəri/,guen du iu laik de bilberi?,¿Cuándo te gusta el arándano?
+Which berry do you like?,/wɪtʃ ˈbɛri du juː laɪk/,guich beri du iu laik?,¿Qué baya te gusta?
 I liked the bilberry.,/aɪ laɪkt ðə ˈbɪlbəri/,ai laikt de bilberi.,Me gustó el arándano.
 I see a flower.,/aɪ siː ə ˈflaʊə/,ai si a flaer.,Veo una flor.
 It is a bouquet.,/ɪt ɪz ə buːˈkeɪ/,it iz a bukei.,Es un ramo.
@@ -8957,7 +8959,7 @@ I cook the beetroot.,/aɪ kʊk ðə ˈbiːtruːt/,ai kuk de biirut.,Cocino la re
 I like eggplant.,/aɪ laɪk ˈɛɡplɑːnt/,ai laik egplant.,Me gusta la berenjena.
 I don't like eggplant.,/aɪ dəʊnt laɪk ˈɛɡplɑːnt/,ai dount laik egplant.,No me gusta la berenjena.
 Do you like eggplant?,/duː juː laɪk ˈɛɡplɑːnt/,du yu laik egplant?,¿Te gusta la berenjena?
-When do you like eggplant?,/wɛn duː juː laɪk ˈɛɡplɑːnt/,guen du yu laik egplant?,¿Cuándo te gusta la berenjena?
+Why do you like eggplant?,/waɪ du juː laɪk ˈɛɡplɑːnt/,guai du iu laik egplant?,¿Por qué te gusta la berenjena?
 I liked eggplant.,/aɪ laɪkt ˈɛɡplɑːnt/,ai laikt egplant.,Me gustó la berenjena.
 We have zucchini.,/wi hæv zuːˈkiːni/,ui jav zuikini.,Tenemos calabacín.
 It is a pumpkin.,/ɪt ɪz ə ˈpʌmpkɪn/,it is a pumpkin.,Es una calabaza.
@@ -8966,7 +8968,7 @@ Add some parsley.,/æd sʌm ˈpɑːsli/,ad sam parsli.,Añade perejil.
 I like dill.,/aɪ laɪk dɪl/,ai laik dil.,Me gusta el eneldo.
 I don't like dill.,/aɪ dəʊnt laɪk dɪl/,ai dount laik dil.,No me gusta el eneldo.
 Do you like dill?,/duː juː laɪk dɪl/,du yu laik dil?,¿Te gusta el eneldo?
-How often do you like dill?,/haʊ ˈɒfən duː juː laɪk dɪl/,jau ofen du yu laik dil?,¿Con qué frecuencia te gusta el eneldo?
+Why do you like dill?,/waɪ du juː laɪk dɪl/,guai du iu laik dil?,¿Por qué te gusta el eneldo?
 I liked dill.,/aɪ laɪkt dɪl/,ai laikt dil.,Me gustó el eneldo.
 I wash the lettuce.,/aɪ wɒʃ ðə ˈlɛtɪs/,ai uosh de letis.,Lavo la lechuga.
 Eat the celery.,/iːt ðə ˈsɛləri/,it de selery.,Come el apio.
@@ -9147,7 +9149,7 @@ It is a Tajik tea.,/ɪt ɪz ə tɑːˈdʒiːk tiː/,it is a tayik ti.,Es un té 
 I see Turkmenistan.,/aɪ siː ˌtɜːrkˌmɛnɪˈstɑːn/,ai si turkmenistan.,Veo Turkmenistán.
 I don't see Turkmenistan.,/aɪ dəʊnt siː ˌtɜːrkmɛnɪˈstɑːn/,ai dont si turkmenistan.,No veo Turkmenistán.
 Do you see Turkmenistan?,/duː juː siː ˌtɜːrkmɛnɪˈstɑːn/,du yu si turkmenistan?,¿Ves Turkmenistán?
-Which country is Turkmenistan?,/wɪtʃ ˈkʌntri ɪz ˌtɜːrkmɛnɪˈstɑːn/,uich kantri iz turkmenistan?,¿Qué país es Turkmenistán?
+Where do you see Turkmenistan?,/wɛə du juː siː ˌtɜːkmɛnɪˈstɑːn/,güer du iu si turkmenistan?,¿Dónde ves Turkmenistán?
 I saw Turkmenistan.,/aɪ sɔː ˌtɜːrkmɛnɪˈstɑːn/,ai so turkmenistan.,Vi Turkmenistán.
 She is a Turkmen.,/ʃiː ɪz ə ˈtɜːrkmən/,shi is a turkmen.,Ella es turcomana.
 It is a Turkmen rug.,/ɪt ɪz ə ˈtɜːrkmən rʌɡ/,it is a turkmen rag.,Es una alfombra turcomana.
@@ -9588,7 +9590,7 @@ She is a Buddhist.,/ʃiː ɪz ə ˈbʊdɪst/,shi is a buddist.,Ella es budista.
 They like Hinduism.,/ðeɪ laɪk ˈhɪnduːɪzəm/,dei laik hinduism.,A ellos les gusta el hinduismo.
 They do not like Hinduism.,/ðeɪ dʌ nɒt laɪk ˈhɪnduːɪzəm/,dei du not laik hinduism.,A ellos no les gusta el hinduismo.
 Do they like Hinduism?,/du ðeɪ laɪk ˈhɪnduːɪzəm/,du dei laik hinduism?,¿A ellos les gusta el hinduismo?
-When do they like Hinduism?,/wɛn du ðeɪ laɪk ˈhɪnduːɪzəm/,uen dei laik hinduism?,¿Cuándo les gusta el hinduismo?
+Why do they like Hinduism?,/waɪ du ðeɪ laɪk ˈhɪnduːɪzəm/,guai du dei laik jinduism?,¿Por qué les gusta el hinduismo?
 They liked Hinduism.,/ðeɪ laɪkt ˈhɪnduːɪzəm/,dei laikt hinduism.,A ellos les gustaba el hinduismo.
 My friend is a Hindu.,/maɪ frɛnd ɪz ə ˈhɪnduː/,mai frend is a hindu.,Mi amigo es hindú.
 I study Islam.,/aɪ ˈstʌdi ˈɪzlɑːm/,ai stadi islam.,Estudio el islam.
@@ -9674,7 +9676,7 @@ It is a Gothic church.,/ɪt ɪz ə ˈɡɒθɪk tʃɜːtʃ/,it is a ghotic church
 The synagogue is here.,/ðə ˈsɪnəɡɒɡ ɪz hɪə/,de synagogue is jier.,La sinagoga está aquí.
 The synagogue is not here.,/ðə ˈsɪnəɡɒɡ ɪz nɒt hɪə/,de sinagog is not jiir.,La sinagoga no está aquí.
 Is the synagogue here?,/ɪz ðə ˈsɪnəɡɒɡ hɪə/,is de sinagog jiir?,¿Está aquí la sinagoga?
-How is the synagogue here?,/haʊ ɪz ðə ˈsɪnəɡɒɡ hɪə/,jau is de sinagog jiir?,¿Cómo es que la sinagoga está aquí?
+Where is the synagogue?,/wɛə ɪz ðə ˈsɪnəɡɒɡ/,güer is de sinagog?,¿Dónde está la sinagoga?
 The synagogue was here.,/ðə ˈsɪnəɡɒɡ wɒz hɪə/,de sinagog guoz jiir.,La sinagoga estaba aquí.
 We see a mosque.,/wiː siː ə mɒsk/,ui si a mosk.,Vemos una mezquita.
 This is a chapel.,/ðɪs ɪz ə ˈtʃæpəl/,dis is a chapel.,Esta es una capilla.
@@ -9697,7 +9699,7 @@ Evil is bad.,/ˈiːvəl ɪz bæd/,iivil is bad.,El mal es malo.
 The good is important here.,/ðə ɡʊd ɪz ɪmˈpɔːtənt hɪə/,de gud is important jier.,El bien es importante aquí.
 The good is not important here.,/ðə ɡʊd ɪz nɒt ɪmˈpɔːtənt hɪə/,de gud is not important jier.,El bien no es importante aquí.
 Is the good important here?,/ɪz ðə ɡʊd ɪmˈpɔːtənt hɪə/,is de gud important jier?,¿Es importante el bien aquí?
-Where is the good important?,/wɛə ɪz ðə ɡʊd ɪmˈpɔːtənt/,uier is de gud important?,¿Dónde es importante el bien?
+Why is the good important here?,/waɪ ɪz ðə ɡʊd ɪmˈpɔːtənt hɪə/,guai is de gud important jir?,¿Por qué es importante el bien aquí?
 The good was important here.,/ðə ɡʊd wɒz ɪmˈpɔːtənt hɪə/,de gud uoz important jier.,El bien era importante aquí.
 The vampire is in the house.,/ðə ˈvæmpaɪə ɪz ɪn ðə haʊs/,de vampair is in de jaus.,El vampiro está en la casa.
 The witch has a cat.,/ðə wɪtʃ hæz ə kæt/,de guich jas a kat.,La bruja tiene un gato.
@@ -9812,7 +9814,7 @@ I liked this type.,/aɪ laɪkt ðɪs taɪp/,ai laikt dis taip.,Me gustó este ti
 It is very urgent.,/ɪt ɪz ˈvɛri ˈɜːrdʒənt/,it is veri urdyent.,Es muy urgente.
 It isn't very urgent.,/ɪt ˈɪznt ˈvɛri ˈɜːrdʒənt/,it isent veri urdyent.,No es muy urgente.
 Is it very urgent?,/ɪz ɪt ˈvɛri ˈɜːrdʒənt/,is it veri urdyent?,¿Es muy urgente?
-When is it very urgent?,/wen ɪz ɪt ˈvɛri ˈɜːrdʒənt/,guen is it veri urdyent?,¿Cuándo es muy urgente?
+Why is it very urgent?,/waɪ ɪz ɪt ˈveri ˈɜːdʒənt/,uái iz it véri érchent?,¿Por qué es muy urgente?
 It was very urgent.,/ɪt wɒz ˈvɛri ˈɜːrdʒənt/,it woz veri urdyent.,Era muy urgente.
 He needs it urgently.,/hiː niːdz ɪt ˈɜːrdʒəntli/,ji nidz it urdyentli.,Él lo necesita urgentemente.
 The utility is high.,/ðə juːˈtɪləti ɪz haɪ/,de yutiliti is jai.,La utilidad es alta.
@@ -9823,7 +9825,7 @@ I need more time.,/aɪ niːd mɔːr taɪm/,ai nid mor taim.,Necesito más tiempo
 It is very ancient.,/ɪt ɪz ˈvɛri ˈeɪnʃənt/,it is veri eishent.,Es muy antiguo.
 It isn't very ancient.,/ɪt ˈɪznt ˈvɛri ˈeɪnʃənt/,it isent veri eishent.,No es muy antiguo.
 Is it very ancient?,/ɪz ɪt ˈvɛri ˈeɪnʃənt/,is it veri eishent?,¿Es muy antiguo?
-Where is this ancient place?,/weər ɪz ðɪs ˈeɪnʃənt pleɪs/,guer is dis eishent pleis?,¿Dónde está este lugar antiguo?
+Why is it very ancient?,/waɪ ɪz ɪt ˈveri ˈeɪnʃənt/,uái iz it véri éinshent?,¿Por qué es muy antiguo?
 It was very ancient.,/ɪt wɒz ˈvɛri ˈeɪnʃənt/,it woz veri eishent.,Era muy antiguo.
 It is artificial.,/ɪt ɪz ˌɑːrtɪˈfɪʃl/,it is artifiSHial.,Es artificial.
 Sit in the back.,/sɪt ɪn ðə bæk/,sit in de bak.,Siéntate atrás.
@@ -9864,7 +9866,7 @@ The rain is continuous.,/ðə reɪn ɪz kənˈtɪnjuəs/,de rein is continuous.,
 It is very convenient.,/ɪt ɪz ˈvɛri kənˈviːniənt/,it is veri convenient.,Es muy conveniente.
 It isn't very convenient.,/ɪt ˈɪznt ˈvɛri kənˈviːniənt/,it isent veri convenient.,No es muy conveniente.
 Is it very convenient?,/ɪz ɪt ˈvɛri kənˈviːniənt/,is it veri convenient?,¿Es muy conveniente?
-Which convenient option is it?,/wɪtʃ kənˈviːniənt ˈɒpʃən ɪz ɪt/,guich convenient opshon is it?,¿Cuál opción conveniente es?
+Why is it very convenient?,/waɪ ɪz ɪt ˈveri kənˈviːniənt/,uái iz it véri konvíniient?,¿Por qué es muy conveniente?
 It was very convenient.,/ɪt wɒz ˈvɛri kənˈviːniənt/,it woz veri convenient.,Era muy conveniente.
 Today is cool.,/təˈdeɪ ɪz kuːl/,tudei is cul.,Hoy hace fresco.
 The dog is dangerous.,/ðə dɒɡ ɪz ˈdeɪndʒərəs/,de dog is dangerous.,El perro es peligroso.
@@ -9882,7 +9884,7 @@ The clothes are dry.,/ðə kloʊðz ɑːr draɪ/,de clous ar drai.,La ropa está
 It is very easy.,/ɪt ɪz ˈvɛri ˈiːzi/,it is veri isi.,Es muy fácil.
 It is not very easy.,/ɪt ɪz nɒt ˈvɛri ˈiːzi/,it is not veri isi.,No es muy fácil.
 Is it very easy?,/ɪz ɪt ˈvɛri ˈiːzi/,is it veri isi?,¿Es muy fácil?
-When is it very easy?,/wen ɪz ɪt ˈvɛri ˈiːzi/,guen is it veri isi?,¿Cuándo es muy fácil?
+Why is it very easy?,/waɪ ɪz ɪt ˈveri ˈiːzi/,uái iz it véri ísi?,¿Por qué es muy fácil?
 It was very easy.,/ɪt wɒz ˈvɛri ˈiːzi/,it guoz veri isi.,Era muy fácil.
 The glass is empty.,/ðə ɡlæs ɪz ˈɛmpti/,de glas is empi.,El vaso está vacío.
 It is the exact amount.,/ɪt ɪz ðiː ɪɡˈzækt əˈmaʊnt/,it is de igzact amaunt.,Es la cantidad exacta.
@@ -9979,7 +9981,7 @@ The man is destitute.,/ðə mæn ɪz ˈdɛstɪtjuːt/,de man is destitut.,El hom
 I like the present time.,/aɪ laɪk ðə ˈprɛzənt taɪm/,ai laik de present taim.,Me gusta el tiempo presente.
 I do not like the present time.,/aɪ duː nɒt laɪk ðə ˈprɛzənt taɪm/,ai du not laik de present taim.,No me gusta el tiempo presente.
 Do you like the present time?,/duː juː laɪk ðə ˈprɛzənt taɪm/,du iu laik de present taim?,¿Te gusta el tiempo presente?
-When is the present time?,/wɛn ɪz ðə ˈprɛzənt taɪm/,guen is de present taim?,¿Cuándo es el tiempo presente?
+Why do you like the present time?,/waɪ duː juː laɪk ðə ˈpreznt taɪm/,uái du yu laik de préznt táim?,¿Por qué te gusta la época actual?
 I liked the present time.,/aɪ laɪkt ðə ˈprɛzənt taɪm/,ai laikt de present taim.,Me gustó el tiempo presente.
 He had a previous job.,/hiː hæd ə ˈpriːviəs dʒɒb/,ji jad a previos yob.,Él tenía un trabajo anterior.
 This is the principal street.,/ðɪs ɪz ðə ˈprɪnsəpl striːt/,dis is de principal strit.,Esta es la calle principal.
@@ -10045,7 +10047,7 @@ This fruit is tasty.,/ðɪs fruːt ɪz ˈteɪsti/,dis frut is teisti.,Esta fruta
 She is very tender.,/ʃiː ɪz ˈvɛri ˈtɛndə/,shi is veri tander.,Ella es muy tierna.
 She is not very tender.,/ʃiː ɪz nɒt ˈvɛri ˈtɛndə/,shi is not veri tander.,Ella no es muy tierna.
 Is she very tender?,/ɪz ʃiː ˈvɛri ˈtɛndə/,is shi veri tander?,¿Es ella muy tierna?
-How is she very tender?,/haʊ ɪz ʃiː ˈvɛri ˈtɛndə/,jau is shi veri tander?,¿Cómo es ella muy tierna?
+Why is she very tender?,/waɪ ɪz ʃi ˈveri ˈtendə/,uái iz shi véri ténder?,¿Por qué es ella muy tierna?
 She was very tender.,/ʃiː wɒz ˈvɛri ˈtɛndə/,shi woz veri tander.,Ella era muy tierna.
 It is the highest mountain.,/ɪt ɪz ðə ˈhaɪɪst ˈmaʊntɪn/,it is de jaitest mauntin.,Es la montaña más alta.
 This is the most important thing.,/ðɪs ɪz ðə məʊst ɪmˈpɔːtənt θɪŋ/,dis is de most important zing.,Esto es lo más importante.
@@ -10301,12 +10303,12 @@ She hangs the picture.,/ʃiː hæŋz ðə ˈpɪktʃər/,shi jangs de pichter.,El
 I have a new bike.,/aɪ hæv ə nuː baɪk/,ai jav a nu bike.,Tengo una bicicleta nueva.
 I don't have a new bike.,/aɪ dəʊnt hæv ə nuː baɪk/,ai dount jav a nu bike.,No tengo una bicicleta nueva.
 Do you have a new bike?,/duː juː hæv ə nuː baɪk/,du iu jav a nu bike?,¿Tienes una bicicleta nueva?
-Which new bike do you have?,/wɪtʃ nuː baɪk duː juː hæv/,uich nu bike du iu jav?,¿Qué bicicleta nueva tienes?
+What does your new bike look like?,/wɒt dəz jɔː njuː baɪk lʊk laɪk/,uot daz yor niu baik luk laik?,¿Cómo es tu bicicleta nueva?
 I had a new bike.,/aɪ hæd ə nuː baɪk/,ai jad a nu bike.,Tenía una bicicleta nueva.
 I have a try at it.,/aɪ hæv ə traɪ æt ɪt/,ai jav a trai at it.,Lo intento.
 I don't have a try at it.,/aɪ dəʊnt hæv ə traɪ æt ɪt/,ai dount jav a trai at it.,No lo intento.
 Do you have a try at it?,/duː juː hæv ə traɪ æt ɪt/,du iu jav a trai at it?,¿Lo intentas?
-What do you have a try at?,/wɒt duː juː hæv ə traɪ æt/,uot du iu jav a trai at?,¿Qué intentas?
+Why do you have a try at it?,/waɪ duː juː hæv ə traɪ æt ɪt/,uái du yu jav a trái at it?,¿Por qué lo intentas?
 I had a try at it.,/aɪ hæd ə traɪ æt ɪt/,ai jad a trai at it.,Lo intenté.
 We have breakfast at home.,/wiː hæv ˈbrɛkfəst æt hoʊm/,ui jav brekfost at jom.,Desayunamos en casa.
 They have dinner early.,/ðeɪ hæv ˈdɪnər ˈɜːrli/,dei jav dinner erli.,Cenan temprano.
@@ -10330,7 +10332,7 @@ I hurry to the school.,/aɪ ˈhʌri tuː ðə skuːl/,ai jari tu de scul.,Voy r�
 I imagine a big house.,/aɪ ɪˈmædʒɪn ə bɪg haʊs/,ai imachin a big jaus.,Imagino una casa grande.
 I don't imagine a big house.,/aɪ dəʊnt ɪˈmædʒɪn ə bɪg haʊs/,ai dount imachin a big jaus.,No imagino una casa grande.
 Do you imagine a big house?,/duː juː ɪˈmædʒɪn ə bɪg haʊs/,du iu imachin a big jaus?,¿Imaginas una casa grande?
-How do you imagine a big house?,/haʊ duː juː ɪˈmædʒɪn ə bɪg haʊs/,jau du iu imachin a big jaus?,¿Cómo imaginas una casa grande?
+Why do you imagine a big house?,/waɪ duː juː ɪˈmædʒɪn ə bɪɡ haʊs/,uái du yu imádyin a big jáus?,¿Por qué imaginas una casa grande?
 I imagined a big house.,/aɪ ɪˈmædʒɪnd ə bɪg haʊs/,ai imachind a big jaus.,Imaginé una casa grande.
 The bird imitates the song.,/ðə bɜːrd ˈɪmɪteɪts ðə sɒŋ/,de berd imiteits de song.,El pájaro imita la canción.
 I implore you for help.,/aɪ ɪmˈplɔːr juː fɔː hɛlp/,ai implor yu for jelp.,Te suplico ayuda.
@@ -10506,7 +10508,6 @@ I rub off the mark.,/aɪ rʌb ɒf ðə mɑːrk/,ai rab of de mark.,Borro la marc
 He runs fast.,/hiː rʌnz fæst/,ji rans fast.,Él corre rápido.
 He does not run fast.,/hiː dʌz nɒt rʌn fɑːst/,ji das not ran fast.,Él no corre rápido.
 Does he run fast?,/dʌz hiː rʌn fɑːst/,das ji ran fast?,¿Él corre rápido?
-How fast does he run?,/haʊ fɑːst dʌz hiː rʌn/,jau fast das ji ran?,¿Qué tan rápido corre él?
 He ran fast.,/hiː ræn fɑːst/,ji ran fast.,Él corrió rápido.
 The food satisfies me.,/ðə fuːd ˈsætɪsfaɪz miː/,de fud satis-fais mi.,La comida me satisface.
 They save the cat.,/ðeɪ seɪv ðə kæt/,dei seiv de kat.,Ellos salvan al gato.
