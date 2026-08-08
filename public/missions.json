@@ -1,0 +1,33 @@
+[
+ {
+  "id": "M01",
+  "title": "Comprar salchichas para cocinar",
+  "start": "Tu casa",
+  "goal": "Volver a casa con las salchichas que querías, habiendo resuelto la compra entera hablando.",
+  "scenes": [
+   {
+    "title": "Salir de casa",
+    "questions": [
+     "¿Hay alguien en casa cuando sales? Si hay alguien, ¿qué le dices exactamente al salir?",
+     "¿A qué tipo de tienda vas (súper grande, carnicería de barrio...)? ¿Vas andando, en coche...? Dilo como se lo contarías a alguien."
+    ]
+   },
+   {
+    "title": "En la tienda",
+    "questions": [
+     "Entras en la tienda. ¿Saludas? ¿Qué dices exactamente?",
+     "¿Las salchichas las coges tú de la nevera o las pides en mostrador? Di palabra por palabra cómo las pedirías.",
+     "No ves las salchichas que quieres. ¿Qué le preguntas al dependiente?",
+     "El dependiente te pregunta cuántas quieres o de qué tipo. ¿Qué le respondes?"
+    ]
+   },
+   {
+    "title": "Pagar y volver",
+    "questions": [
+     "Vas a pagar. ¿Qué se dice en tu compra real? (tarjeta o efectivo, la bolsa, el saludo de despedida...)",
+     "Llegas a casa con las salchichas. ¿Qué dices al entrar?"
+    ]
+   }
+  ]
+ }
+]

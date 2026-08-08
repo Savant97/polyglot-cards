@@ -1,12 +1,13 @@
 ﻿
 import React, { useState, useEffect, useCallback, useMemo, useRef } from 'react';
-import { EnchartGrid, FlashcardData, SrsGrade, SrsStore, ViewMode } from './types';
+import { EnchartGrid, FlashcardData, MissionScript, SrsGrade, SrsStore, ViewMode } from './types';
 import { parseCSV } from './utils/csvParser';
 import { buildQueue, cardKey, countQueue, intervalLabel, schedule, todayIndex } from './utils/srs';
 import { DEFAULT_CSV_DATA } from './constants';
 import Flashcard from './components/Flashcard';
 import Settings from './components/Settings';
 import Enchart from './components/Enchart';
+import Mission from './components/Mission';
 
 // Not every engine exposes speech (some WebViews, headless browsers). Touching it
 // unguarded took the whole app down with a blank screen.
@@ -107,13 +108,18 @@ const App: React.FC = () => {
   const [queuePos, setQueuePos] = useState(0);
   const [isRevealed, setIsRevealed] = useState(false);
 
-  // --- Enchart grids (static JSON, precached by the PWA) ---
+  // --- Enchart grids + mission scripts (static JSON, precached by the PWA) ---
   const [encharts, setEncharts] = useState<EnchartGrid[]>([]);
+  const [missions, setMissions] = useState<MissionScript[]>([]);
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}encharts.json`)
       .then(r => (r.ok ? r.json() : []))
       .then(setEncharts)
       .catch(() => setEncharts([]));
+    fetch(`${import.meta.env.BASE_URL}missions.json`)
+      .then(r => (r.ok ? r.json() : []))
+      .then(setMissions)
+      .catch(() => setMissions([]));
   }, []);
 
   const isInZen = isFullscreen || isZenMode;
@@ -291,19 +297,26 @@ const App: React.FC = () => {
             <span className="font-bold text-xs tracking-widest text-[#93a1a1]">POLYCARDS</span>
           </div>
           <div className="flex items-center gap-2 pointer-events-auto">
+            {missions.length > 0 && (
+              <button aria-label="Missions" onClick={() => setViewMode(viewMode === ViewMode.MISSION ? ViewMode.STUDY : ViewMode.MISSION)} className={`p-3 rounded-2xl shadow-sm border border-[#decba4]/20 transition-all group ${viewMode === ViewMode.MISSION ? 'bg-[#cb4b16]/15' : 'bg-[#eee8d5] hover:bg-[#decba4]/40'}`}>
+                <svg className={`w-5 h-5 transition-colors ${viewMode === ViewMode.MISSION ? 'text-[#cb4b16]' : 'text-[#93a1a1] group-hover:text-[#586e75]'}`} fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M7 4a3 3 0 016 0v4a3 3 0 11-6 0V4zm4 10.93A7.001 7.001 0 0017 8a1 1 0 10-2 0A5 5 0 015 8a1 1 0 00-2 0 7.001 7.001 0 006 6.93V17H6a1 1 0 100 2h8a1 1 0 100-2h-3v-2.07z" />
+                </svg>
+              </button>
+            )}
             {encharts.length > 0 && (
-              <button onClick={() => setViewMode(viewMode === ViewMode.ENCHART ? ViewMode.STUDY : ViewMode.ENCHART)} className={`p-3 rounded-2xl shadow-sm border border-[#decba4]/20 transition-all group ${viewMode === ViewMode.ENCHART ? 'bg-[#268bd2]/15' : 'bg-[#eee8d5] hover:bg-[#decba4]/40'}`}>
+              <button aria-label="Encharts" onClick={() => setViewMode(viewMode === ViewMode.ENCHART ? ViewMode.STUDY : ViewMode.ENCHART)} className={`p-3 rounded-2xl shadow-sm border border-[#decba4]/20 transition-all group ${viewMode === ViewMode.ENCHART ? 'bg-[#268bd2]/15' : 'bg-[#eee8d5] hover:bg-[#decba4]/40'}`}>
                 <svg className={`w-5 h-5 transition-colors ${viewMode === ViewMode.ENCHART ? 'text-[#268bd2]' : 'text-[#93a1a1] group-hover:text-[#586e75]'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
                 </svg>
               </button>
             )}
-            <button onClick={toggleFullscreen} className="p-3 rounded-2xl bg-[#eee8d5] shadow-sm border border-[#decba4]/20 hover:bg-[#decba4]/40 transition-all group">
+            <button aria-label="Fullscreen" onClick={toggleFullscreen} className="p-3 rounded-2xl bg-[#eee8d5] shadow-sm border border-[#decba4]/20 hover:bg-[#decba4]/40 transition-all group">
               <svg className="w-5 h-5 text-[#93a1a1] group-hover:text-[#586e75] transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3" />
               </svg>
             </button>
-            <button onClick={() => setViewMode(ViewMode.SETTINGS)} className="p-3 rounded-2xl bg-[#eee8d5] shadow-sm border border-[#decba4]/20 hover:bg-[#decba4]/40 transition-all group">
+            <button aria-label="Settings" onClick={() => setViewMode(ViewMode.SETTINGS)} className="p-3 rounded-2xl bg-[#eee8d5] shadow-sm border border-[#decba4]/20 hover:bg-[#decba4]/40 transition-all group">
               <svg className="w-5 h-5 text-[#93a1a1] group-hover:text-[#586e75] transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
             </button>
           </div>
@@ -438,6 +451,10 @@ const App: React.FC = () => {
 
         {viewMode === ViewMode.ENCHART && (
           <Enchart grids={encharts} ttsRate={ttsRate} ttsPitch={ttsPitch} onClose={() => setViewMode(ViewMode.STUDY)} />
+        )}
+
+        {viewMode === ViewMode.MISSION && (
+          <Mission missions={missions} onClose={() => setViewMode(ViewMode.STUDY)} />
         )}
 
         {viewMode === ViewMode.SETTINGS && (

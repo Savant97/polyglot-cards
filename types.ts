@@ -30,7 +30,18 @@ export enum ViewMode {
   STUDY = 'STUDY',
   SETTINGS = 'SETTINGS',
   LIST = 'LIST',
-  ENCHART = 'ENCHART'
+  ENCHART = 'ENCHART',
+  MISSION = 'MISSION'
+}
+
+// A mission interview script (public/missions.json): the Spanish simulation
+// whose answers become an English "lab" island.
+export interface MissionScript {
+  id: string;
+  title: string;
+  start: string;
+  goal: string;
+  scenes: { title: string; questions: string[] }[];
 }
 
 // One Velocity-style substitution grid mined from the deck (public/encharts.json).
