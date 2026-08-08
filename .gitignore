@@ -25,3 +25,6 @@ dist-ssr
 
 dev-dist
 nul
+
+__pycache__/
+*.pyc
