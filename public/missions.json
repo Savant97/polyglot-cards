@@ -29,5 +29,82 @@
     ]
    }
   ]
+ },
+ {
+  "id": "M02",
+  "title": "Pedir en un restaurante",
+  "start": "La puerta del restaurante",
+  "goal": "Cenar lo que realmente querías: mesa, bebida, plato, un cambio o pregunta sobre la carta, y la cuenta.",
+  "scenes": [
+   {
+    "title": "Llegar y sentarse",
+    "questions": [
+     "Entras al restaurante. ¿Qué le dices al camarero para conseguir mesa? Di exactamente lo que pedirías (¿para cuántos?).",
+     "El camarero te lleva a una mesa que no te gusta (al lado del baño). ¿Qué le dices para pedir otra?"
+    ]
+   },
+   {
+    "title": "Pedir",
+    "questions": [
+     "Te trae la carta y te pregunta qué quieres beber. ¿Qué pides, con tus palabras exactas?",
+     "Ahora el plato: pide lo que pedirías de verdad, educadamente, como se lo dirías al camarero.",
+     "Quieres un cambio (sin cebolla, la carne muy hecha, salsa aparte...). ¿Cómo lo pides?",
+     "Hay algo en la carta que no entiendes. ¿Qué le preguntas al camarero?"
+    ]
+   },
+   {
+    "title": "La cuenta",
+    "questions": [
+     "Terminas y quieres pagar. ¿Qué dices para pedir la cuenta?",
+     "Te pregunta si estaba todo bien. ¿Qué respondes?"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "M03",
+  "title": "Una llamada: ¿qué estás haciendo?",
+  "start": "Tu sofá, suena el teléfono",
+  "goal": "Mantener una llamada corta contando qué estás haciendo ahora mismo y qué está haciendo la gente de tu casa.",
+  "scenes": [
+   {
+    "title": "Contestar",
+    "questions": [
+     "Te llama un amigo. Contestas el teléfono: ¿qué dices?",
+     "Te pregunta qué estás haciendo AHORA MISMO. Responde con la verdad de un martes por la tarde cualquiera."
+    ]
+   },
+   {
+    "title": "Contar el momento",
+    "questions": [
+     "¿Qué está haciendo ahora mismo cada persona (o mascota) de tu casa? Cuéntaselo.",
+     "Le preguntas tú: ¿qué está haciendo él? ¿Y dónde está? Haz las dos preguntas.",
+     "Te dice que está cocinando y se le está quemando algo. Reacciona y despídete rápido."
+    ]
+   }
+  ]
+ },
+ {
+  "id": "M04",
+  "title": "Planear el fin de semana",
+  "start": "Jueves por la noche, con tu pareja o un amigo",
+  "goal": "Dejar el fin de semana planeado hablando: qué vais a hacer, cuándo y qué hará falta.",
+  "scenes": [
+   {
+    "title": "Proponer el plan",
+    "questions": [
+     "¿Qué vas a hacer este sábado? Dilo como plan decidido, no como deseo.",
+     "Propónselo a la otra persona: pregúntale si se apunta y cuándo quedáis."
+    ]
+   },
+   {
+    "title": "Los detalles",
+    "questions": [
+     "¿Qué vais a necesitar llevar o comprar antes? Dilo pensando en voz alta.",
+     "¿Y el domingo? Cuenta qué vas a hacer el domingo (aunque sea no hacer nada).",
+     "La otra persona no puede el sábado por la mañana. Cambia el plan hablando: ¿qué le propones?"
+    ]
+   }
+  ]
  }
 ]
