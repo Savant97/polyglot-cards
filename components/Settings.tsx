@@ -22,6 +22,10 @@ interface SettingsProps {
   onSetVoicePreference: (lang: string, voiceName: string) => void;
   shuffle: boolean;
   setShuffle: (val: boolean) => void;
+  islands: { name: string; count: number }[];
+  island: string;
+  setIsland: (val: string) => void;
+  deckSize: number;
   srsMode: boolean;
   setSrsMode: (val: boolean) => void;
   newPerDay: number;
@@ -56,6 +60,7 @@ const Settings: React.FC<SettingsProps> = ({
   ttsRate, setTtsRate, ttsPitch, setTtsPitch,
   availableVoices, voicePreferences, onSetVoicePreference,
   shuffle, setShuffle, onCsvImport, onReset,
+  islands, island, setIsland, deckSize,
   srsMode, setSrsMode, newPerDay, setNewPerDay, frontColumn, setFrontColumn,
   srsDue, srsFresh, srsLearned, onResetSrs,
   totalCards, currentIndex, onJumpToIndex, onClose
@@ -104,6 +109,18 @@ const Settings: React.FC<SettingsProps> = ({
           <label className="text-[10px] font-black text-[#586e75] uppercase tracking-widest">Jump to Card</label>
           <input type="number" value={currentIndex + 1} onChange={e => onJumpToIndex(parseInt(e.target.value) - 1)} className="w-20 bg-[#fdf6e3] border border-[#decba4]/30 rounded-xl px-3 py-2 text-center text-xs font-black text-[#268bd2] focus:outline-none focus:ring-1 focus:ring-[#268bd2]" />
         </div>
+
+        {/* Language island: one theme is the whole deck until switched off */}
+        {islands.length > 0 && (
+          <div className="p-5 bg-[#eee8d5] rounded-3xl border border-[#decba4]/20 space-y-2">
+            <label className="text-[10px] font-black text-[#586e75] uppercase tracking-widest">Island</label>
+            <select value={island} onChange={e => setIsland(e.target.value)} className="w-full bg-[#fdf6e3] border border-[#decba4]/30 rounded-xl px-4 py-2.5 text-[10px] font-bold text-[#586e75] outline-none">
+              <option value="">All islands ({deckSize} cards)</option>
+              {islands.map(i => <option key={i.name} value={i.name}>{i.name} ({i.count})</option>)}
+            </select>
+            <p className="text-[9px] text-[#93a1a1] ml-1">Filters every mode. Review history is kept per card, not per island.</p>
+          </div>
+        )}
 
         {/* Spaced repetition */}
         <div className="p-6 bg-[#eee8d5]/40 rounded-[32px] border border-[#decba4]/20 space-y-6">

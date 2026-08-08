@@ -18,9 +18,9 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['icons/*.png'],
       workbox: {
-        // The app makes no network calls at runtime, so precaching the shell
-        // is the whole offline story.
-        globPatterns: ['**/*.{js,css,html,woff2}'],
+        // The app makes no network calls at runtime except the enchart grids
+        // JSON, so precaching the shell + json is the whole offline story.
+        globPatterns: ['**/*.{js,css,html,woff2,json}'],
       },
       manifest: {
         name: 'PolyCards - Custom Language Learning',

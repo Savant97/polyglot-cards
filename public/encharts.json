@@ -1,0 +1,5336 @@
+[
+ {
+  "id": "E001",
+  "topic": "student / person / boy",
+  "source_rows": "60-119",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "need to",
+   "like to",
+   "want to"
+  ],
+  "vp": [
+   "take the sixth bus",
+   "win the eighth game",
+   "divide the cake",
+   "see the number ten"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "needs to",
+   "likes to",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "tomar el sexto autobús",
+   "ganar el octavo juego",
+   "repartir el pastel",
+   "ver el número diez"
+  ]
+ },
+ {
+  "id": "E002",
+  "topic": "books / math / remainder",
+  "source_rows": "120-179",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "can",
+   "want to",
+   "need to"
+  ],
+  "vp": [
+   "use a formula for math",
+   "count the books",
+   "compare the books",
+   "eat the remainder"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "can",
+   "wants to",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "usar una fórmula para matemáticas",
+   "contar los libros",
+   "comparar los libros",
+   "comer el resto"
+  ]
+ },
+ {
+  "id": "E003",
+  "topic": "dog / car / book",
+  "source_rows": "180-239",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "hope to",
+   "like to",
+   "love to"
+  ],
+  "vp": [
+   "dig the hole",
+   "discuss the plan",
+   "drop the ball",
+   "explain the word"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "hopes to",
+   "likes to",
+   "loves to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "cavar el hoyo",
+   "discutir el plan",
+   "soltar la pelota",
+   "explicar la palabra"
+  ]
+ },
+ {
+  "id": "E004",
+  "topic": "word / book / boy",
+  "source_rows": "240-299",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "prefer to",
+   "will",
+   "can"
+  ],
+  "vp": [
+   "plan a trip",
+   "pronounce the word",
+   "propose a new plan",
+   "punish the dog"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "in the park",
+   "at home"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "prefers to",
+   "will",
+   "can"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "planear un viaje",
+   "pronunciar la palabra",
+   "proponer un nuevo plan",
+   "castigar al perro"
+  ]
+ },
+ {
+  "id": "E005",
+  "topic": "day / after / before",
+  "source_rows": "480-539",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "want to",
+   "need to",
+   "like to"
+  ],
+  "vp": [
+   "go the next day",
+   "wait a second",
+   "watch the sunset",
+   "play this afternoon"
+  ],
+  "adjunct": [
+   "tomorrow",
+   "today",
+   "now",
+   "at night"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "wants to",
+   "needs to",
+   "likes to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "ir al día siguiente",
+   "esperar un segundo",
+   "ver el atardecer",
+   "jugar esta tarde"
+  ]
+ },
+ {
+  "id": "E006",
+  "topic": "year / flowers / day",
+  "source_rows": "540-599",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "love to",
+   "have to",
+   "want to"
+  ],
+  "vp": [
+   "wear a fall coat",
+   "rain the whole month",
+   "read a monthly magazine",
+   "pay the rent monthly"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "in winter"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "loves to",
+   "has to",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "usar un abrigo de otoño",
+   "llover todo el mes",
+   "leer una revista mensual",
+   "pagar la renta mensualmente"
+  ]
+ },
+ {
+  "id": "E007",
+  "topic": "line / trapezoid / cube",
+  "source_rows": "720-779",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "want to",
+   "need to",
+   "like to",
+   "have to"
+  ],
+  "vp": [
+   "measure the perimeter",
+   "draw a line",
+   "cut the segment",
+   "check the map scale"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "on the table"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "wants to",
+   "needs to",
+   "likes to",
+   "has to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "medir el perímetro",
+   "dibujar una línea",
+   "cortar el segmento",
+   "revisar la escala del mapa"
+  ]
+ },
+ {
+  "id": "E008",
+  "topic": "box / bottle / shirt",
+  "source_rows": "780-839",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "have to",
+   "want to",
+   "can"
+  ],
+  "vp": [
+   "open the can",
+   "fill the bucket",
+   "use the red jerrycan",
+   "hold a wineglass"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "has to",
+   "wants to",
+   "can"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "abrir la lata",
+   "llenar el balde",
+   "usar el bidón rojo",
+   "sostener una copa de vino"
+  ]
+ },
+ {
+  "id": "E009",
+  "topic": "pipe / alloy / ring",
+  "source_rows": "840-899",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "have to",
+   "can",
+   "want to"
+  ],
+  "vp": [
+   "drive a silver car",
+   "see a copper wire",
+   "use an aluminum pan",
+   "protect the brain"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "has to",
+   "can",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "manejar un auto plateado",
+   "ver un cable de cobre",
+   "usar una olla de aluminio",
+   "proteger el cerebro"
+  ]
+ },
+ {
+  "id": "E010",
+  "topic": "head / beard / hand",
+  "source_rows": "900-959",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "like to",
+   "want to",
+   "need to"
+  ],
+  "vp": [
+   "wash your genitals",
+   "open your mouth",
+   "close your eyelid",
+   "brush your tooth"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "likes to",
+   "wants to",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "lavar tus genitales",
+   "abrir la boca",
+   "cerrar el párpado",
+   "cepillarte el diente"
+  ]
+ },
+ {
+  "id": "E011",
+  "topic": "jacket / mark / coat",
+  "source_rows": "960-1019",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "like to",
+   "need to",
+   "want to"
+  ],
+  "vp": [
+   "hold the baby",
+   "wear a fur coat",
+   "use a raincoat",
+   "buy a new pullover"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "likes to",
+   "needs to",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "cargar al bebé",
+   "usar un abrigo de piel",
+   "usar un impermeable",
+   "comprar un suéter nuevo"
+  ]
+ },
+ {
+  "id": "E012",
+  "topic": "hat / suit / cap",
+  "source_rows": "1020-1079",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "need to",
+   "like to",
+   "have to",
+   "want to"
+  ],
+  "vp": [
+   "wear a big hat",
+   "see a panama hat",
+   "use a hard hat",
+   "put the shoe polish"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "at home",
+   "in winter"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "needs to",
+   "likes to",
+   "has to",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "usar un sombrero grande",
+   "ver un sombrero de Panamá",
+   "usar un casco",
+   "poner el betún"
+  ]
+ },
+ {
+  "id": "E013",
+  "topic": "button / tie / handkerchief",
+  "source_rows": "1080-1139",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "need to",
+   "can",
+   "have to"
+  ],
+  "vp": [
+   "use the comb",
+   "wear a barrette",
+   "fix the zipper",
+   "put the button"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "needs to",
+   "can",
+   "has to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "usar el peine",
+   "usar un pasador",
+   "arreglar la cremallera",
+   "poner el botón"
+  ]
+ },
+ {
+  "id": "E014",
+  "topic": "necklace / cream / ring",
+  "source_rows": "1140-1199",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "need to",
+   "have to",
+   "can"
+  ],
+  "vp": [
+   "use this day cream",
+   "buy a tampon",
+   "see the hallmark",
+   "wear a bracelet"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "needs to",
+   "has to",
+   "can"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "usar esta crema de día",
+   "comprar un tampón",
+   "ver la marca de garantía",
+   "usar una pulsera"
+  ]
+ },
+ {
+  "id": "E015",
+  "topic": "sausage / egg / white",
+  "source_rows": "1200-1259",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "want to",
+   "have to",
+   "need to"
+  ],
+  "vp": [
+   "see a crab",
+   "eat a cucumber",
+   "cut the onion",
+   "buy a cabbage"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "wants to",
+   "has to",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "ver un cangrejo",
+   "comer un pepino",
+   "cortar la cebolla",
+   "comprar un repollo"
+  ]
+ },
+ {
+  "id": "E016",
+  "topic": "radish / dill / vegetable",
+  "source_rows": "1260-1319",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "have to",
+   "want to",
+   "need to"
+  ],
+  "vp": [
+   "eat a radish",
+   "see a red cherry",
+   "find a bilberry",
+   "buy a hazelnut"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "has to",
+   "wants to",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "comer un rábano",
+   "ver una cereza roja",
+   "encontrar un arándano",
+   "comprar una avellana"
+  ]
+ },
+ {
+  "id": "E017",
+  "topic": "dish / soup / cake",
+  "source_rows": "1320-1379",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "want to",
+   "need to",
+   "have to"
+  ],
+  "vp": [
+   "eat the jam",
+   "drink the broth",
+   "fry the egg",
+   "salt the soup"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "wants to",
+   "needs to",
+   "has to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "comer la mermelada",
+   "tomar el caldo",
+   "freír el huevo",
+   "salar la sopa"
+  ]
+ },
+ {
+  "id": "E018",
+  "topic": "meal / day / appetite",
+  "source_rows": "1380-1439",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "like to",
+   "love to",
+   "want to"
+  ],
+  "vp": [
+   "eat an apple",
+   "enjoy your meal",
+   "spill the water",
+   "chill the juice"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "on the table",
+   "at school"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "likes to",
+   "loves to",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "comer una manzana",
+   "disfrutar la comida",
+   "derramar el agua",
+   "enfriar el jugo"
+  ]
+ },
+ {
+  "id": "E019",
+  "topic": "man / neighbor / acquaintance",
+  "source_rows": "1500-1559",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "love to",
+   "want to",
+   "like to",
+   "need to"
+  ],
+  "vp": [
+   "enjoy his youth",
+   "change the diaper",
+   "push the baby carriage",
+   "kiss the baby"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "loves to",
+   "wants to",
+   "likes to",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "disfrutar su juventud",
+   "cambiar el pañal",
+   "empujar la carriola",
+   "besar al bebé"
+  ]
+ },
+ {
+  "id": "E020",
+  "topic": "pill / nightmare / baby",
+  "source_rows": "1680-1739",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "like to",
+   "want to",
+   "need to"
+  ],
+  "vp": [
+   "take a sleeping pill",
+   "wake the baby",
+   "see your smile",
+   "hear a loud laugh"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "at night"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "likes to",
+   "wants to",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "tomar una pastilla para dormir",
+   "despertar al bebé",
+   "ver tu sonrisa",
+   "escuchar una carcajada"
+  ]
+ },
+ {
+  "id": "E021",
+  "topic": "conclusion / word / phrase",
+  "source_rows": "1740-1799",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "want to",
+   "need to",
+   "like to"
+  ],
+  "vp": [
+   "write a word",
+   "know the phrase",
+   "tell the truth",
+   "respect my parents"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "wants to",
+   "needs to",
+   "likes to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "escribir una palabra",
+   "saber la frase",
+   "decir la verdad",
+   "respetar a mis padres"
+  ]
+ },
+ {
+  "id": "E022",
+  "topic": "hint / look / dog",
+  "source_rows": "1800-1859",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "can",
+   "will",
+   "like to",
+   "have to"
+  ],
+  "vp": [
+   "blink my eyes",
+   "give his consent",
+   "show her approval",
+   "approve the new plan"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "can",
+   "will",
+   "likes to",
+   "has to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "parpadear",
+   "dar su consentimiento",
+   "mostrar su aprobación",
+   "aprobar el nuevo plan"
+  ]
+ },
+ {
+  "id": "E023",
+  "topic": "food / day / fight",
+  "source_rows": "1860-1919",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "like to",
+   "want to",
+   "try to"
+  ],
+  "vp": [
+   "praise the food",
+   "beg your pardon",
+   "give the money back",
+   "hate this food"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "likes to",
+   "wants to",
+   "tries to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "alabar la comida",
+   "pedir perdón",
+   "devolver el dinero",
+   "odiar esta comida"
+  ]
+ },
+ {
+  "id": "E024",
+  "topic": "injection / burn / injury",
+  "source_rows": "2040-2099",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "need to",
+   "have to",
+   "will",
+   "can"
+  ],
+  "vp": [
+   "deliver the baby",
+   "see a microbe",
+   "treat the sick",
+   "help the wound"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "needs to",
+   "has to",
+   "will",
+   "can"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "dar a luz",
+   "ver un microbio",
+   "tratar a los enfermos",
+   "curar la herida"
+  ]
+ },
+ {
+  "id": "E025",
+  "topic": "leg / tooth / pain",
+  "source_rows": "2100-2159",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "can",
+   "need to",
+   "like to",
+   "want to"
+  ],
+  "vp": [
+   "amputate the leg",
+   "extract the tooth",
+   "fill the tooth",
+   "see the nurse"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "can",
+   "needs to",
+   "likes to",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "amputar la pierna",
+   "extraer la muela",
+   "rellenar la muela",
+   "ver a la enfermera"
+  ]
+ },
+ {
+  "id": "E026",
+  "topic": "house / street / case",
+  "source_rows": "2160-2219",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "can",
+   "want to",
+   "need to",
+   "like to"
+  ],
+  "vp": [
+   "use a cigarette holder",
+   "light a cigarette",
+   "cross the street",
+   "see a big skyscraper"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "in the park"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "can",
+   "wants to",
+   "needs to",
+   "likes to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "usar una boquilla",
+   "encender un cigarrillo",
+   "cruzar la calle",
+   "ver un rascacielos grande"
+  ]
+ },
+ {
+  "id": "E027",
+  "topic": "store / help / man",
+  "source_rows": "2220-2279",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "need to",
+   "like to",
+   "want to",
+   "have to"
+  ],
+  "vp": [
+   "call the police for help",
+   "get a formal wear rental",
+   "find the movie rental store",
+   "visit the museum"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "needs to",
+   "likes to",
+   "wants to",
+   "has to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "llamar a la policía",
+   "rentar un traje formal",
+   "encontrar la tienda de alquiler de películas",
+   "visitar el museo"
+  ]
+ },
+ {
+  "id": "E028",
+  "topic": "sign / stop / notice",
+  "source_rows": "2280-2339",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "can",
+   "want to",
+   "need to"
+  ],
+  "vp": [
+   "read the notice",
+   "put the poster",
+   "follow the direction sign",
+   "see a warning sign"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "on the wall"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "can",
+   "wants to",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "leer el aviso",
+   "poner el póster",
+   "seguir la señal de dirección",
+   "ver una señal de advertencia"
+  ]
+ },
+ {
+  "id": "E029",
+  "topic": "taxi / subway / driver",
+  "source_rows": "2340-2399",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "try to",
+   "want to",
+   "need to"
+  ],
+  "vp": [
+   "take the subway",
+   "call a taxi",
+   "see a traffic jam",
+   "find my keys"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "tries to",
+   "wants to",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "tomar el metro",
+   "llamar a un taxi",
+   "ver un embotellamiento",
+   "encontrar mis llaves"
+  ]
+ },
+ {
+  "id": "E030",
+  "topic": "check / discount / bike",
+  "source_rows": "2400-2459",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "need to",
+   "want to",
+   "will"
+  ],
+  "vp": [
+   "rent a bike",
+   "deposit the check",
+   "use my credit card",
+   "write a check"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "needs to",
+   "wants to",
+   "will"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "rentar una bici",
+   "depositar el cheque",
+   "usar mi tarjeta de crédito",
+   "escribir un cheque"
+  ]
+ },
+ {
+  "id": "E031",
+  "topic": "house / letter / postcard",
+  "source_rows": "2460-2519",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "like to",
+   "want to",
+   "need to"
+  ],
+  "vp": [
+   "send a postcard",
+   "get a telegram",
+   "receive a gift",
+   "write your zip code"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "at home"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "likes to",
+   "wants to",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "enviar una postal",
+   "recibir un telegrama",
+   "recibir un regalo",
+   "escribir tu código postal"
+  ]
+ },
+ {
+  "id": "E032",
+  "topic": "bag / boxes / elevator",
+  "source_rows": "2520-2579",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "need to",
+   "want to",
+   "like to"
+  ],
+  "vp": [
+   "put the bag",
+   "use the freight elevator for boxes",
+   "take the elevator",
+   "read the electricity meter"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "at the door",
+   "on the wall"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "needs to",
+   "wants to",
+   "likes to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "poner la bolsa",
+   "usar el montacargas para las cajas",
+   "tomar el ascensor",
+   "leer el medidor de luz"
+  ]
+ },
+ {
+  "id": "E033",
+  "topic": "floor / swing / house",
+  "source_rows": "2580-2639",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "want to",
+   "need to",
+   "have to"
+  ],
+  "vp": [
+   "see the villa",
+   "clean the room",
+   "dust the furniture",
+   "use the vacuum cleaner"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "in the park"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "wants to",
+   "needs to",
+   "has to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "ver la villa",
+   "limpiar la habitación",
+   "sacudir los muebles",
+   "usar la aspiradora"
+  ]
+ },
+ {
+  "id": "E034",
+  "topic": "cloth / dustpan / cup",
+  "source_rows": "2640-2699",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "need to",
+   "have to",
+   "want to",
+   "like to"
+  ],
+  "vp": [
+   "use a dust cloth",
+   "put the cup",
+   "light the candle",
+   "close the drapes"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "on the table"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "needs to",
+   "has to",
+   "wants to",
+   "likes to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "usar un paño para el polvo",
+   "poner la taza",
+   "encender la vela",
+   "cerrar las cortinas"
+  ]
+ },
+ {
+  "id": "E035",
+  "topic": "soup / opener / teaspoon",
+  "source_rows": "2700-2759",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "need to",
+   "can",
+   "like to",
+   "want to"
+  ],
+  "vp": [
+   "use a tablespoon for rice",
+   "cut the meat with a knife",
+   "drink a glass of water",
+   "wash the pasta"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "on the table"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "needs to",
+   "can",
+   "likes to",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "usar una cuchara para el arroz",
+   "cortar la carne con un cuchillo",
+   "tomar un vaso de agua",
+   "lavar la pasta"
+  ]
+ },
+ {
+  "id": "E036",
+  "topic": "camera / console / cleaner",
+  "source_rows": "2760-2819",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "like to",
+   "can",
+   "want to"
+  ],
+  "vp": [
+   "play the video game console",
+   "use the video camera",
+   "take a photo with the camera",
+   "renovate the house"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "likes to",
+   "can",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "jugar la consola",
+   "usar la cámara de video",
+   "tomar una foto con la cámara",
+   "renovar la casa"
+  ]
+ },
+ {
+  "id": "E037",
+  "topic": "explosion / incendiary / crime",
+  "source_rows": "2820-2879",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "will",
+   "can",
+   "like to",
+   "need to"
+  ],
+  "vp": [
+   "call the fire department",
+   "climb the fire truck ladder",
+   "use the fire hose",
+   "get the fire extinguisher"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "at night"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "will",
+   "can",
+   "likes to",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "llamar a los bomberos",
+   "subir la escalera del camión de bomberos",
+   "usar la manguera de incendios",
+   "conseguir el extintor"
+  ]
+ },
+ {
+  "id": "E038",
+  "topic": "fax / friend / car",
+  "source_rows": "2880-2939",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "will",
+   "want to",
+   "need to"
+  ],
+  "vp": [
+   "find the number",
+   "take a brochure",
+   "read the leaflet",
+   "make a copy"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "will",
+   "wants to",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "encontrar el número",
+   "tomar un folleto",
+   "leer el folleto",
+   "hacer una copia"
+  ]
+ },
+ {
+  "id": "E039",
+  "topic": "plan / norm / duty",
+  "source_rows": "2940-2999",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "need to",
+   "have to",
+   "will",
+   "want to"
+  ],
+  "vp": [
+   "cancel the plan",
+   "patent my idea",
+   "get a bonus",
+   "examine the paper"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "needs to",
+   "has to",
+   "will",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "cancelar el plan",
+   "patentar mi idea",
+   "conseguir un bono",
+   "examinar el papel"
+  ]
+ },
+ {
+  "id": "E040",
+  "topic": "truck / company / contract",
+  "source_rows": "3000-3059",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "will",
+   "like to",
+   "have to",
+   "want to"
+  ],
+  "vp": [
+   "join a labor union",
+   "improve the house",
+   "load the truck",
+   "unload the box"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "will",
+   "likes to",
+   "has to",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "afiliarse a un sindicato",
+   "mejorar la casa",
+   "cargar el camión",
+   "descargar la caja"
+  ]
+ },
+ {
+  "id": "E041",
+  "topic": "border / bags / bank",
+  "source_rows": "3060-3119",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "need to",
+   "have to",
+   "want to",
+   "like to"
+  ],
+  "vp": [
+   "cross the border",
+   "check the bags",
+   "analyze the text",
+   "position the chair"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "needs to",
+   "has to",
+   "wants to",
+   "likes to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "cruzar la frontera",
+   "revisar las bolsas",
+   "analizar el texto",
+   "posicionar la silla"
+  ]
+ },
+ {
+  "id": "E042",
+  "topic": "account / loan / number",
+  "source_rows": "3120-3179",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "like to",
+   "want to",
+   "need to"
+  ],
+  "vp": [
+   "advertise the job",
+   "take a leaflet",
+   "read the pamphlet",
+   "see a billboard"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "likes to",
+   "wants to",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "anunciar el trabajo",
+   "tomar un volante",
+   "leer el panfleto",
+   "ver una valla publicitaria"
+  ]
+ },
+ {
+  "id": "E043",
+  "topic": "call / copy / book",
+  "source_rows": "3180-3239",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "need to",
+   "have to",
+   "like to",
+   "want to"
+  ],
+  "vp": [
+   "see the telephone book",
+   "make a local call",
+   "open the menu",
+   "check your phone settings"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "needs to",
+   "has to",
+   "likes to",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "ver el directorio telefónico",
+   "hacer una llamada local",
+   "abrir el menú",
+   "revisar la configuración del teléfono"
+  ]
+ },
+ {
+  "id": "E044",
+  "topic": "addendum / form / inquiry",
+  "source_rows": "3240-3299",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "need to",
+   "like to",
+   "will"
+  ],
+  "vp": [
+   "sign this form",
+   "send an invitation card",
+   "use the letterhead",
+   "read the manuscript"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "needs to",
+   "likes to",
+   "will"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "firmar este formulario",
+   "enviar una tarjeta de invitación",
+   "usar el membrete",
+   "leer el manuscrito"
+  ]
+ },
+ {
+  "id": "E045",
+  "topic": "car / day / investment",
+  "source_rows": "3300-3359",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "need to",
+   "want to",
+   "have to"
+  ],
+  "vp": [
+   "protect your car",
+   "use the internet",
+   "read a magazine",
+   "take the medicine"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "needs to",
+   "wants to",
+   "has to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "proteger tu carro",
+   "usar el internet",
+   "leer una revista",
+   "tomar la medicina"
+  ]
+ },
+ {
+  "id": "E046",
+  "topic": "book / table / case",
+  "source_rows": "3360-3419",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "love to",
+   "have to",
+   "want to"
+  ],
+  "vp": [
+   "reserve a table",
+   "place the cup",
+   "find a supplier",
+   "supply the food"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "at the door"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "loves to",
+   "has to",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "reservar una mesa",
+   "colocar la taza",
+   "encontrar un proveedor",
+   "suministrar la comida"
+  ]
+ },
+ {
+  "id": "E047",
+  "topic": "garden / plow / land",
+  "source_rows": "3420-3479",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "can",
+   "have to",
+   "like to",
+   "need to"
+  ],
+  "vp": [
+   "see a big plow",
+   "plow the land",
+   "use a scythe",
+   "mow the grass"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "can",
+   "has to",
+   "likes to",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "ver un arado grande",
+   "arar la tierra",
+   "usar una guadaña",
+   "cortar el césped"
+  ]
+ },
+ {
+  "id": "E048",
+  "topic": "degree / wall / box",
+  "source_rows": "3480-3539",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "need to",
+   "like to",
+   "can",
+   "want to"
+  ],
+  "vp": [
+   "plaster the wall",
+   "paint the wall",
+   "lift the box",
+   "lower the box"
+  ],
+  "adjunct": [
+   "tomorrow",
+   "today",
+   "now",
+   "at night"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "needs to",
+   "likes to",
+   "can",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "enyesar la pared",
+   "pintar la pared",
+   "levantar la caja",
+   "bajar la caja"
+  ]
+ },
+ {
+  "id": "E049",
+  "topic": "salary / assistant / client",
+  "source_rows": "3540-3599",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "want to",
+   "need to",
+   "like to",
+   "have to"
+  ],
+  "vp": [
+   "write a new résumé",
+   "get my salary",
+   "see the boss",
+   "return the book"
+  ],
+  "adjunct": [
+   "today",
+   "tomorrow",
+   "now",
+   "at night"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "wants to",
+   "needs to",
+   "likes to",
+   "has to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "escribir un nuevo currículum",
+   "cobrar mi sueldo",
+   "ver al jefe",
+   "devolver el libro"
+  ]
+ },
+ {
+  "id": "E050",
+  "topic": "paper / law / light",
+  "source_rows": "3600-3659",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "want to",
+   "need to",
+   "like to",
+   "have to"
+  ],
+  "vp": [
+   "read the paper",
+   "know the law",
+   "fix the light",
+   "make a table"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "wants to",
+   "needs to",
+   "likes to",
+   "has to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "leer el periódico",
+   "conocer la ley",
+   "arreglar la luz",
+   "hacer una mesa"
+  ]
+ },
+ {
+  "id": "E051",
+  "topic": "artist / dancer / country",
+  "source_rows": "3660-3719",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "want to",
+   "need to",
+   "like to",
+   "have to"
+  ],
+  "vp": [
+   "lead the country",
+   "help the army",
+   "read the file",
+   "study the farm"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "wants to",
+   "needs to",
+   "likes to",
+   "has to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "liderar el país",
+   "ayudar al ejército",
+   "leer el archivo",
+   "estudiar la granja"
+  ]
+ },
+ {
+  "id": "E052",
+  "topic": "car / book / plane",
+  "source_rows": "3720-3779",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "want to",
+   "need to",
+   "like to",
+   "have to"
+  ],
+  "vp": [
+   "read a book",
+   "stop the car",
+   "fly the plane",
+   "drive the train"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "wants to",
+   "needs to",
+   "likes to",
+   "has to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "leer un libro",
+   "detener el carro",
+   "pilotar el avión",
+   "manejar el tren"
+  ]
+ },
+ {
+  "id": "E053",
+  "topic": "goal / match / game",
+  "source_rows": "3900-3959",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "will",
+   "can",
+   "must",
+   "like to"
+  ],
+  "vp": [
+   "watch the match",
+   "meet my friends",
+   "play a semi",
+   "score a goal"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "will",
+   "can",
+   "must",
+   "likes to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "ver el partido",
+   "reunirme con mis amigos",
+   "jugar una semifinal",
+   "marcar un gol"
+  ]
+ },
+ {
+  "id": "E054",
+  "topic": "commentator / game / broadcast",
+  "source_rows": "3960-4019",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "will",
+   "like to",
+   "have to",
+   "want to"
+  ],
+  "vp": [
+   "watch the broadcast",
+   "hold the poles",
+   "ski the slalom",
+   "hit the net"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "on the table"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "will",
+   "likes to",
+   "has to",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "ver la transmisión",
+   "sostener los postes",
+   "esquiar el slalom",
+   "golpear la red"
+  ]
+ },
+ {
+  "id": "E055",
+  "topic": "prize / team / heavyweight",
+  "source_rows": "4020-4079",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "want to",
+   "like to",
+   "need to"
+  ],
+  "vp": [
+   "watch the olympic games",
+   "hold the prize cup",
+   "win the main prize",
+   "see the finish line"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "on the table"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "wants to",
+   "likes to",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "ver los juegos olímpicos",
+   "sostener la copa del premio",
+   "ganar el premio mayor",
+   "ver la línea de meta"
+  ]
+ },
+ {
+  "id": "E056",
+  "topic": "grade / exam / subject",
+  "source_rows": "4080-4139",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "need to",
+   "will",
+   "like to"
+  ],
+  "vp": [
+   "give a grade",
+   "use a red pen",
+   "open your textbook",
+   "read the poem"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "needs to",
+   "will",
+   "likes to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "dar una calificación",
+   "usar un bolígrafo rojo",
+   "abrir el libro de texto",
+   "leer el poema"
+  ]
+ },
+ {
+  "id": "E057",
+  "topic": "mark / letter / scholarship",
+  "source_rows": "4140-4199",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "want to",
+   "need to",
+   "have to"
+  ],
+  "vp": [
+   "win a scholarship",
+   "earn an academic degree",
+   "study the stars and planets",
+   "use an adjective"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "wants to",
+   "needs to",
+   "has to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "ganar una beca",
+   "obtener un título académico",
+   "estudiar las estrellas y los planetas",
+   "usar un adjetivo"
+  ]
+ },
+ {
+  "id": "E058",
+  "topic": "word / words / expression",
+  "source_rows": "4200-4259",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "like to",
+   "can",
+   "need to"
+  ],
+  "vp": [
+   "say the word",
+   "use the expression",
+   "find a synonym",
+   "follow the rule"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "likes to",
+   "can",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "decir la palabra",
+   "usar la expresión",
+   "encontrar un sinónimo",
+   "seguir la regla"
+  ]
+ },
+ {
+  "id": "E059",
+  "topic": "box / wand / tale",
+  "source_rows": "4260-4319",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "want to",
+   "need to",
+   "have to"
+  ],
+  "vp": [
+   "see a ghost",
+   "read your horoscope",
+   "join the theatrical company",
+   "rehearse the play"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "wants to",
+   "needs to",
+   "has to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "ver un fantasma",
+   "leer el horóscopo",
+   "unirse a la compañía de teatro",
+   "ensayar la obra"
+  ]
+ },
+ {
+  "id": "E060",
+  "topic": "movie / scene / actor",
+  "source_rows": "4320-4379",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "have to",
+   "want to",
+   "need to"
+  ],
+  "vp": [
+   "watch an adventure movie",
+   "read the script",
+   "write a good story",
+   "shoot a movie"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "in the park"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "has to",
+   "wants to",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "ver una película de aventuras",
+   "leer el guion",
+   "escribir una buena historia",
+   "filmar una película"
+  ]
+ },
+ {
+  "id": "E061",
+  "topic": "art / story / poem",
+  "source_rows": "4380-4439",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "can",
+   "want to",
+   "need to"
+  ],
+  "vp": [
+   "see the illustration",
+   "paint the house red",
+   "put the art",
+   "hold a wood palette"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "can",
+   "wants to",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "ver la ilustración",
+   "pintar la casa de rojo",
+   "poner el arte",
+   "sostener una paleta de madera"
+  ]
+ },
+ {
+  "id": "E062",
+  "topic": "piano / circus / program",
+  "source_rows": "4440-4499",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "can",
+   "like to",
+   "have to",
+   "love to"
+  ],
+  "vp": [
+   "see the chapiteau circus",
+   "read the program",
+   "do a somersault",
+   "train the dog"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "can",
+   "likes to",
+   "has to",
+   "loves to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "ver el circo de carpa",
+   "leer el programa",
+   "dar una voltereta",
+   "entrenar al perro"
+  ]
+ },
+ {
+  "id": "E063",
+  "topic": "room / blues / music",
+  "source_rows": "4500-4559",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "need to",
+   "want to",
+   "have to",
+   "like to"
+  ],
+  "vp": [
+   "play the blues",
+   "read the sheet music",
+   "hold the baton",
+   "use the bow"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "needs to",
+   "wants to",
+   "has to",
+   "likes to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "tocar el blues",
+   "leer la partitura",
+   "sostener la batuta",
+   "usar el arco"
+  ]
+ },
+ {
+  "id": "E064",
+  "topic": "page / book / story",
+  "source_rows": "4560-4619",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "can",
+   "want to",
+   "need to"
+  ],
+  "vp": [
+   "take the elevator",
+   "write a book",
+   "publish the book",
+   "tell a myth"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "can",
+   "wants to",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "tomar el ascensor",
+   "escribir un libro",
+   "publicar el libro",
+   "contar un mito"
+  ]
+ },
+ {
+  "id": "E065",
+  "topic": "net / cards / bestseller",
+  "source_rows": "4620-4679",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "like to",
+   "need to",
+   "will"
+  ],
+  "vp": [
+   "read the textbook",
+   "lay a trap for the fox",
+   "stop the poacher",
+   "cast a line"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "in the forest",
+   "on the ground"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "likes to",
+   "needs to",
+   "will"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "leer el libro de texto",
+   "tender una trampa al zorro",
+   "detener al cazador furtivo",
+   "lanzar el anzuelo"
+  ]
+ },
+ {
+  "id": "E066",
+  "topic": "camera / game / cards",
+  "source_rows": "4680-4739",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "have to",
+   "want to",
+   "need to"
+  ],
+  "vp": [
+   "shuffle the cards",
+   "make a bet",
+   "turn the wheel",
+   "win the game"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "in the park"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "has to",
+   "wants to",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "barajar las cartas",
+   "hacer una apuesta",
+   "girar el volante",
+   "ganar el juego"
+  ]
+ },
+ {
+  "id": "E067",
+  "topic": "boat / bird / focus",
+  "source_rows": "4740-4799",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "need to",
+   "want to",
+   "have to"
+  ],
+  "vp": [
+   "photograph the bird",
+   "adjust the focus",
+   "print the photos",
+   "wear a bikini"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "needs to",
+   "wants to",
+   "has to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "fotografiar el pájaro",
+   "ajustar el enfoque",
+   "imprimir las fotos",
+   "usar un bikini"
+  ]
+ },
+ {
+  "id": "E068",
+  "topic": "file / messages / button",
+  "source_rows": "4800-4859",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "have to",
+   "want to",
+   "need to"
+  ],
+  "vp": [
+   "push the button",
+   "move the cursor",
+   "clean the screen",
+   "see the hard disk volume"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "on the desk"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "has to",
+   "wants to",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "presionar el botón",
+   "mover el cursor",
+   "limpiar la pantalla",
+   "ver el volumen del disco duro"
+  ]
+ },
+ {
+  "id": "E069",
+  "topic": "wire / knife / option",
+  "source_rows": "4860-4919",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "will",
+   "can",
+   "need to"
+  ],
+  "vp": [
+   "select the correct option",
+   "use a flashlight",
+   "stop the power",
+   "see a broken wire"
+  ],
+  "adjunct": [
+   "today",
+   "soon",
+   "now",
+   "at night"
+  ],
+  "where_optional": [
+   "on the desk",
+   "at night"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "will",
+   "can",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "seleccionar la opción correcta",
+   "usar una linterna",
+   "cortar la energía",
+   "ver un cable roto"
+  ]
+ },
+ {
+  "id": "E070",
+  "topic": "ruler / cord / knife",
+  "source_rows": "4920-4979",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "will",
+   "want to",
+   "need to",
+   "like to"
+  ],
+  "vp": [
+   "see a bolt",
+   "use a wood screw for the table",
+   "check the wall with the spirit level",
+   "measure the table with the ruler"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "will",
+   "wants to",
+   "needs to",
+   "likes to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "ver un perno",
+   "usar un tornillo de madera para la mesa",
+   "revisar la pared con el nivel",
+   "medir la mesa con la regla"
+  ]
+ },
+ {
+  "id": "E071",
+  "topic": "train / ticket / pilot",
+  "source_rows": "4980-5039",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "need to",
+   "like to",
+   "want to",
+   "have to"
+  ],
+  "vp": [
+   "see the map",
+   "hold the stick",
+   "read the card",
+   "use the mask"
+  ],
+  "adjunct": [
+   "soon",
+   "today",
+   "now",
+   "at night"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "needs to",
+   "likes to",
+   "wants to",
+   "has to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "ver el mapa",
+   "sostener el palo",
+   "leer la tarjeta",
+   "usar la mascarilla"
+  ]
+ },
+ {
+  "id": "E072",
+  "topic": "ship / fire / ferry",
+  "source_rows": "5040-5099",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "will",
+   "want to",
+   "need to",
+   "like to"
+  ],
+  "vp": [
+   "feed the fire",
+   "see a big ship",
+   "help the ship",
+   "take the ferry"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "will",
+   "wants to",
+   "needs to",
+   "likes to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "alimentar el fuego",
+   "ver un barco grande",
+   "ayudar al barco",
+   "tomar el ferry"
+  ]
+ },
+ {
+  "id": "E073",
+  "topic": "signal / luggage / ship",
+  "source_rows": "5100-5159",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "like to",
+   "will",
+   "need to"
+  ],
+  "vp": [
+   "berth the big ship",
+   "see the shallows",
+   "give a clear signal",
+   "send the sos signal"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "likes to",
+   "will",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   " atracar el barco grande",
+   "ver el bajío",
+   "dar una señal clara",
+   "enviar la señal de socorro"
+  ]
+ },
+ {
+  "id": "E074",
+  "topic": "car / tires / head",
+  "source_rows": "5160-5219",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "need to",
+   "like to",
+   "want to",
+   "have to"
+  ],
+  "vp": [
+   "protect my head",
+   "move the snow",
+   "drive a big truck",
+   "pull the trailer"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "on the floor"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "needs to",
+   "likes to",
+   "wants to",
+   "has to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "proteger mi cabeza",
+   "mover la nieve",
+   "manejar un camión grande",
+   "jalar el remolque"
+  ]
+ },
+ {
+  "id": "E075",
+  "topic": "front / rear / all",
+  "source_rows": "5220-5279",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "want to",
+   "need to",
+   "have to"
+  ],
+  "vp": [
+   "use the gear shift",
+   "check the speedometer",
+   "show the distance",
+   "hold the steering wheel tight"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "at night"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "wants to",
+   "needs to",
+   "has to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "usar la palanca de cambios",
+   "revisar el velocímetro",
+   "mostrar la distancia",
+   "sujetar fuerte el volante"
+  ]
+ },
+ {
+  "id": "E076",
+  "topic": "terminal / water / plug",
+  "source_rows": "5280-5339",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "will",
+   "need to",
+   "want to",
+   "like to"
+  ],
+  "vp": [
+   "check the radiator water",
+   "change the spark plug",
+   "clean the battery terminal",
+   "connect the positive terminal"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "on the floor"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "will",
+   "needs to",
+   "wants to",
+   "likes to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "revisar el agua del radiador",
+   "cambiar la bujía",
+   "limpiar la terminal de la batería",
+   "conectar la terminal positiva"
+  ]
+ },
+ {
+  "id": "E077",
+  "topic": "road / u / sign",
+  "source_rows": "5340-5399",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "need to",
+   "must",
+   "want to",
+   "like to"
+  ],
+  "vp": [
+   "make a u",
+   "protect the road",
+   "drive a car",
+   "hear a honk"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "needs to",
+   "must",
+   "wants to",
+   "likes to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "hacer un giro en u",
+   "proteger el camino",
+   "manejar un auto",
+   "escuchar un claxon"
+  ]
+ },
+ {
+  "id": "E078",
+  "topic": "card / postcard / anniversary",
+  "source_rows": "5400-5459",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "want to",
+   "have to",
+   "will"
+  ],
+  "vp": [
+   "invite my friend",
+   "visit our grandparents",
+   "give a book",
+   "buy a bouquet of flowers"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "at the door"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "wants to",
+   "has to",
+   "will"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "invitar a mi amigo",
+   "visitar a nuestros abuelos",
+   "dar un libro",
+   "comprar un ramo de flores"
+  ]
+ },
+ {
+  "id": "E079",
+  "topic": "friend / division / men",
+  "source_rows": "5460-5519",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "will",
+   "need to",
+   "want to",
+   "like to"
+  ],
+  "vp": [
+   "lead the division",
+   "call the sergeant",
+   "fly a jet",
+   "patrol the street"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "at the door"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "will",
+   "needs to",
+   "wants to",
+   "likes to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "dirigir la división",
+   "llamar al sargento",
+   "pilotar un jet",
+   "patrullar la calle"
+  ]
+ },
+ {
+  "id": "E080",
+  "topic": "car / shot / plan",
+  "source_rows": "5520-5579",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "will",
+   "like to",
+   "want to",
+   "can"
+  ],
+  "vp": [
+   "start a big offensive",
+   "drop a bomb",
+   "bomb the big city",
+   "hear a loud shot"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "will",
+   "likes to",
+   "wants to",
+   "can"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "iniciar una gran ofensiva",
+   "soltar una bomba",
+   "bombardear la gran ciudad",
+   "escuchar un tiro fuerte"
+  ]
+ },
+ {
+  "id": "E081",
+  "topic": "gun / road / minefield",
+  "source_rows": "5580-5639",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "can",
+   "must",
+   "like to",
+   "want to"
+  ],
+  "vp": [
+   "mine the road",
+   "hear the air",
+   "give a signal",
+   "see the signal flare"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "can",
+   "must",
+   "likes to",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "minar el camino",
+   "escuchar el aire",
+   "dar una señal",
+   "ver la bengala de señales"
+  ]
+ },
+ {
+  "id": "E082",
+  "topic": "gun / spear / site",
+  "source_rows": "5640-5699",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "need to",
+   "like to",
+   "want to",
+   "have to"
+  ],
+  "vp": [
+   "fire a ball",
+   "lay the gun",
+   "hit the wall",
+   "use the mortar"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "on the floor"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "needs to",
+   "likes to",
+   "wants to",
+   "has to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "disparar una bola",
+   "dejar el arma",
+   "golpear la pared",
+   "usar el mortero"
+  ]
+ },
+ {
+  "id": "E083",
+  "topic": "man / fragment / coin",
+  "source_rows": "5700-5759",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "will",
+   "like to",
+   "want to"
+  ],
+  "vp": [
+   "see a long sword",
+   "ride a horse",
+   "attack the cat",
+   "occupy the old house"
+  ],
+  "adjunct": [
+   "now",
+   "soon",
+   "today",
+   "at night"
+  ],
+  "where_optional": [
+   "on the wall"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "will",
+   "likes to",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "ver una espada larga",
+   "montar a caballo",
+   "atacar al gato",
+   "ocupar la casa vieja"
+  ]
+ },
+ {
+  "id": "E084",
+  "topic": "car / kingdom / dog",
+  "source_rows": "5760-5819",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "want to",
+   "need to",
+   "have to"
+  ],
+  "vp": [
+   "see a royal car",
+   "fear the tyrant",
+   "respect your superiors",
+   "take a short rest"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "wants to",
+   "needs to",
+   "has to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "ver un coche real",
+   "temer al tirano",
+   "respetar a tus superiores",
+   "tomar un breve descanso"
+  ]
+ },
+ {
+  "id": "E085",
+  "topic": "crime / money / end",
+  "source_rows": "5820-5879",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "want to",
+   "try to",
+   "will",
+   "need to"
+  ],
+  "vp": [
+   "take the money",
+   "commit a crime",
+   "pay the ransom",
+   "hear a loud gunshot"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "wants to",
+   "tries to",
+   "will",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "tomar el dinero",
+   "cometer un crimen",
+   "pagar el rescate",
+   "escuchar un disparo fuerte"
+  ]
+ },
+ {
+  "id": "E086",
+  "topic": "bullhorn / call / scene",
+  "source_rows": "5940-5999",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "will",
+   "need to",
+   "have to",
+   "can"
+  ],
+  "vp": [
+   "use a bullhorn",
+   "stop the car",
+   "check the door",
+   "pursue the bad cat"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "in the park"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "will",
+   "needs to",
+   "has to",
+   "can"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "usar un megáfono",
+   "detener el carro",
+   "revisar la puerta",
+   "perseguir al gato malo"
+  ]
+ },
+ {
+  "id": "E087",
+  "topic": "act / planet / injustice",
+  "source_rows": "6000-6059",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "must",
+   "will",
+   "love to"
+  ],
+  "vp": [
+   "confiscate the phone",
+   "follow the law",
+   "see a space ship",
+   "wear a big white spacesuit"
+  ],
+  "adjunct": [
+   "now",
+   "soon",
+   "today",
+   "at night"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "must",
+   "will",
+   "loves to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "confiscar el teléfono",
+   "seguir la ley",
+   "ver una nave espacial",
+   "usar un traje espacial blanco grande"
+  ]
+ },
+ {
+  "id": "E088",
+  "topic": "city / forest / planet",
+  "source_rows": "6060-6119",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "love to",
+   "want to",
+   "need to"
+  ],
+  "vp": [
+   "explore the big forest",
+   "show the city",
+   "open the atlas",
+   "see a western star"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "in the sea"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "loves to",
+   "wants to",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "explorar el bosque grande",
+   "mostrar la ciudad",
+   "abrir el atlas",
+   "ver una estrella del oeste"
+  ]
+ },
+ {
+  "id": "E089",
+  "topic": "sea / ocean / wave",
+  "source_rows": "6120-6179",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "will",
+   "want to",
+   "need to"
+  ],
+  "vp": [
+   "see the crest of the wave",
+   "check the longitude",
+   "show the south china sea",
+   "study the kara sea"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "will",
+   "wants to",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "ver la cresta de la ola",
+   "revisar la longitud",
+   "mostrar el mar de la china meridional",
+   "estudiar el mar de kara"
+  ]
+ },
+ {
+  "id": "E090",
+  "topic": "canyon / waterfall / landscape",
+  "source_rows": "6180-6239",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "will",
+   "want to",
+   "like to",
+   "need to"
+  ],
+  "vp": [
+   "see the big canyon",
+   "paint the landscape",
+   "hear the echo",
+   "climb the hill"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "will",
+   "wants to",
+   "likes to",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "ver el gran cañón",
+   "pintar el paisaje",
+   "escuchar el eco",
+   "subir la colina"
+  ]
+ },
+ {
+  "id": "E091",
+  "topic": "river / tree / animal",
+  "source_rows": "6240-6299",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "will",
+   "like to",
+   "can",
+   "want to"
+  ],
+  "vp": [
+   "see a grove",
+   "extinguish the fire",
+   "protect the tree",
+   "pick the mushroom"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "will",
+   "likes to",
+   "can",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "ver una arboleda",
+   "extinguir el fuego",
+   "proteger el árbol",
+   "recolectar el hongo"
+  ]
+ },
+ {
+  "id": "E092",
+  "topic": "rock / gas / clay",
+  "source_rows": "6300-6359",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "like to",
+   "want to",
+   "need to"
+  ],
+  "vp": [
+   "mine the rock",
+   "smell the gas",
+   "make a pot with clay",
+   "see a crystal"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "likes to",
+   "wants to",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "minar la roca",
+   "oler el gas",
+   "hacer una olla de barro",
+   "ver un cristal"
+  ]
+ },
+ {
+  "id": "E093",
+  "topic": "day / puddle / thunderstorm",
+  "source_rows": "6360-6419",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "will",
+   "can",
+   "want to"
+  ],
+  "vp": [
+   "see a puddle",
+   "hit the roof",
+   "feel a small tremor",
+   "show the epicenter"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "will",
+   "can",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "ver un charco",
+   "golpear el techo",
+   "sentir un pequeño temblor",
+   "mostrar el epicentro"
+  ]
+ },
+ {
+  "id": "E094",
+  "topic": "month / crack / day",
+  "source_rows": "6420-6479",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "will",
+   "have to",
+   "want to"
+  ],
+  "vp": [
+   "see a snowdrift",
+   "make a big snowball",
+   "build a snowman",
+   "climb the tree"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "in winter"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "will",
+   "has to",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "ver un banco de nieve",
+   "hacer una bola de nieve grande",
+   "hacer un muñeco de nieve",
+   "subir al árbol"
+  ]
+ },
+ {
+  "id": "E095",
+  "topic": "tree / ground / dam",
+  "source_rows": "6480-6539",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "want to",
+   "need to",
+   "like to",
+   "have to"
+  ],
+  "vp": [
+   "climb the tree",
+   "dig the ground",
+   "build a dam",
+   "see a deer"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "on the ground",
+   "at night"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "wants to",
+   "needs to",
+   "likes to",
+   "has to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "subir al árbol",
+   "cavar la tierra",
+   "construir una presa",
+   "ver un venado"
+  ]
+ },
+ {
+  "id": "E096",
+  "topic": "dog / egg / farm",
+  "source_rows": "6540-6599",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "will",
+   "can",
+   "want to"
+  ],
+  "vp": [
+   "lay an egg",
+   "see a herd of cows",
+   "pull the sled",
+   "hear the cow moo"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "in the water"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "will",
+   "can",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "poner un huevo",
+   "ver un rebaño de vacas",
+   "jalar el trineo",
+   "escuchar mugir a la vaca"
+  ]
+ },
+ {
+  "id": "E097",
+  "topic": "horse / tree / litter",
+  "source_rows": "6840-6899",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "can",
+   "like to",
+   "will",
+   "want to"
+  ],
+  "vp": [
+   "feed the cat",
+   "train the dog well",
+   "wear a muzzle",
+   "see a herd of horses"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "in the forest"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "can",
+   "likes to",
+   "will",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "alimentar al gato",
+   "entrenar bien al perro",
+   "usar un bozal",
+   "ver una manada de caballos"
+  ]
+ },
+ {
+  "id": "E098",
+  "topic": "flower / bean / grass",
+  "source_rows": "7020-7079",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "will",
+   "want to",
+   "have to"
+  ],
+  "vp": [
+   "see a blade of grass",
+   "cut the flower",
+   "pick a flower",
+   "eat a kidney bean"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "will",
+   "wants to",
+   "has to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "ver una brizna de césped",
+   "cortar la flor",
+   "cortar una flor",
+   "comer un frijol"
+  ]
+ },
+ {
+  "id": "E099",
+  "topic": "angel / testament / prophet",
+  "source_rows": "7620-7679",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "can",
+   "will",
+   "want to"
+  ],
+  "vp": [
+   "see an angel",
+   "read the bible",
+   "follow the commandment",
+   "say a prayer"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "can",
+   "will",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "ver un ángel",
+   "leer la biblia",
+   "seguir el mandamiento",
+   "decir una oración"
+  ]
+ },
+ {
+  "id": "E100",
+  "topic": "apple / friend / error",
+  "source_rows": "7920-7979",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "must",
+   "want to",
+   "will"
+  ],
+  "vp": [
+   "accompany my friend",
+   "acknowledge the error",
+   "address the teacher",
+   "admire the view"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "on the table"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "must",
+   "wants to",
+   "will"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "acompañar a mi amigo",
+   "reconocer el error",
+   "dirigirme al profesor",
+   "admirar la vista"
+  ]
+ },
+ {
+  "id": "E101",
+  "topic": "day / game / ball",
+  "source_rows": "7980-8039",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "can",
+   "will",
+   "want to",
+   "try to"
+  ],
+  "vp": [
+   "call her mom",
+   "catch the ball",
+   "change my opinion",
+   "clean the plate"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "in the water"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "can",
+   "will",
+   "wants to",
+   "tries to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "llamar a su mamá",
+   "atrapar la pelota",
+   "cambiar de opinión",
+   "limpiar el plato"
+  ]
+ },
+ {
+  "id": "E102",
+  "topic": "book / car / cup",
+  "source_rows": "8040-8099",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "can",
+   "will",
+   "love to",
+   "want to"
+  ],
+  "vp": [
+   "dedicate this book",
+   "demand my money",
+   "denounce the lie",
+   "deny the error"
+  ],
+  "adjunct": [
+   "soon",
+   "today",
+   "now",
+   "at night"
+  ],
+  "where_optional": [
+   "at night"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "can",
+   "will",
+   "loves to",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "dedicar este libro",
+   "exigir mi dinero",
+   "denunciar la mentira",
+   "negar el error"
+  ]
+ },
+ {
+  "id": "E103",
+  "topic": "teacher / house / line",
+  "source_rows": "8100-8159",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "have to",
+   "try to",
+   "hope to",
+   "can"
+  ],
+  "vp": [
+   "form a line",
+   "give the baby a bath",
+   "greet the teacher",
+   "hang the picture"
+  ],
+  "adjunct": [
+   "soon",
+   "today",
+   "now",
+   "at night"
+  ],
+  "where_optional": [
+   "at home"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "has to",
+   "tries to",
+   "hopes to",
+   "can"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "formar una fila",
+   "bañar al bebé",
+   "saludar al profesor",
+   "colgar el cuadro"
+  ]
+ },
+ {
+  "id": "E104",
+  "topic": "cat / shirt / club",
+  "source_rows": "8160-8219",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "like to",
+   "love to",
+   "want to",
+   "need to"
+  ],
+  "vp": [
+   "iron my shirt",
+   "isolate the sick cat",
+   "join the club",
+   "keep the letter"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "at the door"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "likes to",
+   "loves to",
+   "wants to",
+   "needs to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "planchar mi camisa",
+   "aislar al gato enfermo",
+   "unirse al club",
+   "quedarse con la carta"
+  ]
+ },
+ {
+  "id": "E105",
+  "topic": "car / well / cost",
+  "source_rows": "8220-8279",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "can",
+   "prefer to",
+   "try to",
+   "must"
+  ],
+  "vp": [
+   "overestimate the cost",
+   "pass the car",
+   "place the book",
+   "present my friend"
+  ],
+  "adjunct": [
+   "now",
+   "today",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [
+   "in the park"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "can",
+   "prefers to",
+   "tries to",
+   "must"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "sobrestimar el costo",
+   "rebasar el carro",
+   "colocar el libro",
+   "presentar a mi amigo"
+  ]
+ },
+ {
+  "id": "E106",
+  "topic": "problem / cat / boy",
+  "source_rows": "8280-8339",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "can",
+   "will",
+   "need to",
+   "want to"
+  ],
+  "vp": [
+   "save the cat",
+   "scold the boy",
+   "select a dress",
+   "serve the food"
+  ],
+  "adjunct": [
+   "soon",
+   "now",
+   "today",
+   "at night"
+  ],
+  "where_optional": [
+   "on the ground"
+  ],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "can",
+   "will",
+   "needs to",
+   "wants to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "salvar al gato",
+   "regañar al niño",
+   "elegir un vestido",
+   "servir la comida"
+  ]
+ },
+ {
+  "id": "E107",
+  "topic": "dog / letter / story",
+  "source_rows": "8340-8383",
+  "who": [
+   "I",
+   "You",
+   "We",
+   "They"
+  ],
+  "why": [
+   "try to",
+   "want to",
+   "need to",
+   "like to"
+  ],
+  "vp": [
+   "tell a funny story",
+   "throw the ball",
+   "tie the dog",
+   "train my dog"
+  ],
+  "adjunct": [
+   "today",
+   "now",
+   "at night",
+   "every day"
+  ],
+  "where_optional": [],
+  "who_3sg": [
+   "He",
+   "She",
+   "The man",
+   "My friend"
+  ],
+  "why_3sg": [
+   "tries to",
+   "wants to",
+   "needs to",
+   "likes to"
+  ],
+  "combinations": 256,
+  "vp_gloss": [
+   "contar una historia graciosa",
+   "tirar la pelota",
+   "amarrar al perro",
+   "entrenar a mi perro"
+  ]
+ }
+]

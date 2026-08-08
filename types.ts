@@ -29,5 +29,22 @@ export type SrsStore = Record<string, SrsCardState>;
 export enum ViewMode {
   STUDY = 'STUDY',
   SETTINGS = 'SETTINGS',
-  LIST = 'LIST'
+  LIST = 'LIST',
+  ENCHART = 'ENCHART'
+}
+
+// One Velocity-style substitution grid mined from the deck (public/encharts.json).
+export interface EnchartGrid {
+  id: string;
+  topic: string;
+  source_rows: string;
+  who: string[];
+  why: string[];
+  vp: string[];
+  adjunct: string[];
+  where_optional: string[];
+  who_3sg: string[];
+  why_3sg: string[];
+  combinations: number;
+  vp_gloss?: string[];
 }

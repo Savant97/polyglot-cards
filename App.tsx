@@ -1,11 +1,12 @@
 ﻿
 import React, { useState, useEffect, useCallback, useMemo, useRef } from 'react';
-import { FlashcardData, SrsGrade, SrsStore, ViewMode } from './types';
+import { EnchartGrid, FlashcardData, SrsGrade, SrsStore, ViewMode } from './types';
 import { parseCSV } from './utils/csvParser';
 import { buildQueue, cardKey, countQueue, intervalLabel, schedule, todayIndex } from './utils/srs';
 import { DEFAULT_CSV_DATA } from './constants';
 import Flashcard from './components/Flashcard';
 import Settings from './components/Settings';
+import Enchart from './components/Enchart';
 
 // Not every engine exposes speech (some WebViews, headless browsers). Touching it
 // unguarded took the whole app down with a blank screen.
@@ -29,6 +30,7 @@ const STORAGE_KEYS = {
   SRS_NEW_PER_DAY: 'poly_srs_new_per_day',
   SRS_FRONT: 'poly_srs_front',
   SRS_DAILY: 'poly_srs_daily',
+  ISLAND: 'poly_island',
 };
 
 const readJson = <T,>(key: string, fallback: T): T => {
@@ -43,6 +45,22 @@ const readJson = <T,>(key: string, fallback: T): T => {
 const App: React.FC = () => {
   const [csvSource, setCsvSource] = useState(() => localStorage.getItem(STORAGE_KEYS.CSV_SOURCE) || DEFAULT_CSV_DATA);
   const parsed = useMemo(() => parseCSV(csvSource), [csvSource]);
+  const [island, setIsland] = useState(() => localStorage.getItem(STORAGE_KEYS.ISLAND) || '');
+
+  // Islands are opaque labels in the Island column; first-appearance order is
+  // the deck's own thematic order, so no sorting here.
+  const islands = useMemo(() => {
+    const counts = new Map<string, number>();
+    parsed.data.forEach(r => { const i = r['Island']; if (i) counts.set(i, (counts.get(i) || 0) + 1); });
+    return Array.from(counts, ([name, count]) => ({ name, count }));
+  }, [parsed.data]);
+
+  // Every study surface (linear, shuffle, SRS) draws from the island pool, so
+  // one island really is the whole world until it is switched off.
+  const pool = useMemo(
+    () => (island ? parsed.data.filter(r => r['Island'] === island) : parsed.data),
+    [parsed.data, island]
+  );
   const [viewMode, setViewMode] = useState<ViewMode>(ViewMode.STUDY);
   const [cards, setCards] = useState<FlashcardData[]>(parsed.data);
   const [isFullscreen, setIsFullscreen] = useState(false);
@@ -89,6 +107,15 @@ const App: React.FC = () => {
   const [queuePos, setQueuePos] = useState(0);
   const [isRevealed, setIsRevealed] = useState(false);
 
+  // --- Enchart grids (static JSON, precached by the PWA) ---
+  const [encharts, setEncharts] = useState<EnchartGrid[]>([]);
+  useEffect(() => {
+    fetch(`${import.meta.env.BASE_URL}encharts.json`)
+      .then(r => (r.ok ? r.json() : []))
+      .then(setEncharts)
+      .catch(() => setEncharts([]));
+  }, []);
+
   const isInZen = isFullscreen || isZenMode;
 
   const resetZenTimer = useCallback(() => {
@@ -133,7 +160,8 @@ const App: React.FC = () => {
     localStorage.setItem(STORAGE_KEYS.CURRENT_INDEX, currentIndex.toString());
     localStorage.setItem(STORAGE_KEYS.TTS_RATE, ttsRate.toString());
     localStorage.setItem(STORAGE_KEYS.TTS_PITCH, ttsPitch.toString());
-  }, [csvSource, activeColumns, autoAdvanceInterval, fontSizeScale, shuffle, isTtsEnabled, ttsLanguage, voicePreferences, currentIndex, ttsRate, ttsPitch]);
+    localStorage.setItem(STORAGE_KEYS.ISLAND, island);
+  }, [csvSource, activeColumns, autoAdvanceInterval, fontSizeScale, shuffle, isTtsEnabled, ttsLanguage, voicePreferences, currentIndex, ttsRate, ttsPitch, island]);
 
   useEffect(() => {
     localStorage.setItem(STORAGE_KEYS.SRS_MODE, srsMode.toString());
@@ -157,7 +185,7 @@ const App: React.FC = () => {
   // Before the reveal only the prompt column is on screen; that is the whole
   // point of the mode, so it must not fall back to the full column set.
   const displayColumns = srsMode && !isRevealed ? [frontColumn] : activeColumns;
-  const srsCounts = useMemo(() => countQueue(parsed.data, srsStore, todayIndex()), [parsed.data, srsStore]);
+  const srsCounts = useMemo(() => countQueue(pool, srsStore, todayIndex()), [pool, srsStore]);
   const isSessionDone = srsMode && queuePos >= queue.length;
 
   const progress = srsMode
@@ -165,17 +193,17 @@ const App: React.FC = () => {
     : (cards.length > 0 ? ((currentIndex + 1) / cards.length) * 100 : 0);
 
   const startSrsSession = useCallback(() => {
-    setQueue(buildQueue(parsed.data, srsStore, todayIndex(), newPerDay, dailyNew));
+    setQueue(buildQueue(pool, srsStore, todayIndex(), newPerDay, dailyNew));
     setQueuePos(0);
     setIsRevealed(false);
-  }, [parsed.data, srsStore, newPerDay, dailyNew]);
+  }, [pool, srsStore, newPerDay, dailyNew]);
 
   // Deliberately not rebuilt on every grade: the queue is a session snapshot,
   // otherwise answering a card would reshuffle the cards still ahead of it.
   useEffect(() => {
     if (srsMode) startSrsSession();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [srsMode, parsed.data, newPerDay]);
+  }, [srsMode, pool, newPerDay]);
 
   const handleGrade = useCallback((grade: SrsGrade) => {
     const card = queue[queuePos];
@@ -237,10 +265,14 @@ const App: React.FC = () => {
 
   useEffect(() => {
     if (shuffle) {
-      setCards(prev => [...prev].sort(() => Math.random() - 0.5));
+      setCards([...pool].sort(() => Math.random() - 0.5));
       setCurrentIndex(0);
-    } else { setCards(parsed.data); }
-  }, [shuffle, parsed.data]);
+    } else {
+      setCards(pool);
+      // A saved index from a bigger pool would render a blank card.
+      setCurrentIndex(i => (i >= pool.length ? 0 : i));
+    }
+  }, [shuffle, pool]);
 
   useEffect(() => {
     if (!isAutoAdvancing || srsMode) return;
@@ -259,6 +291,13 @@ const App: React.FC = () => {
             <span className="font-bold text-xs tracking-widest text-[#93a1a1]">POLYCARDS</span>
           </div>
           <div className="flex items-center gap-2 pointer-events-auto">
+            {encharts.length > 0 && (
+              <button onClick={() => setViewMode(viewMode === ViewMode.ENCHART ? ViewMode.STUDY : ViewMode.ENCHART)} className={`p-3 rounded-2xl shadow-sm border border-[#decba4]/20 transition-all group ${viewMode === ViewMode.ENCHART ? 'bg-[#268bd2]/15' : 'bg-[#eee8d5] hover:bg-[#decba4]/40'}`}>
+                <svg className={`w-5 h-5 transition-colors ${viewMode === ViewMode.ENCHART ? 'text-[#268bd2]' : 'text-[#93a1a1] group-hover:text-[#586e75]'}`} fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" />
+                </svg>
+              </button>
+            )}
             <button onClick={toggleFullscreen} className="p-3 rounded-2xl bg-[#eee8d5] shadow-sm border border-[#decba4]/20 hover:bg-[#decba4]/40 transition-all group">
               <svg className="w-5 h-5 text-[#93a1a1] group-hover:text-[#586e75] transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 3H5a2 2 0 00-2 2v3m18 0V5a2 2 0 00-2-2h-3m0 18h3a2 2 0 002-2v-3M3 16v3a2 2 0 002 2h3" />
@@ -397,6 +436,10 @@ const App: React.FC = () => {
           </div>
         )}
 
+        {viewMode === ViewMode.ENCHART && (
+          <Enchart grids={encharts} ttsRate={ttsRate} ttsPitch={ttsPitch} onClose={() => setViewMode(ViewMode.STUDY)} />
+        )}
+
         {viewMode === ViewMode.SETTINGS && (
           <Settings 
             headers={parsed.headers} activeColumns={activeColumns} onToggleColumn={col => setActiveColumns(prev => prev.includes(col) ? prev.filter(c => c !== col) : [...prev, col])}
@@ -406,6 +449,9 @@ const App: React.FC = () => {
             ttsLanguage={ttsLanguage} setTtsLanguage={setTtsLanguage}
             ttsRate={ttsRate} setTtsRate={setTtsRate} ttsPitch={ttsPitch} setTtsPitch={setTtsPitch}
             availableVoices={availableVoices} voicePreferences={voicePreferences} onSetVoicePreference={(lang, v) => setVoicePreferences(prev => ({ ...prev, [lang]: v }))}
+            islands={islands} island={island}
+            setIsland={(v) => { setIsland(v); setCurrentIndex(0); }}
+            deckSize={parsed.data.length}
             srsMode={srsMode} setSrsMode={setSrsMode}
             newPerDay={newPerDay} setNewPerDay={setNewPerDay}
             frontColumn={frontColumn} setFrontColumn={setFrontColumn}
